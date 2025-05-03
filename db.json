@@ -1,0 +1,321 @@
+{
+  "main": [
+    {
+ 
+      "id": 1,
+      "name": "Birde Sports Shoes For Men",
+      "image": "https://images.meesho.com/images/products/266882199/3xl12_400.webp",
+      "price": "₹474",
+      "originalPrice": "₹1,499",
+      "discount": "68% off",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "21312 Reviews",
+      "category": "Footwear"
+    },
+    {
+      "id": 2,
+      "name": "Chitrarekha Drishya Sarees",
+      "image": "https://images.meesho.com/images/products/459697471/llo5z_400.webp",
+      "price": "₹343",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "8483 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 3,
+      "name": "Princess Elegant Jewellery Sets",
+      "image": "https://images.meesho.com/images/products/243763937/capmi_400.webp",
+      "price": "₹163",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "50505 Reviews",
+      "category": "Jewelry"
+    },
+    {
+      "id": 4,
+      "name": "Latest Fashionable Men Formal Shoes",
+      "image": "https://images.meesho.com/images/products/415805243/v9z5q_400.webp",
+      "price": "₹431",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "1359 Reviews",
+      "category": "Footwear"
+    },
+    {
+      "id": 5,
+      "name": "Trendy Tops & Tunics",
+      "image": "https://images.meesho.com/images/products/457331742/fvier_400.webp",
+      "price": "₹245",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "5499 Reviews",
+      "category": "Women's Fashion"
+    },
+ 
+    {
+      "id": 7,
+      "name": "Feminine Elegant Bracelet & Bangles",
+      "image": "https://images.meesho.com/images/products/295090616/xlowf_400.webp",
+      "price": "₹148",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "26487 Reviews",
+      "category": "Jewelry"
+    },
+    {
+      "id": 8,
+      "name": "Tinkle Classy Boys Top & Bottom Sets",
+      "image": "https://images.meesho.com/images/products/267550818/fu5x3_400.webp",
+      "price": "₹105",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "16803 Reviews",
+      "category": "Kids"
+    },
+    {
+      "id": 9,
+      "name": "Charvi Ensemble Women Kurta Sets",
+      "image": "https://images.meesho.com/images/products/346396061/hygo7_400.webp",
+      "price": "₹389",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "45273 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Selfie Stick",
+      "image": "https://images.meesho.com/images/products/242266564/ta8x8_400.webp",
+      "price": "₹121",
+      "delivery": "Delivery ₹68",
+      "originalPrice": "₹70",
+      "rating": "4.1",
+      "reviews": "29235 Reviews",
+      "category": "Electronics"
+    },
+    {
+      "id": 11,
+      "name": "Classic Mobile Holders",
+      "image": "https://images.meesho.com/images/products/389808035/p6wdk_400.webp",
+      "price": "₹100",
+      "delivery": "Free Delivery",
+      "rating": "4.4",
+      "reviews": "540 Reviews",
+      "category": "Mobile Accessories"
+    },
+    {
+      "id": 12,
+      "name": "Unique Earrings & Studs",
+      "image": "https://images.meesho.com/images/products/395873739/3tast_400.webp",
+      "price": "₹183",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "19856 Reviews",
+      "category": "Jewelry"
+    },
+    {
+      "id": 13,
+      "name": "Amazing Under-Bed Storage",
+      "image": "https://images.meesho.com/images/products/481156142/83gr8_400.webp",
+      "price": "₹170",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "327 Reviews",
+      "category": "Home Storage"
+    },
+    {
+      "id": 14,
+      "name": "Apple iPhone 11 Cases & Covers",
+      "image": "https://images.meesho.com/images/products/444343989/cmdga_400.webp",
+      "price": "₹145",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "1490 Reviews",
+      "category": "Mobile Accessories"
+    },
+    {
+      "id": 15,
+      "name": "Classic Sensational Men Shirts",
+      "image": "https://images.meesho.com/images/products/345073937/87vxb_400.webp",
+      "price": "₹191",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "28512 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 16,
+      "name": "Tops & Tunics",
+      "image": "https://images.meesho.com/images/products/469205822/twxkc_400.webp",
+      "price": "₹172",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "6881 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 17,
+      "name": "Mobile Holders",
+      "image": "https://images.meesho.com/images/products/506569353/inltx_400.webp",
+      "price": "₹114",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "352 Reviews",
+      "category": "Mobile Accessories"
+    },
+    {
+      "id": 18,
+      "name": "Comfy Elegant Women Shirts",
+      "image": "https://images.meesho.com/images/products/462351967/nvrmh_400.webp",
+      "price": "₹247",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "1965 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 19,
+      "name": "Latest Graceful Men Flip Flops",
+      "image": "https://images.meesho.com/images/products/441483145/fgghe_400.webp",
+      "price": "₹182",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "2594 Reviews",
+      "category": "Footwear"
+    },
+    {
+      "id": 20,
+      "name": "STI Men's Shirts",
+      "image": "https://images.meesho.com/images/products/367648126/wgxv5_400.webp",
+      "price": "₹191",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "66629 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 21,
+      "name": "Wired Headphones & Earphones",
+      "image": "https://images.meesho.com/images/products/454622064/zwytc_400.webp",
+      "price": "₹131",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "6996 Reviews",
+      "category": "Electronics"
+    },
+    {
+      "id": 22,
+      "name": "Useful Clothes Covers",
+      "image": "https://images.meesho.com/images/products/331874843/kppxy_400.webp",
+      "price": "₹143",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "8227 Reviews",
+      "category": "Home Storage"
+    },
+    {
+      "id": 23,
+      "name": "Tinkle Trendy Girls Frocks & Dresses",
+      "image": "https://images.meesho.com/images/products/407150624/gdpkk_400.webp",
+      "price": "₹66",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "15352 Reviews",
+      "category": "Kids"
+    },
+    {
+      "id": 24,
+      "name": "Princess Glittering Jewellery Sets",
+      "image": "https://images.meesho.com/images/products/314436847/e3tw3_400.webp",
+      "price": "₹156",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "68918 Reviews",
+      "category": "Jewelry"
+    },
+    {
+      "id": 25,
+      "name": "Myra Petite Kurtis",
+      "image": "https://images.meesho.com/images/products/392458573/97zwk_400.webp",
+      "price": "₹240",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "30431 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 26,
+      "name": "Alluring Men Clogs",
+      "image": "https://images.meesho.com/images/products/423828257/zqnbh_400.webp",
+      "price": "₹192",
+      "originalPrice": "₹211",
+      "discount": "9% off",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "4637 Reviews",
+      "category": "Footwear"
+    },
+    {
+      "id": 27,
+      "name": "Tinkle Comfy Kids Boys Shorts",
+      "image": "https://images.meesho.com/images/products/450505438/12mco_400.webp",
+      "price": "₹161",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "5216 Reviews",
+      "category": "Kids"
+    },
+    {
+      "id": 28,
+      "name": "Elite Graceful Women Necklaces & Chains",
+      "image": "https://images.meesho.com/images/products/458726399/2fxzv_400.webp",
+      "price": "₹110",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "7269 Reviews",
+      "category": "Jewelry"
+    },
+    {
+      "id": 29,
+      "name": "Kurti With Dupatta & Bottomwear",
+      "image": "https://images.meesho.com/images/products/533156313/wse3d_400.webp",
+      "price": "₹348",
+      "delivery": "Delivery ₹83",
+      "rating": "3.8",
+      "reviews": "Supplier",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 30,
+      "name": "Cute Trendy Kids Boys Kurta Sets",
+      "image": "https://images.meesho.com/images/products/490837960/mnijs_400.webp",
+      "price": "₹137",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "7213 Reviews",
+      "category": "Kids"
+    },
+    {
+      "id": 31,
+      "name": "Poco C61 Cases & Covers",
+      "image": "https://images.meesho.com/images/products/435319638/sfb7k_400.webp",
+      "price": "₹187",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "1161 Reviews",
+      "category": "Mobile Accessories"
+    },
+    {
+      "id": 32,
+      "name": "Aagyeyi Fabulous Women Dupatta Sets",
+      "image": "https://images.meesho.com/images/products/488590769/prlqj_400.webp",
+      "price": "₹404",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "5358 Reviews",
+      "category": "Women's Fashion"
+    }
+  ]
+}

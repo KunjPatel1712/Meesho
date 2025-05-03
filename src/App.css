@@ -1,0 +1,321 @@
+  /* Meesho Navbar Styling */
+  .meesho-navbar {
+    width: 100%;
+    height: auto  ;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: relative;
+    z-index: 1000; /* Increased z-index */
+  }
+
+  /* Logo Styling */
+  .meesho-logo .logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f43397;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Search Bar Styling */
+  .meesho-search {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 20px;
+  }
+
+  .search-input {
+    border-radius: 20px !important;
+    border: 1px solid #e0e0e0 !important;
+    padding: 10px 40px 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+
+  .search-input:focus {
+    border-color: #f43397 !important;
+    box-shadow: none !important;
+    background-color: #fff;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }
+
+  /* Navigation Links Styling */
+  .meesho-nav .nav-link {
+    color: #333 !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px !important;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+
+  .meesho-nav .nav-link i {
+    margin-right: 8px;
+  }
+
+  .meesho-nav .nav-link:hover {
+    color: #f43397 !important;
+  }
+
+  /* Categories Bar Styling */
+  .categories-bar {
+    background-color: #fff;
+    padding: 10px 40px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    z-index: 999; /* Lower than navbar */
+  }
+
+  .categories-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0 30px; /* Added padding for scroll buttons */
+  }
+
+  .categories-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .categories-nav {
+    display: inline-flex;
+    gap: 50px;
+  }
+
+  /* Scroll Buttons Styling */
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Above categories */
+    transition: all 0.3s;
+  }
+
+  .scroll-btn:hover {
+    background-color: #f43397;
+    color: #fff;
+    border-color: #f43397;
+  }
+
+  .left-btn {
+    left: 10px;
+    display: none;
+  }
+
+  .right-btn {
+    display: none;
+    right: 10px;
+  }
+
+  /* Category Dropdown Styling */
+  .category-dropdown {
+    position: static; /* Changed to static for proper dropdown positioning */
+    display: inline-block;
+    
+  }
+
+  .category-dropdown > .nav-link {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .category-dropdown > .nav-link:hover {
+    background-color: #1976d2;
+    color: #fff;
+  }
+
+  .category-dropdown > .nav-link::after {
+    display: inline-block;
+    margin-left: 8px;
+    content: "";
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-bottom: 0;
+    border-left: 5px solid transparent;
+    color: #94969f;
+    transition: all 0.3s;
+  }
+
+  .category-dropdown > .nav-link:hover::after {
+    color: #fff;
+  }
+
+  .category-dropdown .dropdown-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 1100; /* Highest z-index to appear above everything */
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 15px;
+    display: none;
+    flex-wrap: wrap;
+    margin-top: -1px; /* Align with categories bar */
+  }
+
+  .category-dropdown:hover .dropdown-menu {
+    display: flex;
+    animation: dropDownFadeIn 0.2s ease-out;
+  }
+
+  .dropdown-column {
+    flex: 1 0 200px;
+    padding: 10px;
+    min-width: 200px;
+  }
+
+  .category-dropdown .dropdown-item {
+    font-size: 14px;
+    color: #333;
+    padding: 8px 20px;
+    white-space: nowrap;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  .category-dropdown .dropdown-item:hover {
+    background-color: #f5f5f5;
+    color: #f43397;
+    text-decoration: none;
+  }
+
+  .category-dropdown .dropdown-header {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f43397;
+    padding: 8px 20px 4px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+  }
+
+  @keyframes dropDownFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive Design */
+  @media (max-width: 991px) {
+    .meesho-search {
+      margin: 10px 0;
+      max-width: 100%;
+    }
+
+    .meesho-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .meesho-nav .nav-link {
+      padding: 10px 0 !important;
+    }
+
+    .categories-nav {
+      gap: 5px;
+    }
+
+    .category-dropdown > .nav-link {
+      padding: 8px 12px !important;
+    }
+
+    .scroll-btn {
+      width: 28px;
+      height: 28px;
+    }
+
+    .category-dropdown .dropdown-menu {
+      position: static;
+      display: none;
+      border-radius: 8px;
+      margin-top: 0;
+    }
+
+    .category-dropdown:hover .dropdown-menu {
+      display: none; /* Disable hover on mobile */
+    }
+
+    .category-dropdown.show .dropdown-menu {
+      display: flex; /* Show only when explicitly toggled */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .meesho-logo .logo-text {
+      font-size: 20px;
+    }
+
+    .search-input {
+      font-size: 12px;
+      padding: 8px 35px 8px 15px;
+    }
+
+    .search-icon {
+      right: 10px;
+    }
+
+    .meesho-nav .nav-link {
+      font-size: 12px;
+    }
+
+    .category-dropdown > .nav-link {
+      font-size: 12px;
+      padding: 6px 10px !important;
+    }
+
+    .category-dropdown .dropdown-item,
+    .category-dropdown .dropdown-header {
+      font-size: 12px;
+      padding: 6px 15px;
+    }
+
+    .categories-nav {
+      gap: 3px;
+    }
+
+    .scroll-btn {
+      width: 24px;
+      height: 24px;
+    }
+  }
