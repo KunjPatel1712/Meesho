@@ -27,7 +27,8 @@ const Accessories = () => {
   return (
     <div className="product-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', padding: '24px', width: '100%' }}>
     {data.map((e) => (
-      <Link to={`/product/${e.id}`} className="">
+     <Link to={`/${e.category}/${e.id}`}>
+
       <div key={e.id} style={{
         maxWidth: '100%',
         border: '1px solid #ddd',

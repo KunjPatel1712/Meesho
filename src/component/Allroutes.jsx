@@ -15,6 +15,8 @@ import CategoryPage from '../Goldproductpage'
 
 import ProductDescription from '../Description'
 import Description from '../Description'
+import Cart from './Cart'
+import CartPage from './Cart'
 
 
 
@@ -35,9 +37,9 @@ const Allroutes = () => {
 
       
       <Route path="/category/:category" element={<CategoryPage />} />
-      <Route path="/product/:id" element={<Description />} /> 
+      <Route path="/:category/:id" element={<Description />} />
 
-      {/* <Route path="/cart" element={<CartPage />} />  */}
+      <Route path="/cart" element={<CartPage />} /> 
     </Routes>
   )
 }

@@ -1,29 +1,48 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Description = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const navigate = useNavigate();
 
+  // Fetch product data when component mounts
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/gold");
-        const data = res.data;
+        // Fetch all category data
+        const ethnicRes = await axios.get("http://localhost:3000/ethnicwear");
+        const accessoriesRes = await axios.get("http://localhost:3000/accessories");
+        const beautyRes = await axios.get("http://localhost:3000/beauty");
+        const footwearRes = await axios.get("http://localhost:3000/footwear");
+        const groceryRes = await axios.get("http://localhost:3000/grocery");
+        const homemainRes = await axios.get("http://localhost:3000/homemain");
+        const menswearRes = await axios.get("http://localhost:3000/Menswear");
+        const westrendressRes = await axios.get("http://localhost:3000/westrendress");
+        const homedecoreRes = await axios.get("http://localhost:3000/homedecore");
 
-        // Flatten all products into one array
+        // Combine all products from different categories
         const allProducts = [
-          ...(data.lehengas || []),
-          ...(data.kurtas || []),
-          ...(data.Sarees || []),
-          ...(data.Jewellery || [])
+          ...ethnicRes.data,
+          ...accessoriesRes.data,
+          ...beautyRes.data,
+          ...footwearRes.data,
+          ...groceryRes.data,
+          ...homemainRes.data,
+          ...menswearRes.data,
+          ...westrendressRes.data,
+          ...homedecoreRes.data,
         ];
 
-        // Find product by matching the id
+        // Find the product by matching the id
         const foundProduct = allProducts.find((item) => String(item.id) === id);
 
-        setProduct(foundProduct);
+        if (foundProduct) {
+          setProduct(foundProduct);
+        } else {
+          console.error("Product not found");
+        }
       } catch (err) {
         console.error("Error fetching product:", err);
       }
@@ -32,140 +51,32 @@ const Description = () => {
     fetchProduct();
   }, [id]);
 
-  
-     useEffect(() => {
-      const EthicWear = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/ethnicwear/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      EthicWear();
-    }, [id]); 
+  // Add product to the cart
+  const addToCart = () => {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-    useEffect(() => {
-      const accessories = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/accessories/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      accessories();
-    }, [id]); 
+    const existingProduct = cart.find((item) => item.id === product.id);
 
-    useEffect(() => {
-      const beauty = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/beauty/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      beauty();
-    }, [id]); 
+    if (existingProduct) {
+      // If the product is already in the cart, just increase the quantity
+      const updatedCart = cart.map((item) =>
+        item.id === product.id
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      );
+      localStorage.setItem("cart", JSON.stringify(updatedCart));
+    } else {
+      // If the product is not in the cart, add it with quantity 1
+      localStorage.setItem("cart", JSON.stringify([...cart, { ...product, quantity: 1 }]));
+    }
 
-    useEffect(() => {
-      const foot = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/footwear/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      foot();
-    }, [id]); 
-
-    useEffect(() => {
-      const grocery = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/grocery/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      grocery();
-    }, [id]); 
-
-    useEffect(() => {
-      const homemain = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/homemain/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      homemain();
-    }, [id]); 
-
-    useEffect(() => {
-      const menswear = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/Menswear/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      menswear();
-    }, [id]); 
-
-    useEffect(() => {
-      const westrendress = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/westrendress/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      westrendress();
-    }, [id]); 
-
-    
-    useEffect(() => {
-      const homedecore = async () => {
-        try {
-          const res = await fetch(`http://localhost:3000/homedecore/${id}`); // Replace with your correct URL
-          const data = await res.json();
-          setProduct(data); // Save the fetched data to state
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      homedecore();
-    }, [id]); 
-    
+    alert(`${product.name} added to cart!`);
+  };
 
   if (!product) {
     return <p>Loading...</p>;
   }
 
-  // If the product is found, display its details
   return (
     <div style={{ maxWidth: "600px", margin: "auto", padding: "20px", fontFamily: "Arial" }}>
       <img
@@ -182,7 +93,7 @@ const Description = () => {
       
       {/* Add to Cart Button */}
       <button
-       
+        onClick={addToCart}
         style={{
           padding: "10px 20px",
           backgroundColor: "#d10063",
@@ -195,6 +106,23 @@ const Description = () => {
       >
         Add to Cart
       </button>
+
+      {/* Go to Cart Button */}
+      <div style={{ marginTop: "20px" }}>
+        <button
+          onClick={() => navigate("/cart")}
+          style={{
+            padding: "10px 20px",
+            backgroundColor: "#4caf50",
+            color: "#fff",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Go to Cart
+        </button>
+      </div>
     </div>
   );
 };
