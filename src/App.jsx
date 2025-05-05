@@ -3,7 +3,7 @@ import Home from './Home';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import ProductsPage from './component/Productpage';
+
 import Footer from './component/Footer';
 import Allroutes from './component/Allroutes';
 import MeeshoNavbar from './component/Navbar';

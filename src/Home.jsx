@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './index.css';
 import women from "./assets/athicwhere.webp"
 import westen from "./assets/westrendress.webp"
@@ -28,40 +28,35 @@ import earrings from "./assets/earnings.webp"
 import chicflats from "./assets/chicflats.webp"
 import axios from 'axios';
 import { Container, Row } from "react-bootstrap";
-import Sidebar from './component/Sidebar';
+import ethic from './categories/Ethnicwear';
 
-// No need to import no2.webp if using background-image in CSS
+
 
 const Home = () => {
 
-  const [filter, setfilter] = useState(null);
-  
-    const [product, setProducts] = useState([]);
+   const [products, setProducts] = useState([]);
+ 
+   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch("http://localhost:3000/homemain"); // Replace with your correct URL
+        const data = await res.json();
+        setProducts(data); // Save the fetched data to state
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
 
-    useEffect(() => {
-    
-        axios
-        .get("http://localhost:3000/products", {
-          params: {
-            category: filter || searchparams.getAll("category"),
-           
-          },
-        })
-})
-useEffect(() => {
-  const id = setTimeout(() => {
-    getproduct();
-  }, 800);
+    fetchData();
+  }, []); //pty dependency array ensures it only runs once after the component mounts
+ 
 
-  return () => {
-    clearTimeout(id);
-  };
-}, [filter]);
-  
-  
-  
+   const navigate = useNavigate();
 
-  console.log(product);
+   // Function to handle category selection and navigate
+   const handleClick = (categoryName) => {
+     navigate(`/category/${categoryName}`);
+   };
   return (
     <div className="container-fluid p-0 meesho-banner">
       <div className="row g-0">
@@ -92,49 +87,49 @@ useEffect(() => {
 
     
       <div className="horizontal mt-3">
-      <Link to="/products/ethnic-wear" className="category-item">
+      <Link to={'/ethic'} className="category-item">
         <div className="category-icon">
           <img src={women} alt="Ethnic Wear" />
         </div>
         <span className="category-name">Ethnic Wear</span>
       </Link>
-      <Link to="/products/western-dresses" className="category-item">
+      <Link to={'/westerndress'} className="category-item">
         <div className="category-icon">
           <img src={westen} alt="Western Dresses" />
         </div>
         <span className="category-name">Western Dresses</span>
       </Link>
-      <Link to="/products/menswear" className="category-item">
+      <Link to={'/mens'} className="category-item">
         <div className="category-icon">
           <img src={mens} alt="Menswear" />
         </div>
         <span className="category-name">Menswear</span>
       </Link>
-      <Link to="/products/footwear" className="category-item">
+      <Link to={'/footwear'}className="category-item">
         <div className="category-icon">
           <img src={foot} alt="Footwear" />
         </div>
         <span className="category-name">Footwear</span>
       </Link>
-      <Link to="/products/home-decor" className="category-item">
+      <Link to={'/decore'} className="category-item">
         <div className="category-icon">
           <img src={homedecore} alt="Home Decor" />
         </div>
         <span className="category-name">Home Decor</span>
       </Link>
-      <Link to="/products/beauty" className="category-item">
+      <Link to={'/beauty'} className="category-item">
         <div className="category-icon">
           <img src={beauty} alt="Beauty" />
         </div>
         <span className="category-name">Beauty</span>
       </Link>
-      <Link to="/products/accessories" className="category-item">
+      <Link to={'/accessories'} className="category-item">
         <div className="category-icon">
           <img src={accessorie} alt="Accessories" />
         </div>
         <span className="category-name">Accessories</span>
       </Link>
-      <Link to="/products/grocery" className="category-item">
+      <Link to={'/grocery'} className="category-item">
         <div className="category-icon">
           <img src={grocery} alt="Grocery" />
         </div>
@@ -148,12 +143,14 @@ useEffect(() => {
                     Shop Now
                 </button>
         </div>
-        <div className="col-6 tags-4">
-            <img src={lehga} alt="" />
-            <img src={shervani} alt="" />
-            <img src={saree} alt=""  />
-            <img src={jewellery} alt=""  />
-        </div>
+      <div className="col-6 tags-4">
+      <img src={lehga} alt="Lehenga" onClick={() => handleClick("lehengas")} />
+      <img src={shervani} alt="Sherwani" onClick={() => handleClick("kurtas")} />
+      <img src={saree} alt="Saree" onClick={() => handleClick("Sarees")} />
+      <img src={jewellery} alt="Jewellery" onClick={() => handleClick("Jewellery")} />
+    </div>
+      
+ 
     </div>
 
 
@@ -167,55 +164,55 @@ useEffect(() => {
           </svg>
         </span>
       </h1>
-  <div className="brand-slider">
-    <Link to="/origanal-brand/personal-care" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={personalcare} alt="Personal Care" />
-      </div>
-    </Link>
+      {/* <div className="brand-slider">
+      <Link to="/personalcare" className="category-card" onClick={() => handleClick("personalcare")}>
+        <div className="category-image-wrapper">
+          <img src={personalcare} alt="Personal Care" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/electronics" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={electronic} alt="Electronics" />
-      </div>
-    </Link>
+      <Link to="/original-brand/electronic" className="category-card" onClick={() => handleClick("electronics")}>
+        <div className="category-image-wrapper">
+          <img src={electronic} alt="Electronics" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/makeup" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={makeup} alt="Makeup" />
-      </div>
-    </Link>
+      <Link to="/original-brand/makeup" className="category-card" onClick={() => handleClick("makeup")}>
+        <div className="category-image-wrapper">
+          <img src={makeup} alt="Makeup" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/smart-phones" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={smartphone} alt="Smart Phones" />
-      </div>
-    </Link>
+      <Link to="/original-brand/smart-phones" className="category-card" onClick={() => handleClick("smartphones")}>
+        <div className="category-image-wrapper">
+          <img src={smartphone} alt="Smart Phones" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/men-perfume" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={mensperfume} alt="Men Perfume" />
-      </div>
-    </Link>
+      <Link to="/original-brand/men-perfume" className="category-card" onClick={() => handleClick("men-perfume")}>
+        <div className="category-image-wrapper">
+          <img src={mensperfume} alt="Men Perfume" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/bags" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={bags} alt="Bags" />
-      </div>
-    </Link>
+      <Link to="/original-brand/bags" className="category-card" onClick={() => handleClick("bags")}>
+        <div className="category-image-wrapper">
+          <img src={bags} alt="Bags" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/footwear" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={footwearbrand} alt="Footwear" />
-      </div>
-    </Link>
+      <Link to="/original-brand/footwear" className="category-card" onClick={() => handleClick("footwear")}>
+        <div className="category-image-wrapper">
+          <img src={foot} alt="Footwear" />
+        </div>
+      </Link>
 
-    <Link to="/origanal-brand/books" className="category-card">
-      <div className="category-image-wrapper">
-        <img src={booksbrand} alt="Books" />
-      </div>
-    </Link>
-  </div>
+      <Link to="/original-brand/books" className="category-card" onClick={() => handleClick("books")}>
+        <div className="category-image-wrapper">
+          <img src={booksbrand} alt="Books" />
+        </div>
+      </Link>
+    </div> */}
 </div>
 
 <div className="slider-container">
@@ -303,42 +300,60 @@ useEffect(() => {
 </div>
 
 
-<Container fluid className="mt-4">
-  <Row>
-    {/* Left Sidebar */}
-    <Sidebar />
+  <Container fluid className="mt-4">
+    <Row>
+      {/* Left Sidebar */}
+      {/* <Sidebar /> */}
 
-    {/* Right Product Grid */}
-    <div className="right-panel col-md-8 p-3">
-      <Row>
-        {product.map((e) => (
-          <div key={e.id} className="product-card-wrapper col-md-6 col-lg-4 mb-4 d-flex">
-            <div className="shadow-sm border rounded p-2 w-100 d-flex flex-column">
-              <div style={{ height: "250px", overflow: "hidden" }}>
-                <img
-                  src={e.image}
-                  alt={e.name}
-                  className="img-fluid w-100"
-                  style={{  height: "100%" }}
-                />
-              </div>
-              <div className="mt-2">
-                <h6 className="mb-1">{e.name}</h6>
-                <p className="fw-bold text-success mb-1">{e.price}</p>
-                <p style={{backgroundColor:"rgb(3,141,99)",color:"white", width:"38px",paddingLeft:"5px", borderRadius:"16px"}}>{e.rating}</p>
-                  
-                <p className="text-muted mb-2" style={{ fontSize: "0.9rem" }}>
-                  {e.reviews}
-                </p>
-                <button className="btn btn-outline-primary w-100">Buy Now</button>
-              </div>
+     {/* Right Product Grid */}
+<div className="right-panel col-md-8 p-3">
+  <Row>
+    {products.map((e) => (
+      <Link
+        to={`/product/${e.id}`}
+        key={e.id}  // ✅ Add the key here
+        className="col-md-6 col-lg-4 mb-4 text-decoration-none text-dark"
+      >
+        <div className="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+          {/* Image Section */}
+          <div style={{ height: '400px', overflow: 'hidden' }}>
+  <img
+    src={e.image}
+    alt={e.name}
+    className="img-fluid w-100"
+    style={{ height: '100%', objectFit: 'contain' }}
+  />
+</div>
+
+          {/* Content Section */}
+          <div className="card-body">
+            <h6 className="card-title mb-1">{e.name}</h6>
+            <p className="fw-bold text-success mb-1">₹{e.price}</p>
+            <div className="d-flex align-items-center gap-2 mb-1">
+              <span
+                className="badge"
+                style={{
+                  backgroundColor: '#038d63',
+                  color: 'white',
+                  borderRadius: '12px',
+                  padding: '4px 10px',
+                  fontSize: '0.85rem',
+                }}
+              >
+                ⭐ {e.rating}
+              </span>
+              <small className="text-muted">({e.reviews} reviews)</small>
             </div>
           </div>
-        ))}
-      </Row>
-    </div>
+        </div>
+      </Link>
+    ))}
   </Row>
-</Container>
+</div>
+
+      </Row>
+    </Container>
+
 
 </div>
 

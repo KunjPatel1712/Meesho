@@ -118,7 +118,7 @@ const MeeshoNavbar = () => {
         <Container fluid>
           {/* Logo */}
           <Navbar.Brand href="#home" className="meesho-logo">
-            <span className="logo-text">meesho</span>
+            <span className="logo-text"><a href=' /' style={{textDecoration:"none", color:"#570D48"}}>meesho</a></span>
           </Navbar.Brand>
 
           {/* Hamburger Toggle */}
@@ -149,9 +149,9 @@ const MeeshoNavbar = () => {
               <Nav.Link href="#profile" className="nav-link">
                 <i className="fas fa-user"></i> Profile
               </Nav.Link>
-              <Nav.Link href="#cart" className="nav-link">
-                <i className="fas fa-shopping-cart"></i> Cart
-              </Nav.Link>
+              <Nav.Link href="/component/cart" className="nav-link">
+        <i className="fas fa-shopping-cart"></i> Cart 
+      </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
