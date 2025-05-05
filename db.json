@@ -1,205 +1,308 @@
 {
   "homemain": [
-    {
-      "id": 1,
-      "name": "Trendy Retro Men Shirts",
-      "image": "https://images.meesho.com/images/products/375061729/0lurd_400.webp",
-      "price": "₹145",
-      "delivery": "Free Delivery",
-      "rating": "4.1",
-      "reviews": "27004 Reviews",
-      "category": "Men's Fashion"
-    },
-    {
-      "id": 2,
-      "name": "Trendy Ravishing Women Tops & Tunics",
-      "image": "https://images.meesho.com/images/products/463135110/138aw_400.webp",
-      "price": "₹246",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "2718 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 3,
-      "name": "Useful Clothes Covers",
-      "image": "https://images.meesho.com/images/products/126033594/1o2rf_400.webp",
-      "price": "₹160",
-      "delivery": "Free Delivery",
-      "rating": "4.2",
-      "reviews": "78094 Reviews",
-      "category": "Home & Kitchen"
-    },
-    {
-      "id": 4,
-      "name": "Sterling Rhodium Plated Jewellery Set with White Austrian Diamond",
-      "image": "https://images.meesho.com/images/products/87877510/qsyih_400.webp",
-      "price": "₹183",
-      "delivery": "Free Delivery",
-      "rating": "3.9",
-      "reviews": "25034 Reviews",
-      "category": "Jewelry"
-    },
-    {
-      "id": 5,
-      "name": "Mens Staylish Casual Chex Lycra Shirt",
-      "image": "https://images.meesho.com/images/products/417401766/vejfx_400.webp",
-      "price": "₹207",
-      "delivery": "Free Delivery",
-      "rating": "4.1",
-      "reviews": "2963 Reviews",
-      "category": "Men's Fashion"
-    },
-    {
-      "id": 6,
-      "name": "Alisha Sensational Sarees",
-      "image": "https://images.meesho.com/images/products/487963721/hzazz_400.webp",
-      "price": "₹439",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "3561 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 7,
-      "name": "Tinkle Classy Boys Top & Bottom Sets",
-      "image": "https://images.meesho.com/images/products/267550818/fu5x3_400.webp",
-      "price": "₹100",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "78785 Reviews",
-      "category": "Kids & Babies"
-    },
-    {
-      "id": 8,
-      "name": "Chitrarekha Attractive Kurtis",
-      "image": "https://images.meesho.com/images/products/191005346/mocgn_400.webp",
-      "price": "₹215",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "78785 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 9,
-      "name": "Women Rayon Jaipuri Printed Kurti",
-      "image": "https://images.meesho.com/images/products/484960338/winby_400.webp",
-      "price": "₹249",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "5390 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 10,
-      "name": "Fancy Mobile Holders",
-      "image": "https://images.meesho.com/images/products/482358086/fgfox_400.webp",
-      "price": "₹185",
-      "delivery": "Free Delivery",
-      "rating": "4.5",
-      "reviews": "11 Reviews",
-      "category": "Accessories"
-    },
-    {
-      "id": 11,
-      "name": "Raysfield Life Style Casual Shoes For Men",
-      "image": "https://images.meesho.com/images/products/370528537/mczok_400.webp",
-      "price": "₹342",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "29628 Reviews",
-      "category": "Footwear"
-    },
-    {
-      "id": 12,
-      "name": "Silver Plated Necklace Set with White American Diamond",
-      "image": "https://images.meesho.com/images/products/243763937/capmi_400.webp",
-      "price": "₹159",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "50617 Reviews",
-      "category": "Jewelry"
-    },
-    {
-      "id": 13,
-      "name": "STI Men's Shirts",
-      "image": "https://images.meesho.com/images/products/406616723/znlby_400.webp",
-      "price": "₹191",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "13350 Reviews",
-      "category": "Men's Fashion"
-    },
-    {
-      "id": 14,
-      "name": "Infinix Hot 10 Cases & Covers",
-      "image": "https://images.meesho.com/images/products/390539549/ajjlw_400.webp",
-      "price": "₹140",
-      "delivery": "Free Delivery",
-      "rating": "3.9",
-      "reviews": "230 Reviews",
-      "category": "Mobile Accessories"
-    },
-    {
-      "id": 15,
-      "name": "Aishani Ensemble Sarees",
-      "image": "https://images.meesho.com/images/products/488467379/ycvke_400.webp",
-      "price": "₹502",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "5312 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 16,
-      "name": "Classic Sensational Men Shirts",
-      "image": "https://images.meesho.com/images/products/345073937/87vxb_400.webp",
-      "price": "₹179",
-      "delivery": "Free Delivery",
-      "rating": "4.1",
-      "reviews": "28716 Reviews",
-      "category": "Men's Fashion"
-    },
-    {
-      "id": 17,
-      "name": "Tinkle Trendy Girls Frocks & Dresses",
-      "image": "https://images.meesho.com/images/products/407150624/gdpkk_400.webp",
-      "price": "₹65",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "15423 Reviews",
-      "category": "Kids & Babies"
-    },
-    {
-      "id": 18,
-      "name": "Selfie Stick | Bluetooth Extendable Selfie Stick with Wireless Remote",
-      "image": "https://images.meesho.com/images/products/242266564/ta8x8_400.webp",
-      "price": "₹114",
-      "delivery": "Free Delivery",
-      "rating": "4.1",
-      "reviews": "29303 Reviews",
-      "category": "Mobile Accessories"
-    },
-    {
-      "id": 19,
-      "name": "Chitrarekha Refined Kurtis",
-      "image": "https://images.meesho.com/images/products/276746304/1m2hz_400.webp",
-      "price": "₹553",
-      "delivery": "Free Delivery",
-      "rating": "4.0",
-      "reviews": "35438 Reviews",
-      "category": "Women's Fashion"
-    },
-    {
-      "id": 20,
-      "name": "Adjustable Phone Stand for Cooking/Browsing",
-      "image": "https://images.meesho.com/images/products/505695158/u6xbn_400.webp",
-      "price": "₹116",
-      "delivery": "Free Delivery",
-      "rating": "4.2",
-      "reviews": "6 Reviews",
-      "category": "Mobile Accessories"
-    }
+    [
+      {
+        "id": 1,
+        "name": "Trendy Retro Men Shirts",
+        "image": "https://images.meesho.com/images/products/375061729/0lurd_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/375061729/1lurd_400.webp",
+          "https://images.meesho.com/images/products/375061729/2lurd_400.webp",
+          "https://images.meesho.com/images/products/375061729/3lurd_400.webp"
+        ],
+        "price": "₹145",
+        "delivery": "Free Delivery",
+        "rating": "4.1",
+        "reviews": "27004 Reviews",
+        "category": "Men's Fashion"
+      },
+      {
+        "id": 2,
+        "name": "Trendy Ravishing Women Tops & Tunics",
+        "image": "https://images.meesho.com/images/products/463135110/138aw_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/463135110/138aw_1_400.webp",
+          "https://images.meesho.com/images/products/463135110/138aw_2_400.webp",
+          "https://images.meesho.com/images/products/463135110/138aw_3_400.webp"
+        ],
+        "price": "₹246",
+        "delivery": "Free Delivery",
+        "rating": "4.0",
+        "reviews": "2718 Reviews",
+        "category": "Women's Fashion"
+      },
+      {
+        "id": 3,
+        "name": "Useful Clothes Covers",
+        "image": "https://images.meesho.com/images/products/126033594/1o2rf_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/126033594/2o2rf_400.webp",
+          "https://images.meesho.com/images/products/126033594/3o2rf_400.webp",
+          "https://images.meesho.com/images/products/126033594/4o2rf_400.webp"
+        ],
+        "price": "₹160",
+        "delivery": "Free Delivery",
+        "rating": "4.2",
+        "reviews": "78094 Reviews",
+        "category": "Home & Kitchen"
+      },
+      {
+        "id": 4,
+        "name": "Stylish Women Dresses",
+        "image": "https://images.meesho.com/images/products/329697827/1d6az_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/329697827/2d6az_400.webp",
+          "https://images.meesho.com/images/products/329697827/3d6az_400.webp",
+          "https://images.meesho.com/images/products/329697827/4d6az_400.webp"
+        ],
+        "price": "₹479",
+        "delivery": "Free Delivery",
+        "rating": "4.4",
+        "reviews": "10500 Reviews",
+        "category": "Women's Fashion"
+      },
+      {
+        "id": 5,
+        "name": "Exclusive Men Sneakers",
+        "image": "https://images.meesho.com/images/products/451278131/a93g6_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/451278131/a93g6_1_400.webp",
+          "https://images.meesho.com/images/products/451278131/a93g6_2_400.webp",
+          "https://images.meesho.com/images/products/451278131/a93g6_3_400.webp"
+        ],
+        "price": "₹699",
+        "delivery": "Free Delivery",
+        "rating": "4.3",
+        "reviews": "8720 Reviews",
+        "category": "Footwear"
+      },
+      {
+        "id": 6,
+        "name": "Classic Women Handbags",
+        "image": "https://images.meesho.com/images/products/332145130/9akgs_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/332145130/9akgs_1_400.webp",
+          "https://images.meesho.com/images/products/332145130/9akgs_2_400.webp",
+          "https://images.meesho.com/images/products/332145130/9akgs_3_400.webp"
+        ],
+        "price": "₹899",
+        "delivery": "Free Delivery",
+        "rating": "4.5",
+        "reviews": "12520 Reviews",
+        "category": "Accessories"
+      },
+      {
+        "id": 7,
+        "name": "Women's Stylish Footwear",
+        "image": "https://images.meesho.com/images/products/123234564/9kdfg_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/123234564/9kdfg_1_400.webp",
+          "https://images.meesho.com/images/products/123234564/9kdfg_2_400.webp",
+          "https://images.meesho.com/images/products/123234564/9kdfg_3_400.webp"
+        ],
+        "price": "₹399",
+        "delivery": "Free Delivery",
+        "rating": "4.0",
+        "reviews": "6400 Reviews",
+        "category": "Footwear"
+      },
+      {
+        "id": 8,
+        "name": "Elegant Men's Wallet",
+        "image": "https://images.meesho.com/images/products/198273328/2x6io_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/198273328/2x6io_1_400.webp",
+          "https://images.meesho.com/images/products/198273328/2x6io_2_400.webp",
+          "https://images.meesho.com/images/products/198273328/2x6io_3_400.webp"
+        ],
+        "price": "₹299",
+        "delivery": "Free Delivery",
+        "rating": "4.2",
+        "reviews": "8047 Reviews",
+        "category": "Men's Accessories"
+      },
+      {
+        "id": 9,
+        "name": "Classic Kitchen Set",
+        "image": "https://images.meesho.com/images/products/459832230/bxyhp_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/459832230/bxyhp_1_400.webp",
+          "https://images.meesho.com/images/products/459832230/bxyhp_2_400.webp",
+          "https://images.meesho.com/images/products/459832230/bxyhp_3_400.webp"
+        ],
+        "price": "₹799",
+        "delivery": "Free Delivery",
+        "rating": "4.3",
+        "reviews": "3982 Reviews",
+        "category": "Home & Kitchen"
+      },
+      {
+        "id": 10,
+        "name": "Women's Trendy Watch",
+        "image": "https://images.meesho.com/images/products/498239274/f76gs_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/498239274/f76gs_1_400.webp",
+          "https://images.meesho.com/images/products/498239274/f76gs_2_400.webp",
+          "https://images.meesho.com/images/products/498239274/f76gs_3_400.webp"
+        ],
+        "price": "₹499",
+        "delivery": "Free Delivery",
+        "rating": "4.0",
+        "reviews": "3800 Reviews",
+        "category": "Accessories"
+      },
+      {
+        "id": 11,
+        "name": "Casual Men Shoes",
+        "image": "https://images.meesho.com/images/products/438541231/wqa6i_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/438541231/wqa6i_1_400.webp",
+          "https://images.meesho.com/images/products/438541231/wqa6i_2_400.webp",
+          "https://images.meesho.com/images/products/438541231/wqa6i_3_400.webp"
+        ],
+        "price": "₹499",
+        "delivery": "Free Delivery",
+        "rating": "4.3",
+        "reviews": "11002 Reviews",
+        "category": "Footwear"
+      },
+      {
+        "id": 12,
+        "name": "Stylish Sunglasses",
+        "image": "https://images.meesho.com/images/products/537892724/16zbt_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/537892724/16zbt_1_400.webp",
+          "https://images.meesho.com/images/products/537892724/16zbt_2_400.webp",
+          "https://images.meesho.com/images/products/537892724/16zbt_3_400.webp"
+        ],
+        "price": "₹399",
+        "delivery": "Free Delivery",
+        "rating": "4.2",
+        "reviews": "6891 Reviews",
+        "category": "Accessories"
+      },
+      {
+        "id": 13,
+        "name": "Elegant Office Chair",
+        "image": "https://images.meesho.com/images/products/558021116/2dp4w_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/558021116/2dp4w_1_400.webp",
+          "https://images.meesho.com/images/products/558021116/2dp4w_2_400.webp",
+          "https://images.meesho.com/images/products/558021116/2dp4w_3_400.webp"
+        ],
+        "price": "₹1499",
+        "delivery": "Free Delivery",
+        "rating": "4.3",
+        "reviews": "11224 Reviews",
+        "category": "Furniture"
+      },
+      {
+        "id": 14,
+        "name": "Smartphone Cases",
+        "image": "https://images.meesho.com/images/products/493759631/a0lvh_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/493759631/a0lvh_1_400.webp",
+          "https://images.meesho.com/images/products/493759631/a0lvh_2_400.webp",
+          "https://images.meesho.com/images/products/493759631/a0lvh_3_400.webp"
+        ],
+        "price": "₹249",
+        "delivery": "Free Delivery",
+        "rating": "4.1",
+        "reviews": "5200 Reviews",
+        "category": "Mobile Accessories"
+      },
+      {
+        "id": 15,
+        "name": "Women Casual Slippers",
+        "image": "https://images.meesho.com/images/products/425863819/d7lgf_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/425863819/d7lgf_1_400.webp",
+          "https://images.meesho.com/images/products/425863819/d7lgf_2_400.webp",
+          "https://images.meesho.com/images/products/425863819/d7lgf_3_400.webp"
+        ],
+        "price": "₹299",
+        "delivery": "Free Delivery",
+        "rating": "4.0",
+        "reviews": "4500 Reviews",
+        "category": "Footwear"
+      },
+      {
+        "id": 16,
+        "name": "Luxury Bed Sheet Set",
+        "image": "https://images.meesho.com/images/products/524526712/gw7nd_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/524526712/gw7nd_1_400.webp",
+          "https://images.meesho.com/images/products/524526712/gw7nd_2_400.webp",
+          "https://images.meesho.com/images/products/524526712/gw7nd_3_400.webp"
+        ],
+        "price": "₹599",
+        "delivery": "Free Delivery",
+        "rating": "4.5",
+        "reviews": "3200 Reviews",
+        "category": "Home & Kitchen"
+      },
+      {
+        "id": 17,
+        "name": "Outdoor Sports Watch",
+        "image": "https://images.meesho.com/images/products/524529179/bx5wz_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/524529179/bx5wz_1_400.webp",
+          "https://images.meesho.com/images/products/524529179/bx5wz_2_400.webp",
+          "https://images.meesho.com/images/products/524529179/bx5wz_3_400.webp"
+        ],
+        "price": "₹1299",
+        "delivery": "Free Delivery",
+        "rating": "4.6",
+        "reviews": "2100 Reviews",
+        "category": "Accessories"
+      },
+      {
+        "id": 18,
+        "name": "Premium Beard Grooming Kit",
+        "image": "https://images.meesho.com/images/products/567123456/9x4vo_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/567123456/9x4vo_1_400.webp",
+          "https://images.meesho.com/images/products/567123456/9x4vo_2_400.webp",
+          "https://images.meesho.com/images/products/567123456/9x4vo_3_400.webp"
+        ],
+        "price": "₹599",
+        "delivery": "Free Delivery",
+        "rating": "4.7",
+        "reviews": "4500 Reviews",
+        "category": "Men's Grooming"
+      },
+      {
+        "id": 19,
+        "name": "Bedding Set",
+        "image": "https://images.meesho.com/images/products/534890276/wqu7e_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/534890276/wqu7e_1_400.webp",
+          "https://images.meesho.com/images/products/534890276/wqu7e_2_400.webp",
+          "https://images.meesho.com/images/products/534890276/wqu7e_3_400.webp"
+        ],
+        "price": "₹999",
+        "delivery": "Free Delivery",
+        "rating": "4.2",
+        "reviews": "7100 Reviews",
+        "category": "Home & Kitchen"
+      },
+      {
+        "id": 20,
+        "name": "Office Organizer Set",
+        "image": "https://images.meesho.com/images/products/467014521/3okve_400.webp",
+        "additionalImages": [
+          "https://images.meesho.com/images/products/467014521/3okve_1_400.webp",
+          "https://images.meesho.com/images/products/467014521/3okve_2_400.webp",
+          "https://images.meesho.com/images/products/467014521/3okve_3_400.webp"
+        ],
+        "price": "₹499",
+        "delivery": "Free Delivery",
+        "rating": "4.1",
+        "reviews": "3200 Reviews",
+        "category": "Office Supplies"
+      }
+    ]
+    
   ],
   "ethnicwear":[
     {

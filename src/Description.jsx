@@ -1,129 +1,185 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { Row, Col, Button, Image, Container, Badge } from 'react-bootstrap';
 
 const Description = () => {
   const { id } = useParams();
-  const [product, setProduct] = useState(null);
   const navigate = useNavigate();
-
-  // Fetch product data when component mounts
+  const [product, setProduct] = useState(null);
+  const [mainImage, setMainImage] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+ 
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        // Fetch all category data
-        const ethnicRes = await axios.get("http://localhost:3000/ethnicwear");
-        const accessoriesRes = await axios.get("http://localhost:3000/accessories");
-        const beautyRes = await axios.get("http://localhost:3000/beauty");
-        const footwearRes = await axios.get("http://localhost:3000/footwear");
-        const groceryRes = await axios.get("http://localhost:3000/grocery");
-        const homemainRes = await axios.get("http://localhost:3000/homemain");
-        const menswearRes = await axios.get("http://localhost:3000/Menswear");
-        const westrendressRes = await axios.get("http://localhost:3000/westrendress");
-        const homedecoreRes = await axios.get("http://localhost:3000/homedecore");
-
-        // Combine all products from different categories
-        const allProducts = [
-          ...ethnicRes.data,
-          ...accessoriesRes.data,
-          ...beautyRes.data,
-          ...footwearRes.data,
-          ...groceryRes.data,
-          ...homemainRes.data,
-          ...menswearRes.data,
-          ...westrendressRes.data,
-          ...homedecoreRes.data,
+        setLoading(true);
+        const endpoints = [
+          "ethnicwear", "accessories", "beauty", "footwear", "grocery",
+          "homemain", "Menswear", "westrendress", "homedecore"
         ];
-
-        // Find the product by matching the id
-        const foundProduct = allProducts.find((item) => String(item.id) === id);
+        
+        const allData = await Promise.all(
+          endpoints.map((endpoint) =>
+            axios.get(`http://localhost:3000/${endpoint}`)
+          )
+        );
+        
+        const allProducts = allData.flatMap(res => res.data);
+        const foundProduct = allProducts.find(p => String(p.id) === id);
 
         if (foundProduct) {
           setProduct(foundProduct);
+          setMainImage(foundProduct.image);
         } else {
-          console.error("Product not found");
+          setError("Product not found");
         }
-      } catch (err) {
-        console.error("Error fetching product:", err);
+      } catch (error) {
+        console.error("Error fetching product:", error);
+        setError("Failed to load product");
+      } finally {
+        setLoading(false);
       }
     };
 
     fetchProduct();
   }, [id]);
 
-  // Add product to the cart
   const addToCart = () => {
+    if (!product) return;
+    
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existing = cart.find(item => item.id === product.id);
 
-    const existingProduct = cart.find((item) => item.id === product.id);
+    const updatedCart = existing
+      ? cart.map(item =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        )
+      : [...cart, { ...product, quantity: 1 }];
 
-    if (existingProduct) {
-      // If the product is already in the cart, just increase the quantity
-      const updatedCart = cart.map((item) =>
-        item.id === product.id
-          ? { ...item, quantity: item.quantity + 1 }
-          : item
-      );
-      localStorage.setItem("cart", JSON.stringify(updatedCart));
-    } else {
-      // If the product is not in the cart, add it with quantity 1
-      localStorage.setItem("cart", JSON.stringify([...cart, { ...product, quantity: 1 }]));
-    }
-
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
     alert(`${product.name} added to cart!`);
   };
 
-  if (!product) {
-    return <p>Loading...</p>;
-  }
+  if (loading) return (
+    <Container className="d-flex justify-content-center align-items-center" style={{ height: '80vh' }}>
+      <div className="text-center">
+        <div className="spinner-border text-danger" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+        <p className="mt-2">Loading product details...</p>
+      </div>
+    </Container>
+  );
+
+  if (error) return (
+    <Container className="d-flex justify-content-center align-items-center" style={{ height: '80vh' }}>
+      <div className="text-center text-danger">
+        <p>{error}</p>
+        <Button variant="outline-danger" onClick={() => navigate(-1)}>
+          Go Back
+        </Button>
+      </div>
+    </Container>
+  );
+
+  if (!product) return null;
+
+  // Combine main image with additional images (if any)
+  const allImages = [product.image, ...(product.additionalImages || [])];
 
   return (
-    <div style={{ maxWidth: "600px", margin: "auto", padding: "20px", fontFamily: "Arial" }}>
-      <img
-        src={product.image}
-        alt={product.name}
-        style={{ width: "100%", borderRadius: "8px" }}
-      />
-      <h2>{product.name}</h2>
-      <p style={{ fontSize: "20px", fontWeight: "bold", color: "#d10063" }}>
-        ₹{product.price}
-      </p>
-      <p>{product.delivery}</p>
-      <p>⭐ {product.rating} ({product.reviews} reviews)</p>
-      
-      {/* Add to Cart Button */}
-      <button
-        onClick={addToCart}
-        style={{
-          padding: "10px 20px",
-          backgroundColor: "#d10063",
-          color: "#fff",
-          border: "none",
-          borderRadius: "5px",
-          cursor: "pointer",
-          marginTop: "20px",
-        }}
-      >
-        Add to Cart
-      </button>
+    <Container className="my-5">
+      <Row className="g-4">
+        {/* Left Thumbnails - Vertical */}
+        <Col xs={12} md={2} className="d-flex flex-md-column gap-2">
+          {allImages.map((img, idx) => (
+            <div key={idx} className="thumbnail-wrapper">
+              <Image
+                src={img}
+                alt={`thumb-${idx}`}
+                thumbnail
+                className={`thumbnail-img ${mainImage === img ? 'active' : ''}`}
+                onClick={() => setMainImage(img)}
+              />
+            </div>
+          ))}
+        </Col>
 
-      {/* Go to Cart Button */}
-      <div style={{ marginTop: "20px" }}>
-        <button
-          onClick={() => navigate("/cart")}
-          style={{
-            padding: "10px 20px",
-            backgroundColor: "#4caf50",
-            color: "#fff",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-          }}
-        >
-          Go to Cart
-        </button>
-      </div>
-    </div>
+        {/* Main Image */}
+        <Col xs={12} md={5} className="d-flex justify-content-center">
+          <div className="main-image-container">
+            <Image 
+              src={mainImage} 
+              alt={product.name} 
+              fluid 
+              className="main-product-image"
+            />
+            {product.discount && (
+              <Badge bg="danger" className="discount-badge">
+                {product.discount}% OFF
+              </Badge>
+            )}
+          </div>
+        </Col>
+
+        {/* Product Info */}
+        <Col xs={12} md={5}>
+          <h1 className="product-title">{product.name}</h1>
+          
+          {product.rating && (
+            <div className="mb-3">
+              <Badge bg="warning" text="dark">
+                {product.rating} ★
+              </Badge>
+              <span className="ms-2 text-muted">({product.reviews || 0} reviews)</span>
+            </div>
+          )}
+          
+          <div className="price-section mb-3">
+            {product.originalPrice && (
+              <span className="original-price me-2">
+                ₹{product.originalPrice}
+              </span>
+            )}
+            <span className="current-price h4 text-danger">
+              ₹{product.price}
+            </span>
+            {product.originalPrice && (
+              <span className="discount-percentage ms-2 text-success">
+                {Math.round((1 - product.price / product.originalPrice) * 100)}% off
+              </span>
+            )}
+          </div>
+          
+          <div className="product-description mb-4">
+            <h5>Description</h5>
+            <p>{product.description || "No description available"}</p>
+          </div>
+          
+          <div className="d-flex gap-3 mb-4">
+            <div className="quantity-selector">
+              <Button variant="outline-secondary" size="sm">-</Button>
+              <span className="mx-2">1</span>
+              <Button variant="outline-secondary" size="sm">+</Button>
+            </div>
+            <Button 
+              variant="outline-danger" 
+              onClick={addToCart} 
+              className="flex-grow-1"
+              router
+            >
+              🛒 Add to Cart
+            </Button>
+          </div>
+          
+         
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

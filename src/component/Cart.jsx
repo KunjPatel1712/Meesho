@@ -73,131 +73,154 @@ const CartPage = () => {
   };
 
   return (
-    <div style={{ maxWidth: "800px", margin: "auto", padding: "20px", fontFamily: "Arial" }}>
-      <h1 style={{ textAlign: "center" }}>Your Cart</h1>
-      
-      {cartItems.length > 0 ? (
-        <>
-          {cartItems.map((item) => (
-            <div 
-              key={item.id} 
-              style={{ 
-                display: "flex", 
-                marginBottom: "20px",
-                padding: "15px",
-                border: "1px solid #eee",
-                borderRadius: "8px",
-                backgroundColor: "#fff"
-              }}
-            >
-              <img
-                src={item.image}
-                alt={item.name}
-                style={{ 
-                  width: "100px", 
-                  height: "100px",
-                  objectFit: "cover",
-                  marginRight: "20px", 
-                  borderRadius: "8px" 
-                }}
-              />
-              <div style={{ flex: 1 }}>
-                <h3 style={{ margin: "0 0 10px 0" }}>{item.name}</h3>
-                <p style={{ margin: "0 0 10px 0", fontWeight: "bold" }}>
-                  ₹{getFormattedPrice(item.price)}
-                </p>
-                
-                <div style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
-                  <button 
-                    onClick={() => decreaseQty(item.id)}
-                    style={{
-                      padding: "5px 10px",
-                      border: "1px solid #ccc",
-                      backgroundColor: "#f5f5f5",
-                      cursor: "pointer"
-                    }}
-                  >
-                    -
-                  </button>
-                  <span style={{ padding: "0 10px" }}>{item.quantity}</span>
-                  <button 
-                    onClick={() => increaseQty(item.id)}
-                    style={{
-                      padding: "5px 10px",
-                      border: "1px solid #ccc",
-                      backgroundColor: "#f5f5f5",
-                      cursor: "pointer"
-                    }}
-                  >
-                    +
-                  </button>
-                  <button 
-                    onClick={() => removeItem(item.id)}
-                    style={{
-                      marginLeft: "15px",
-                      padding: "5px 10px",
-                      backgroundColor: "#ff4d4d",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "4px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Remove
-                  </button>
-                </div>
-                
-                <p style={{ fontWeight: "bold" }}>
-                  Subtotal: ₹{getItemSubtotal(item)}
-                </p>
-              </div>
-            </div>
-          ))}
+  
+    
+        <div style={{ maxWidth: "800px", margin: "auto", padding: "20px", fontFamily: "Arial" }}>
+          <h1 style={{ textAlign: "center" }}>Your Cart</h1>
           
-          <div style={{ 
-            marginTop: "30px",
-            paddingTop: "20px",
-            borderTop: "1px solid #eee",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center"
-          }}>
-            <h2>Total: ₹{getTotalPrice()}</h2>
-            <button 
-              onClick={() => alert("Proceeding to checkout")}
-              style={{
-                padding: "10px 20px",
-                backgroundColor: "#d10063",
-                color: "white",
-                border: "none",
-                borderRadius: "5px",
-                cursor: "pointer",
-                fontSize: "16px"
-              }}
-            >
-              Proceed to Checkout
-            </button>
-          </div>
-        </>
-      ) : (
-        <div style={{ textAlign: "center", padding: "40px" }}>
-          <p style={{ fontSize: "18px", marginBottom: "20px" }}>Your cart is empty!</p>
-          <button
-            onClick={() => navigate("/")}
-            style={{
-              padding: "10px 20px",
-              backgroundColor: "#d10063",
-              color: "white",
-              border: "none",
-              borderRadius: "5px",
-              cursor: "pointer"
-            }}
-          >
-            Continue Shopping
-          </button>
+          {cartItems.length > 0 ? (
+            <>
+              {cartItems.map((item) => (
+                <div 
+                  key={item.id} 
+                  style={{ 
+                    display: "flex", 
+                    marginBottom: "20px",
+                    padding: "15px",
+                    border: "1px solid #eee",
+                    borderRadius: "8px",
+                    backgroundColor: "#fff"
+                  }}
+                >
+                  <div style={{ display: "flex", flexDirection: "column", marginRight: "20px" }}>
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      style={{ 
+                        width: "100px", 
+                        height: "100px",
+                        objectFit: "cover",
+                        marginBottom: "10px",
+                        borderRadius: "8px" 
+                      }}
+                    />
+{item.additionalImages && item.additionalImages.length > 0 && (
+  <div style={{ display: "flex", gap: "10px" }}>
+    {item.additionalImages.map((image, index) => (
+      <img
+        key={index}
+        src={image}
+        alt={`${item.name} additional ${index + 1}`}
+        style={{
+          width: "50px",
+          height: "50px",
+          objectFit: "cover",
+          borderRadius: "4px"
+        }}
+      />
+    ))}
+  </div>
+)}
+
+                  </div>
+                  
+                  <div style={{ flex: 1 }}>
+                    <h3 style={{ margin: "0 0 10px 0" }}>{item.name}</h3>
+                    <p style={{ margin: "0 0 10px 0", fontWeight: "bold" }}>
+                      ₹{getFormattedPrice(item.price)}
+                    </p>
+                    
+                    <div style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
+                      <button 
+                        onClick={() => decreaseQty(item.id)}
+                        style={{
+                          padding: "5px 10px",
+                          border: "1px solid #ccc",
+                          backgroundColor: "#f5f5f5",
+                          cursor: "pointer"
+                        }}
+                      >
+                        -
+                      </button>
+                      <span style={{ padding: "0 10px" }}>{item.quantity}</span>
+                      <button 
+                        onClick={() => increaseQty(item.id)}
+                        style={{
+                          padding: "5px 10px",
+                          border: "1px solid #ccc",
+                          backgroundColor: "#f5f5f5",
+                          cursor: "pointer"
+                        }}
+                      >
+                        +
+                      </button>
+                      <button 
+                        onClick={() => removeItem(item.id)}
+                        style={{
+                          marginLeft: "15px",
+                          padding: "5px 10px",
+                          backgroundColor: "#ff4d4d",
+                          color: "white",
+                          border: "none",
+                          borderRadius: "4px",
+                          cursor: "pointer"
+                        }}
+                      >
+                        Remove
+                      </button>
+                    </div>
+                    
+                    <p style={{ fontWeight: "bold" }}>
+                      Subtotal: ₹{getItemSubtotal(item)}
+                    </p>
+                  </div>
+                </div>
+              ))}
+              
+              <div style={{ 
+                marginTop: "30px",
+                paddingTop: "20px",
+                borderTop: "1px solid #eee",
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center"
+              }}>
+                <h2>Total: ₹{getTotalPrice()}</h2>
+                <button 
+                  onClick={() => alert("Proceeding to checkout")}
+                  style={{
+                    padding: "10px 20px",
+                    backgroundColor: "#d10063",
+                    color: "white",
+                    border: "none",
+                    borderRadius: "5px",
+                    cursor: "pointer",
+                    fontSize: "16px"
+                  }}
+                >
+                  Proceed to Checkout
+                </button>
+              </div>
+            </>
+          ) : (
+            <div style={{ textAlign: "center", padding: "40px" }}>
+              <p style={{ fontSize: "18px", marginBottom: "20px" }}>Your cart is empty!</p>
+              <button
+                onClick={() => navigate("/")}
+                style={{
+                  padding: "10px 20px",
+                  backgroundColor: "#d10063",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "5px",
+                  cursor: "pointer"
+                }}
+              >
+                Continue Shopping
+              </button>
+            </div>
+          )}
         </div>
-      )}
-    </div>
   );
 };
 
