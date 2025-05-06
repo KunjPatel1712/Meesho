@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import './index.css';
 import women from "./assets/athicwhere.webp"
 import westen from "./assets/westrendress.webp"
@@ -27,8 +27,8 @@ import baggyjeans from "./assets/baggyjeans.webp"
 import earrings from "./assets/earnings.webp"
 import chicflats from "./assets/chicflats.webp"
 import axios from 'axios';
-import { Container, Row } from "react-bootstrap";
 import ethic from './categories/Ethnicwear';
+// import Sidebar from './component/Sidebar';
 
 
 
@@ -57,6 +57,47 @@ const Home = () => {
    const handleClick = (categoryName) => {
      navigate(`/category/${categoryName}`);
    };
+
+
+
+
+   const [searchParams] = useSearchParams();
+
+   const getFilteredProducts = (data) => {
+     const categories = searchParams.getAll("category");
+     const prices = searchParams.getAll("price");
+     const ratings = searchParams.getAll("rating");
+ 
+     return data.filter((item) => {
+       // Filter by category
+       const matchCategory = categories.length ? categories.includes(item.category) : true;
+ 
+       // Filter by price
+       const matchPrice = prices.length
+         ? prices.some((range) => {
+             const [min, max] = range.split("-").map(Number);
+             return item.price >= min && item.price <= max;
+           })
+         : true;
+ 
+       // Filter by rating
+       const matchRating = ratings.length
+         ? ratings.some((r) => item.rating >= parseFloat(r))
+         : true;
+ 
+       return matchCategory && matchPrice && matchRating;
+     });
+   };
+ 
+   useEffect(() => {
+     fetch("http://localhost:3000/homemain") // Update to your endpoint
+       .then((res) => res.json())
+       .then((data) => {
+         const filtered = getFilteredProducts(data);
+         setProducts(filtered);
+       });
+   }, [searchParams]);
+ 
   return (
     <div className="container-fluid p-0 meesho-banner">
       <div className="row g-0">
@@ -300,65 +341,94 @@ const Home = () => {
 </div>
 
 
-  <Container fluid className="mt-4">
-    <Row>
-      {/* Left Sidebar */}
-      {/* <Sidebar /> */}
+<div className="mt-4" style={{ width: '100%', display: 'flex', flexWrap: 'wrap' }}>
+  {/* Left Part */}
+  <div className="left-panel " style={{ flex: '1 1 250px', maxWidth: '300px', padding: '1rem' }}>
+    {/* <Sidebar /> */}
+  </div>
 
-     {/* Right Product Grid */}
-<div className="right-panel col-md-8 p-3">
-  <Row>
-    {products.map((e) => (
-      <Link
-        to={`/product/${e.id}`}
-        key={e.id}  // ✅ Add the key here
-        className="col-md-6 col-lg-4 mb-4 text-decoration-none text-dark"
-      >
-        <div className="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-          {/* Image Section */}
-          <div style={{ height: '400px', overflow: 'hidden' }}>
-  <img
-    src={e.image}
-    alt={e.name}
-    className="img-fluid w-100"
-    style={{ height: '100%', objectFit: 'contain' }}
-  />
-</div>
-
-          {/* Content Section */}
-          <div className="card-body">
-            <h6 className="card-title mb-1">{e.name}</h6>
-            <p className="fw-bold text-success mb-1">₹{e.price}</p>
-            <div className="d-flex align-items-center gap-2 mb-1">
-              <span
-                className="badge"
+  {/* Right Part - Product Grid */}
+  <div className="right-panel " style={{ flex: '3 1 700px', padding: '1rem' }}>
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns:  'repeat(3, 1fr)',
+        gap: '1rem',
+        width: 'auto',
+      }}
+    >
+      {products.map((e) => (
+        <Link
+          to={`/product/${e.id}`}
+          key={e.id}
+          style={{ textDecoration: 'none', color: 'inherit' }}
+        >
+          <div
+            style={{
+              height: '100%',
+              boxShadow: '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)',
+              borderRadius: '1rem',
+              overflow: 'hidden',
+              backgroundColor: '#fff',
+            }}
+          >
+            <div style={{ height: '250px', overflow: 'hidden' }}>
+              <img
+                src={e.image}
+                alt={e.name}
                 style={{
-                  backgroundColor: '#038d63',
-                  color: 'white',
-                  borderRadius: '12px',
-                  padding: '4px 10px',
-                  fontSize: '0.85rem',
+                  height: '100%',
+                  width: '100%',
+                  objectFit: 'cover',
+                }}
+              />
+            </div>
+            <div style={{ padding: '1rem' }}>
+              <h6 style={{ marginBottom: '0.25rem', fontSize: '1rem' }}>{e.name}</h6>
+              <p style={{ fontWeight: 'bold', color: '#198754', marginBottom: '0.25rem' }}>
+                ₹{e.price}
+              </p>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  marginBottom: '0.25rem',
                 }}
               >
-                ⭐ {e.rating}
-              </span>
-              <small className="text-muted">({e.reviews} reviews)</small>
+                <span
+                  style={{
+                    backgroundColor: '#038d63',
+                    color: 'white',
+                    borderRadius: '12px',
+                    padding: '4px 10px',
+                    fontSize: '0.85rem',
+                  }}
+                >
+                  ⭐ {e.rating}
+                </span>
+                <small style={{ color: '#6c757d' }}>({e.reviews})</small>
+              </div>
             </div>
           </div>
-        </div>
-      </Link>
-    ))}
-  </Row>
+        </Link>
+      ))}
+    </div>
+  </div>
 </div>
 
-      </Row>
-    </Container>
+ 
+
+ </div>
+ )
+
+ }
+ 
 
 
-</div>
 
-  );
+
   
-};
+
 
 export default Home;

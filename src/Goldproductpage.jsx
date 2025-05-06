@@ -26,61 +26,63 @@ const CategoryPage = () => {
   }, [category]);
 
   return (
-    <Container style={{ paddingTop: "20px" }}>
-      <h2 className="text-center text-capitalize mb-4">{category}</h2>
-      <Row xs={1} sm={2} md={3} lg={4} xl={5} className="g-3">
-        {items.map((e) => (
-          <Col key={e.id}>
-            <Link to={`/product/${e.id}`} style={{ textDecoration: "none", color: "inherit" }}>
-              <Card
+    
+      <div>
+        <h2>{category.toUpperCase()}</h2>
+        {items.length === 0 ? (
+          <p>No items available for this category.</p>
+        ) : (
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+              gap: "20px",
+              padding: "20px",
+            }}
+          >
+            {items.map((item) => (
+              <div
+                key={item.id}
                 style={{
-                  borderRadius: "12px",
                   border: "1px solid #ddd",
-                  height: "100%",
+                  borderRadius: "12px",
+                  padding: "15px",
+                  backgroundColor: "#fff",
                   transition: "transform 0.2s ease, box-shadow 0.2s ease",
                   cursor: "pointer",
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = "translateY(-5px)";
-                  e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.1)";
+                  e.currentTarget.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.1)";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = "none";
                   e.currentTarget.style.boxShadow = "none";
                 }}
               >
-                <Card.Img
-                  variant="top"
-                  src={e.image}
-                  alt={e.name}
+                <img
+                  src={item.image}
+                  alt={item.name}
                   style={{
+                    width: "100%",
                     height: "180px",
                     objectFit: "cover",
-                    borderRadius: "12px 12px 0 0",
+                    borderRadius: "8px",
                   }}
                 />
-                <Card.Body style={{ padding: "10px" }}>
-                  <Card.Title style={{ fontSize: "14px", minHeight: "40px" }}>{e.name}</Card.Title>
-                  <Card.Text style={{ margin: 0 }}>
-                    <strong>₹{e.price}</strong>
-                  </Card.Text>
-                  {e.delivery && (
-                    <Card.Text style={{ color: "#00b000", fontSize: "12px", margin: 0 }}>
-                      {e.delivery}
-                    </Card.Text>
-                  )}
-                  <Card.Text style={{ fontSize: "12px", marginTop: "4px" }}>
-                    ⭐ <strong>{e.rating}</strong> &nbsp;
-                    <span style={{ color: "#666" }}>({e.reviews} Reviews)</span>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Link>
-          </Col>
-        ))}
-      </Row>
-    </Container>
-  );
+                <h4 style={{ fontSize: "16px", margin: "10px 0 5px" }}>{item.name}</h4>
+                <p style={{ margin: "4px 0", color: "#333" }}>₹{item.price}</p>
+                <p style={{ margin: "4px 0", color: "#333" }}>{item.delivery}</p>
+                <p style={{ margin: "4px 0", color: "#333" }}>
+                  ⭐ {item.rating} ({item.reviews} reviews)
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  
 };
 
 export default CategoryPage;

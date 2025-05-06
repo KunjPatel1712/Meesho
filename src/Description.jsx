@@ -7,10 +7,10 @@ const Description = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
-  const [mainImage, setMainImage] = useState("");
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
- 
+
   useEffect(() => {
     const fetchProduct = async () => {
       try {
@@ -19,19 +19,18 @@ const Description = () => {
           "ethnicwear", "accessories", "beauty", "footwear", "grocery",
           "homemain", "Menswear", "westrendress", "homedecore"
         ];
-        
+
         const allData = await Promise.all(
           endpoints.map((endpoint) =>
             axios.get(`http://localhost:3000/${endpoint}`)
           )
         );
-        
+
         const allProducts = allData.flatMap(res => res.data);
         const foundProduct = allProducts.find(p => String(p.id) === id);
 
         if (foundProduct) {
           setProduct(foundProduct);
-          setMainImage(foundProduct.image);
         } else {
           setError("Product not found");
         }
@@ -48,7 +47,7 @@ const Description = () => {
 
   const addToCart = () => {
     if (!product) return;
-    
+
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const existing = cart.find(item => item.id === product.id);
 
@@ -88,32 +87,17 @@ const Description = () => {
 
   if (!product) return null;
 
-  // Combine main image with additional images (if any)
-  const allImages = [product.image, ...(product.additionalImages || [])];
-
+  // Use the product's image field for the image
   return (
     <Container className="my-5">
       <Row className="g-4">
         {/* Left Thumbnails - Vertical */}
-        <Col xs={12} md={2} className="d-flex flex-md-column gap-2">
-          {allImages.map((img, idx) => (
-            <div key={idx} className="thumbnail-wrapper">
-              <Image
-                src={img}
-                alt={`thumb-${idx}`}
-                thumbnail
-                className={`thumbnail-img ${mainImage === img ? 'active' : ''}`}
-                onClick={() => setMainImage(img)}
-              />
-            </div>
-          ))}
-        </Col>
 
         {/* Main Image */}
         <Col xs={12} md={5} className="d-flex justify-content-center">
           <div className="main-image-container">
             <Image 
-              src={mainImage} 
+              src={product.image}  // Use product.image
               alt={product.name} 
               fluid 
               className="main-product-image"
@@ -129,7 +113,7 @@ const Description = () => {
         {/* Product Info */}
         <Col xs={12} md={5}>
           <h1 className="product-title">{product.name}</h1>
-          
+
           {product.rating && (
             <div className="mb-3">
               <Badge bg="warning" text="dark">
@@ -138,7 +122,7 @@ const Description = () => {
               <span className="ms-2 text-muted">({product.reviews || 0} reviews)</span>
             </div>
           )}
-          
+
           <div className="price-section mb-3">
             {product.originalPrice && (
               <span className="original-price me-2">
@@ -154,12 +138,12 @@ const Description = () => {
               </span>
             )}
           </div>
-          
+
           <div className="product-description mb-4">
             <h5>Description</h5>
             <p>{product.description || "No description available"}</p>
           </div>
-          
+
           <div className="d-flex gap-3 mb-4">
             <div className="quantity-selector">
               <Button variant="outline-secondary" size="sm">-</Button>
@@ -170,13 +154,11 @@ const Description = () => {
               variant="outline-danger" 
               onClick={addToCart} 
               className="flex-grow-1"
-              router
             >
               🛒 Add to Cart
             </Button>
           </div>
-          
-         
+
         </Col>
       </Row>
     </Container>

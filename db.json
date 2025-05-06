@@ -1,2492 +1,2380 @@
 {
   "homemain": [
-    [
+    {
+      "id": 1,
+      "name": "Silver Plated Necklace Set",
+      "image": "https://images.meesho.com/images/products/243763937/capmi_400.webp",
+      "price": "₹164",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "50812 Reviews",
+      "category": "Jewellery"
+    },
+    {
+      "id": 2,
+      "name": "Chitrarekha Attractive Kurtis",
+      "image": "https://images.meesho.com/images/products/191005346/mocgn_400.webp",
+      "price": "₹224",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "79081 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 3,
+      "name": "Classic Sensational Men Shirts",
+      "image": "https://images.meesho.com/images/products/345073937/87vxb_400.webp",
+      "price": "₹192",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "28884 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 4,
+      "name": "Jimmy Chu Organza Sarees",
+      "image": "https://images.meesho.com/images/products/531373881/t4w4f_400.webp",
+      "price": "₹496",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "218 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 5,
+      "name": "Tinkle Trendy Girls Frocks & Dresses",
+      "image": "https://images.meesho.com/images/products/407150624/gdpkk_400.webp",
+      "price": "₹67",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "15514 Reviews",
+      "category": "Kids Fashion"
+    },
+    {
+      "id": 6,
+      "name": "Comfy Elegant Women Shirts",
+      "image": "https://images.meesho.com/images/products/462351967/nvrmh_400.webp",
+      "price": "₹247",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "2182 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 7,
+      "name": "Graceful Fridge Cover",
+      "image": "https://images.meesho.com/images/products/314006749/3f4jk_400.webp",
+      "price": "₹117",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "2661 Reviews",
+      "category": "Home & Kitchen"
+    },
+    {
+      "id": 8,
+      "name": "Pretty Latest Women Dresses",
+      "image": "https://images.meesho.com/images/products/426443566/jvzf7_400.webp",
+      "price": "₹323",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "2204 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth Selfie Stick",
+      "image": "https://images.meesho.com/images/products/242266564/ta8x8_400.webp",
+      "price": "₹129",
+      "delivery": "Delivery ₹68",
+      "rating": "4.1",
+      "reviews": "29427 Reviews",
+      "category": "Electronics"
+    },
+    {
+      "id": 10,
+      "name": "Chitrarekha Refined Kurtis",
+      "image": "https://images.meesho.com/images/products/276746304/1m2hz_400.webp",
+      "price": "₹561",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "35614 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 11,
+      "name": "STI Men's Shirts",
+      "image": "https://images.meesho.com/images/products/367648126/wgxv5_400.webp",
+      "price": "₹192",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "66886 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 12,
+      "name": "Useful Clothes Covers",
+      "image": "https://images.meesho.com/images/products/374824262/rzjtb_400.webp",
+      "price": "₹173",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "24430 Reviews",
+      "category": "Home & Kitchen"
+    },
+    {
+      "id": 13,
+      "name": "Premium Long Stay Lipsticks",
+      "image": "https://images.meesho.com/images/products/446500938/cegrw_400.webp",
+      "price": "₹232",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "1010 Reviews",
+      "category": "Beauty"
+    },
+    {
+      "id": 14,
+      "name": "Pretty Fashionable Women Dresses",
+      "image": "https://images.meesho.com/images/products/269162512/tqm6g_400.webp",
+      "price": "₹351",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "2309 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 15,
+      "name": "Vivo Y28E Cases & Covers",
+      "image": "https://images.meesho.com/images/products/440765728/pzymq_400.webp",
+      "price": "₹183",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "2656 Reviews",
+      "category": "Mobile Accessories"
+    },
+    {
+      "id": 16,
+      "name": "Tinkle Comfy Kids Boys Shorts",
+      "image": "https://images.meesho.com/images/products/450505438/12mco_400.webp",
+      "price": "₹186",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "5391 Reviews",
+      "category": "Kids Fashion"
+    },
+    {
+      "id": 17,
+      "name": "Relaxed Fashionable Men Flip Flops",
+      "image": "https://images.meesho.com/images/products/376041823/a6zbi_400.webp",
+      "price": "₹179",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "27248 Reviews",
+      "category": "Footwear"
+    },
+    {
+      "id": 18,
+      "name": "Trendy Clothes Hangers",
+      "image": "https://images.meesho.com/images/products/439527105/b95vq_400.webp",
+      "price": "₹179",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "2000 Reviews",
+      "category": "Home & Kitchen"
+    },
+    {
+      "id": 19,
+      "name": "Wired Headphones & Earphones",
+      "image": "https://images.meesho.com/images/products/454622064/zwytc_400.webp",
+      "price": "₹131",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "7144 Reviews",
+      "category": "Electronics"
+    },
+    {
+      "id": 20,
+      "name": "Trendy Tops & Tunics",
+      "image": "https://images.meesho.com/images/products/448967008/4fwho_400.webp",
+      "price": "₹310",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "9187 Reviews",
+      "category": "Women's Fashion"
+    }
+  ],
+  "ethnicwear": [
+    {
+      "id": 21,
+      "name": "Banarasi Silk Sarees New Design 2024",
+      "image": "https://images.meesho.com/images/products/422613780/qjabu_400.webp",
+      "price": "₹461",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "309 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 22,
+      "name": "Alisha Pretty Kurtis",
+      "image": "https://images.meesho.com/images/products/149834633/saqqo_400.webp",
+      "price": "₹255",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "59383 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 23,
+      "name": "Jivika Voguish Women Kurta Sets",
+      "image": "https://images.meesho.com/images/products/32962343/ir564_400.webp",
+      "price": "₹306",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "179073 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 24,
+      "name": "Aishani Graceful Sarees",
+      "image": "https://images.meesho.com/images/products/458445578/lxp44_400.webp",
+      "price": "₹397",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "1897 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 25,
+      "name": "Chitrarekha Attractive Kurtis",
+      "image": "https://images.meesho.com/images/products/191005346/mocgn_400.webp",
+      "price": "₹215",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "78785 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 26,
+      "name": "Alisha Attractive Sarees",
+      "image": "https://images.meesho.com/images/products/325100981/uokgq_400.webp",
+      "price": "₹577",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "78785 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 27,
+      "name": "Trendy Pretty Sarees",
+      "image": "https://images.meesho.com/images/products/382519791/yzcii_400.webp",
+      "price": "₹382",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "2962 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 28,
+      "name": "Alisha Petite Kurtis",
+      "image": "https://images.meesho.com/images/products/383549503/7cfzv_400.webp",
+      "price": "₹210",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "26555 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 29,
+      "name": "Aagyeyi Attractive Sarees",
+      "image": "https://images.meesho.com/images/products/532797949/dngrv_400.webp",
+      "price": "₹239",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "72040 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 30,
+      "name": "Alisha Fabulous Sarees",
+      "image": "https://images.meesho.com/images/products/472107918/t0zam_400.webp",
+      "price": "₹359",
+      "delivery": "Free Delivery",
+      "rating": "5.0",
+      "reviews": "6 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 31,
+      "name": "Dupatta Sets",
+      "image": "https://images.meesho.com/images/products/68464151/f1nit_400.webp",
+      "price": "₹457",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "380 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 32,
+      "name": "Ikat Net Embroidered Saree With Blouse",
+      "image": "https://images.meesho.com/images/products/437287822/xv7bx_400.webp",
+      "price": "₹337",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "48220 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 33,
+      "name": "Polyster/Crepe fabric-Adrika Graceful Kurtis",
+      "image": "https://images.meesho.com/images/products/190564731/qwvj8_400.webp",
+      "price": "₹165",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "60778 Reviews",
+      "category": "Women's Fashion"
+    }
+  ],
+  "westrendress": [
+    {
+      "id": 34,
+      "name": "Comfy Graceful Women Dresses",
+      "image": "https://images.meesho.com/images/products/386329438/1bjhj_400.webp",
+      "price": "₹211",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "6522 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 35,
+      "name": "Fancy Sensational Women Dresses",
+      "image": "https://images.meesho.com/images/products/381955699/td5ma_400.webp",
+      "price": "₹309",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "17628 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 36,
+      "name": "Stylish Fashionista Women Dresses",
+      "image": "https://images.meesho.com/images/products/384983175/fhgox_400.webp",
+      "price": "₹356",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "11259 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 37,
+      "name": "Urbane Retro Women Dresses",
+      "image": "https://images.meesho.com/images/products/382895205/jgonj_400.webp",
+      "price": "₹231",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "12132 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 38,
+      "name": "Honky Tonky Women's Dresses",
+      "image": "https://images.meesho.com/images/products/399776712/1weat_400.webp",
+      "price": "₹328",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "3931 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 39,
+      "name": "Pretty Glamorous Women Dresses",
+      "image": "https://images.meesho.com/images/products/399022460/c5ikm_400.webp",
+      "price": "₹189",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "3807 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 40,
+      "name": "Urbane Partywear Women Dresses",
+      "image": "https://images.meesho.com/images/products/245735899/nlymr_400.webp",
+      "price": "₹262",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "9123 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 41,
+      "name": "Trendy Fashionista Women Dresses",
+      "image": "https://images.meesho.com/images/products/399011662/dbdmt_400.webp",
+      "price": "₹266",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "43425 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 42,
+      "name": "SHEETAL Associates Women's Dresses",
+      "image": "https://images.meesho.com/images/products/382591443/nhjzm_400.webp",
+      "price": "₹361",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "28662 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 43,
+      "name": "Classic Modern Women Dresses",
+      "image": "https://images.meesho.com/images/products/392763613/oo3gm_400.webp",
+      "price": "₹190",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "6900 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 44,
+      "name": "SHEETAL Associates Women's Dresses",
+      "image": "https://images.meesho.com/images/products/382591422/bnqva_400.webp",
+      "price": "₹328",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "3931 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 45,
+      "name": "Pretty Modern Women Dresses",
+      "image": "https://images.meesho.com/images/products/396900145/reocm_400.webp",
+      "price": "₹370",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "11294 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 46,
+      "name": "Pretty Fabulous Women Dresses",
+      "image": "https://images.meesho.com/images/products/385037845/ls93q_400.webp",
+      "price": "₹490",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "537 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 47,
+      "name": "Honky Tonky Women's Dresses",
+      "image": "https://images.meesho.com/images/products/398390123/gfukc_400.webp",
+      "price": "₹328",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "3471 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 48,
+      "name": "Classy Latest Women Dresses",
+      "image": "https://images.meesho.com/images/products/380450262/fbxhf_400.webp",
+      "price": "₹343",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "12465 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 49,
+      "name": "Trendy Feminine Women Dresses",
+      "image": "https://images.meesho.com/images/products/391284397/i1yor_400.webp",
+      "price": "₹401",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "5760 Reviews",
+      "category": "Women's Fashion"
+    },
+    {
+      "id": 50,
+      "name": "Pretty Partywear Women Dresses",
+      "image": "https://images.meesho.com/images/products/387360710/y7mrb_400.webp",
+      "price": "₹306",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "10525 Reviews",
+      "category": "Women's Fashion"
+    }
+  ],
+  "Menswear": [
+    {
+      "id": 51,
+      "name": "Kay Dee Stylish Cotton Vest Vol 1",
+      "image": "https://images.meesho.com/images/products/6242503/d60b1_400.webp",
+      "price": "₹241",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "230 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 52,
+      "name": "Sunglow Matty Tshirt",
+      "image": "https://images.meesho.com/images/products/91388895/ijjhe_400.webp",
+      "price": "₹233",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "14771 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 53,
+      "name": "Zeffit Men's Track Pants",
+      "image": "https://images.meesho.com/images/products/1707198/1_400.webp",
+      "price": "₹270",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "22404 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 54,
+      "name": "Urbane Gym Vests",
+      "image": "https://images.meesho.com/images/products/498708512/g3oaq_400.webp",
+      "price": "₹258",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "22404 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 55,
+      "name": "Trendy Men Kurta Sets",
+      "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
+      "price": "₹1,088",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "Supplier",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 56,
+      "name": "Trendy Fashionista Men Shirts",
+      "image": "https://images.meesho.com/images/products/6585573/67517_400.webp",
+      "price": "₹238",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "2087 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 57,
+      "name": "Sparrow K Full Sleeve Tshirt for Boys and Men",
+      "image": "https://images.meesho.com/images/products/485621590/pnrwa_400.webp",
+      "price": "₹190",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "103 Reviews",
+      "category": "Sweatshirts"
+    },
+    {
+      "id": 58,
+      "name": "Frekman Stylish Cotton Printed Men's Shirt",
+      "image": "https://images.meesho.com/images/products/2653067/1_400.webp",
+      "price": "₹227",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "73384 Reviews",
+      "category": "Shirts"
+    },
+    {
+      "id": 59,
+      "name": "Gym Stringer Vest Gym Vest Racer Y Back Sports Tank Tops Sando for Men",
+      "image": "https://images.meesho.com/images/products/293751795/xvd1f_400.webp",
+      "price": "₹160",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "17054 Reviews",
+      "category": "Gym Vests"
+    },
+    {
+      "id": 60,
+      "name": "My Life Line Alphabet R Full Sleeve Tshirt for Boys and Men",
+      "image": "https://images.meesho.com/images/products/485811740/t9xyn_400.webp",
+      "price": "₹190",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "95 Reviews",
+      "category": "Tshirts"
+    },
+    {
+      "id": 61,
+      "name": "Ravishing Latest Men Track Pants",
+      "image": "https://images.meesho.com/images/products/66623573/7ag52_400.webp",
+      "price": "₹267",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "279 Reviews",
+      "category": "Track Pants"
+    },
+    {
+      "id": 62,
+      "name": "Men Solid Casual Running Regular Fit Above Knee Length Shorts Nikkar Bermuda Black",
+      "image": "https://images.meesho.com/images/products/535248149/tyfjx_400.webp",
+      "price": "₹340",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "2543 Reviews",
+      "category": "Shorts"
+    },
+    {
+      "id": 63,
+      "name": "Kay Dee Stylish Cotton Vest Vol 1",
+      "image": "https://images.meesho.com/images/products/6242503/d60b1_400.webp",
+      "price": "₹241",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "230 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 64,
+      "name": "Sunglow Matty Tshirt",
+      "image": "https://images.meesho.com/images/products/91388895/ijjhe_400.webp",
+      "price": "₹233",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "14771 Reviews",
+      "category": "Tshirts"
+    },
+    {
+      "id": 65,
+      "name": "Zeffit Men's Track Pants",
+      "image": "https://images.meesho.com/images/products/1707198/1_400.webp",
+      "price": "₹270",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "22404 Reviews",
+      "category": "Track Pants"
+    },
+    {
+      "id": 66,
+      "name": "Urbane Gym Vests",
+      "image": "https://images.meesho.com/images/products/498708512/g3oaq_400.webp",
+      "price": "₹258",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "22404 Reviews",
+      "category": "Gym Vests"
+    },
+    {
+      "id": 67,
+      "name": "Trendy Men Kurta Sets",
+      "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
+      "price": "₹1,088",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "Supplier",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 68,
+      "name": "Trendy Fashionista Men Shirts",
+      "image": "https://images.meesho.com/images/products/6585573/67517_400.webp",
+      "price": "₹238",
+      "delivery": "Free Delivery",
+      "rating": "4.2",
+      "reviews": "2087 Reviews",
+      "category": "Men's Fashion"
+    },
+    {
+      "id": 69,
+      "name": "Sparrow D Full Sleeve Tshirt for Boys and Men",
+      "image": "https://images.meesho.com/images/products/485161502/epgsl_400.webp",
+      "price": "₹186",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "128 Reviews",
+      "category": "Tshirts"
+    },
+    {
+      "id": 70,
+      "name": "New Men Shirts 2025",
+      "image": "https://images.meesho.com/images/products/525308453/prc1j_400.webp",
+      "price": "₹267",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "67 Reviews",
+      "category": "Shirts"
+    }
+  ],
+  "footwear": [
+    {
+      "id": 71,
+      "name": "Wonderful Kids Boys Flip Flops",
+      "image": "https://images.meesho.com/images/products/310924355/dttwp_400.webp",
+      "price": "₹140",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "1094 Reviews",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 72,
+      "name": "Modern Graceful Men Flip Flops",
+      "image": "https://images.meesho.com/images/products/41816149/8ioys_400.webp",
+      "price": "₹168",
+      "delivery": "Free Delivery",
+      "rating": "3.7",
+      "reviews": "30122 Reviews",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 73,
+      "name": "Modern Graceful Women Flipflops & Slippers",
+      "image": "https://images.meesho.com/images/products/326061661/6hbdp_400.webp",
+      "price": "₹111",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "69705 Reviews",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 74,
+      "name": "Trendy Kids Heels",
+      "image": "https://images.meesho.com/images/products/427376570/s6yrb_400.webp",
+      "price": "₹260",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "1877 Reviews",
+      "category": "Heels"
+    },
+    {
+      "id": 75,
+      "name": "Phonolite Flipflops & Slippers For Women",
+      "image": "https://images.meesho.com/images/products/94090879/ui5yg_400.webp",
+      "price": "₹179",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "N/A",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 76,
+      "name": "Styles Bellies",
+      "image": "https://images.meesho.com/images/products/489432081/h9ja6_400.webp",
+      "price": "₹251",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "32633 Reviews",
+      "category": "Bellies"
+    },
+    {
+      "id": 77,
+      "name": "Classic Wiper",
+      "image": "https://images.meesho.com/images/products/389746896/f5lpx_400.webp",
+      "price": "₹133",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "1530 Reviews",
+      "category": "Wiper"
+    },
+    {
+      "id": 78,
+      "name": "Vokline Flip Flops For Men",
+      "image": "https://images.meesho.com/images/products/137626314/zyscv_400.webp",
+      "price": "₹190",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "16600 Reviews",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 79,
+      "name": "Relaxed Fashionable Men Flip Flops",
+      "image": "https://images.meesho.com/images/products/376041823/a6zbi_400.webp",
+      "price": "₹179",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "N/A",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 80,
+      "name": "Styles Bellies",
+      "image": "https://images.meesho.com/images/products/479373995/etfk3_400.webp",
+      "price": "₹236",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "475 Reviews",
+      "category": "Bellies"
+    },
+    {
+      "id": 81,
+      "name": "Cutiepie Infants Sandals & Shoes",
+      "image": "https://images.meesho.com/images/products/418782756/hudkd_400.webp",
+      "price": "₹242",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "1743 Reviews",
+      "category": "Sandals & Shoes"
+    },
+    {
+      "id": 82,
+      "name": "Raysfield Life Style Casual Shoes For Men",
+      "image": "https://images.meesho.com/images/products/370528537/mczok_400.webp",
+      "price": "₹342",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "29689 Reviews",
+      "category": "Casual Shoes"
+    },
+    {
+      "id": 83,
+      "name": "Graceful Kids Boys School Shoes",
+      "image": "https://images.meesho.com/images/products/467415194/rjqmh_400.webp",
+      "price": "₹223",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "1077 Reviews",
+      "category": "School Shoes"
+    },
+    {
+      "id": 84,
+      "name": "Latest Fabulous Women Flipflops & Slippers",
+      "image": "https://images.meesho.com/images/products/379150099/5xjkn_400.webp",
+      "price": "₹167",
+      "delivery": "Free Delivery",
+      "rating": "3.8",
+      "reviews": "13868 Reviews",
+      "category": "Flip Flops"
+    },
+    {
+      "id": 85,
+      "name": "Birde Sports Shoes For Men",
+      "image": "https://images.meesho.com/images/products/266882199/3xl12_400.webp",
+      "price": "₹1499",
+      "delivery": "Free Delivery",
+      "rating": "4.0",
+      "reviews": "21362 Reviews",
+      "category": "Sports Shoes"
+    },
+    {
+      "id": 86,
+      "name": "Nylon Heel Sandals",
+      "image": "https://images.meesho.com/images/products/514055806/h92go_400.webp",
+      "price": "₹318",
+      "delivery": "Free Delivery",
+      "rating": "3.4",
+      "reviews": "20 Reviews",
+      "category": "Heel Sandals"
+    },
+    {
+      "id": 87,
+      "name": "Two Soft Women Slippers",
+      "image": "https://images.meesho.com/images/products/356658031/kg0yz_400.webp",
+      "price": "₹162",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "11864 Reviews",
+      "category": "Slippers"
+    },
+    {
+      "id": 88,
+      "name": "Pennen Pu Platform Sandals",
+      "image": "https://images.meesho.com/images/products/474159158/pauu4_400.webp",
+      "price": "₹446",
+      "delivery": "Free Delivery",
+      "rating": "3.9",
+      "reviews": "287 Reviews",
+      "category": "Platform Sandals"
+    },
+    {
+      "id": 89,
+      "name": "Paragon Sandals For Men",
+      "image": "https://images.meesho.com/images/products/335966896/ioetx_400.webp",
+      "price": "₹799",
+      "delivery": "Free Delivery",
+      "rating": "4.3",
+      "reviews": "123 Reviews",
+      "category": "Sandals"
+    },
+    {
+      "id": 90,
+      "name": "Modern Attractive Women Flipflops & Slippers",
+      "image": "https://images.meesho.com/images/products/332463695/woduf_400.webp",
+      "price": "₹131",
+      "delivery": "Free Delivery",
+      "rating": "4.1",
+      "reviews": "16613 Reviews",
+      "category": "Flip Flops"
+    }
+  ],
+  "homedecore": [
+    {
+      "id": 91,
+      "name": "Trendy Wall Hooks",
+      "image": "https://images.meesho.com/images/products/435516670/2cfdb_400.webp",
+      "price": 111,
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 1821,
+      "category": "Trendy"
+    },
+    {
+      "id": 92,
+      "name": "Royal Kitchen Napkins",
+      "image": "https://images.meesho.com/images/products/377818182/httqz_400.webp",
+      "price": 96,
+      "delivery": "Free Delivery",
+      "rating": 4,
+      "reviews": 49545,
+      "category": "Royal"
+    },
+    {
+      "id": 93,
+      "name": "Ravishing Bedsheets",
+      "image": "https://images.meesho.com/images/products/177309950/s9avx_400.webp",
+      "price": 212,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 259,
+      "category": "Ravishing"
+    },
+    {
+      "id": 94,
+      "name": "New Wall Hooks",
+      "image": "https://images.meesho.com/images/products/271659295/5zth0_400.webp",
+      "price": 110,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 14718,
+      "category": "New"
+    },
+    {
+      "id": 95,
+      "name": "Attractive Artificial Plant, Flower and Shrubs",
+      "image": "https://images.meesho.com/images/products/334354076/fxind_400.webp",
+      "price": 171,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 25267,
+      "category": "Attractive"
+    },
+    {
+      "id": 96,
+      "name": "Graceful Kitchen Napkins",
+      "image": "https://images.meesho.com/images/products/346958930/dqg7x_400.webp",
+      "price": 118,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 2810,
+      "category": "Graceful"
+    },
+    {
+      "id": 97,
+      "name": "Classic Plant Accessories",
+      "image": "https://images.meesho.com/images/products/341322139/fs9en_400.webp",
+      "price": 733,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 563,
+      "category": "Classic"
+    },
+    {
+      "id": 98,
+      "name": "Classy Bedsheets",
+      "image": "https://images.meesho.com/images/products/403396495/latow_400.webp",
+      "price": 169,
+      "delivery": "Free Delivery",
+      "rating": 3.6,
+      "reviews": 4753,
+      "category": "Classy"
+    },
+    {
+      "id": 99,
+      "name": "Elegant Bedsheets",
+      "image": "https://images.meesho.com/images/products/299828272/dltax_400.webp",
+      "price": 160,
+      "delivery": "Free Delivery",
+      "rating": 3.8,
+      "reviews": 27342,
+      "category": "Elegant"
+    },
+    {
+      "id": 100,
+      "name": "Useful Wall Hooks",
+      "image": "https://images.meesho.com/images/products/486330028/p2fbw_400.webp",
+      "price": 121,
+      "delivery": "Free Delivery",
+      "rating": 4.7,
+      "reviews": 29,
+      "category": "Useful"
+    }
+  ],
+  "beauty": [
+    {
+      "id": 101,
+      "name": "Muuchstac Ocean Face Wash (100 ml) (Pack of 2) Face Wash for Men",
+      "image": "https://images.meesho.com/images/products/199998279/fjvtt_400.webp",
+      "price": 217,
+      "originalPrice": 598,
+      "discount": "64% off",
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 55434,
+      "category": "Face Wash"
+    },
+    {
+      "id": 102,
+      "name": "Muuchstac Ocean Face Wash (100 ml) (Pack of 3)",
+      "image": "https://images.meesho.com/images/products/199994486/y67cv_400.webp",
+      "price": 279,
+      "originalPrice": 897,
+      "discount": "69% off",
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 45921,
+      "category": "Face Wash"
+    },
+    {
+      "id": 103,
+      "name": "Muuchstac Ocean Face Wash (100 ml)",
+      "image": "https://images.meesho.com/images/products/210970371/luaor_400.webp",
+      "price": 159,
+      "originalPrice": 299,
+      "discount": "47% off",
+      "delivery": "Free Delivery",
+      "rating": 4,
+      "reviews": 49382,
+      "category": "Face Wash"
+    },
+    {
+      "id": 104,
+      "name": "Classic Face Rollers",
+      "image": "https://images.meesho.com/images/products/406099925/av7oy_400.webp",
+      "price": 103,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 3943,
+      "category": "Beauty Tools"
+    },
+    {
+      "id": 105,
+      "name": "BEST CHOICE NUTRITION Vitamin E Oil Capsule",
+      "image": "https://images.meesho.com/images/products/14176377/09vvo_400.webp",
+      "price": 100,
+      "originalPrice": 104,
+      "discount": "4% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 6390,
+      "category": "Skincare"
+    },
+    {
+      "id": 106,
+      "name": "Mamaearth Rice Face Wash With Rice Water & Niacinamide for Glass Skin - 100 ml",
+      "image": "https://images.meesho.com/images/products/295081509/mtxdo_400.webp",
+      "price": 246,
+      "originalPrice": 269,
+      "discount": "9% off",
+      "delivery": "Free Delivery",
+      "rating": 4.4,
+      "reviews": 65413,
+      "category": "Face Wash"
+    },
+    {
+      "id": 107,
+      "name": "Paree Latest Sanitary Napkins",
+      "image": "https://images.meesho.com/images/products/193130428/dfzfu_400.webp",
+      "price": 221,
+      "originalPrice": 325,
+      "discount": "32% off",
+      "delivery": "Free Delivery",
+      "category": "Personal Care"
+    },
+    {
+      "id": 108,
+      "name": "New Face Rollers",
+      "image": "https://images.meesho.com/images/products/402391334/ktlj1_400.webp",
+      "price": 89,
+      "originalPrice": 97,
+      "discount": "8% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 62559,
+      "category": "Beauty Tools"
+    },
+    {
+      "id": 109,
+      "name": "Bummy Paints Fancy Baby Diapers",
+      "image": "https://images.meesho.com/images/products/79544435/yzk20_400.webp",
+      "price": 421,
+      "originalPrice": 949,
+      "discount": "56% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 7923,
+      "category": "Baby Care"
+    },
+    {
+      "id": 110,
+      "name": "DERMATOUCH / Unflavoured / Face Wash / Anti Pigmentation, Pack of 1",
+      "image": "https://images.meesho.com/images/products/186909137/jgrvh_400.webp",
+      "price": 255,
+      "originalPrice": 317,
+      "discount": "20% off",
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 13576,
+      "category": "Face Wash"
+    },
+    {
+      "id": 111,
+      "name": "Mamaearth Vitamin C Daily Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g",
+      "image": "https://images.meesho.com/images/products/195110069/bcef8_400.webp",
+      "price": 235,
+      "originalPrice": 249,
+      "discount": "6% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 66475,
+      "category": "Skincare"
+    },
+    {
+      "id": 112,
+      "name": "Classic Hair Applicator Bottles",
+      "image": "https://images.meesho.com/images/products/402676483/twof4_400.webp",
+      "price": 88,
+      "originalPrice": 90,
+      "discount": "2% off",
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 22219,
+      "category": "Beauty Tools"
+    },
+    {
+      "id": 113,
+      "name": "Classy Face Epillators",
+      "image": "https://images.meesho.com/images/products/76118913/sslj4_400.webp",
+      "price": 220,
+      "originalPrice": 226,
+      "discount": "3% off",
+      "delivery": "Free Delivery",
+      "rating": 3.8,
+      "reviews": 15398,
+      "category": "Beauty Tools"
+    },
+    {
+      "id": 114,
+      "name": "Fancy Face Packs",
+      "image": "https://images.meesho.com/images/products/401262974/olmla_400.webp",
+      "price": 90,
+      "originalPrice": 93,
+      "discount": "3% off",
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 10547,
+      "category": "Skincare"
+    },
+    {
+      "id": 115,
+      "name": "Bella vita Everyday Perfumes for Women",
+      "image": "https://images.meesho.com/images/products/311768960/5xb8w_400.webp",
+      "price": 167,
+      "originalPrice": 399,
+      "discount": "58% off",
+      "delivery": "Free Delivery",
+      "rating": 4.4,
+      "reviews": 105796,
+      "category": "Fragrance"
+    },
+    {
+      "id": 116,
+      "name": "Paree Everyday Menstrual/Sanitary pads",
+      "image": "https://images.meesho.com/images/products/343072840/lvtlp_400.webp",
+      "price": 196,
+      "originalPrice": 280,
+      "discount": "30% off",
+      "delivery": "Free Delivery",
+      "rating": 3.7,
+      "reviews": 11980,
+      "category": "Personal Care"
+    },
+    {
+      "id": 117,
+      "name": "Useful Nail Cutter",
+      "image": "https://images.meesho.com/images/products/250197421/x5pnc_400.webp",
+      "price": 214,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 21158,
+      "category": "Beauty Tools"
+    },
+    {
+      "id": 118,
+      "name": "New Face Packs",
+      "price": 83,
+      "delivery": "Free Delivery",
+      "rating": 3.8,
+      "reviews": 14792,
+      "category": "Skincare"
+    },
+    {
+      "id": 119,
+      "name": "Ramsons U R Lovely Perfume Body Spray | 30ml | Perfume For Women| Long Lasting Perfume | Luxury Perfume | Premium Perfume",
+      "image": "https://images.meesho.com/images/products/289837755/xqawd_400.webp",
+      "price": 151,
+      "originalPrice": 189,
+      "discount": "20% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 77479,
+      "category": "Fragrance"
+    },
+    {
+      "id": 120,
+      "name": "PLIX - THE PLANT FIX Fancy Facewash & Scrubs",
+      "image": "https://images.meesho.com/images/products/292791610/yyy6n_400.webp",
+      "price": 294,
+      "originalPrice": 400,
+      "discount": "26% off",
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 6545,
+      "category": "Face Wash"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 121,
+      "name": "Beautiful Handbag for women",
+      "image": "https://images.meesho.com/images/products/331972072/hzna0_400.webp",
+      "price": 121,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 89259,
+      "category": "Handbags"
+    },
+    {
+      "id": 122,
+      "name": "Men's Brown Two Fold Wallet",
+      "image": "https://images.meesho.com/images/products/88681655/nem6l_400.webp",
+      "price": 117,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 41099,
+      "category": "Wallets"
+    },
+    {
+      "id": 123,
+      "name": "Trendy New Backpacks",
+      "image": "https://images.meesho.com/images/products/392383953/azmdh_400.webp",
+      "price": 183,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 4640,
+      "category": "Backpacks"
+    },
+    {
+      "id": 124,
+      "name": "Daniel Clark Handbag",
+      "image": "https://images.meesho.com/images/products/194885424/hvchs_400.webp",
+      "price": 215,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 33579,
+      "category": "Handbags"
+    },
+    {
+      "id": 125,
+      "name": "Women Duffel Bags",
+      "image": "https://images.meesho.com/images/products/195070537/vm077_400.webp",
+      "price": 257,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 4983,
+      "category": "Bags"
+    },
+    {
+      "id": 126,
+      "name": "Grey Chatkani Handbag",
+      "image": "https://images.meesho.com/images/products/320197567/44pbc_400.webp",
+      "price": 194,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 13133,
+      "category": "Handbags"
+    },
+    {
+      "id": 127,
+      "name": "Stylish Men Wallets",
+      "image": "https://images.meesho.com/images/products/81412794/ivama_400.webp",
+      "price": 92,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 4836,
+      "category": "Wallets"
+    },
+    {
+      "id": 128,
+      "name": "Women Travel Bags",
+      "image": "https://images.meesho.com/images/products/288944680/tanfr_400.webp",
+      "price": 252,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 16774,
+      "category": "Bags"
+    },
+    {
+      "id": 129,
+      "name": "Casual Handbag for women",
+      "image": "https://images.meesho.com/images/products/393333357/xxsyi_400.webp",
+      "price": 187,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 6517,
+      "category": "Handbags"
+    },
+    {
+      "id": 130,
+      "name": "PU Leather Women Handbag",
+      "image": "https://images.meesho.com/images/products/377819345/pqjws_400.webp",
+      "price": 216,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 30454,
+      "category": "Handbags"
+    },
+    {
+      "id": 131,
+      "name": "Women's Faux Leather Handbag",
+      "image": "https://images.meesho.com/images/products/4158256/1_400.webp",
+      "price": 170,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 44803,
+      "category": "Handbags"
+    },
+    {
+      "id": 132,
+      "name": "Women Backpacks",
+      "image": "https://images.meesho.com/images/products/342686758/lzokz_400.webp",
+      "price": 226,
+      "delivery": "Free Delivery",
+      "rating": 4,
+      "reviews": 5748,
+      "category": "Backpacks"
+    },
+    {
+      "id": 133,
+      "name": "Designer Tote Bag",
+      "image": "https://images.meesho.com/images/products/374646373/c4bx8_400.webp",
+      "price": 186,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 14887,
+      "category": "Bags"
+    },
+    {
+      "id": 134,
+      "name": "Synthetic Hair Extensions",
+      "image": "https://images.meesho.com/images/products/91008491/bk0xd_400.webp",
+      "price": 143,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 3801,
+      "category": "Beauty"
+    }
+  ],
+  "grocery": [
+    {
+      "id": 135,
+      "name": "Yogabar Himalayan Pure Shilajit/Shilajeet Resin 20g",
+      "image": "https://images.meesho.com/images/products/455726160/b2qw4_400.webp",
+      "price": 534,
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 45,
+      "category": "Health"
+    },
+    {
+      "id": 136,
+      "name": "Bedmi poori atta-Ready to cook 400gm",
+      "image": "https://images.meesho.com/images/products/292902919/cb57s_400.webp",
+      "price": 143,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 45,
+      "category": "Food"
+    },
+    {
+      "id": 137,
+      "name": "True Elements Raw White Sesame Seeds 400gm",
+      "image": "https://images.meesho.com/images/products/466565950/tjxqy_400.webp",
+      "price": 193,
+      "delivery": "Free Delivery",
+      "rating": 3.6,
+      "reviews": 7,
+      "category": "Food"
+    },
+    {
+      "id": 138,
+      "name": "True Elements Chia Seeds 150gm pack of 2",
+      "image": "https://images.meesho.com/images/products/335186099/8npru_400.webp",
+      "price": 158,
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 5516,
+      "category": "Food"
+    },
+    {
+      "id": 139,
+      "name": "Yogabar High Protein Muesli - 850 gm",
+      "image": "https://images.meesho.com/images/products/214720686/owjw3_400.webp",
+      "price": 378,
+      "delivery": "Free Delivery",
+      "rating": 2.8,
+      "reviews": 50,
+      "category": "Food"
+    },
+    {
+      "id": 140,
+      "name": "True Elements Quinoa 200gm",
+      "image": "https://images.meesho.com/images/products/351205668/ui0yt_400.webp",
+      "price": 155,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 13,
+      "category": "Food"
+    },
+    {
+      "id": 141,
+      "name": "Yogabar 100% Rolled Oats 1 kg Pouch",
+      "image": "https://images.meesho.com/images/products/440548651/rd671_400.webp",
+      "price": 381,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 33,
+      "category": "Food"
+    },
+    {
+      "id": 142,
+      "name": "True Elements Chia Seeds 250gm pack of 2",
+      "image": "https://images.meesho.com/images/products/338412089/uyii4_400.webp",
+      "price": 297,
+      "delivery": "Free Delivery",
+      "rating": 4.2,
+      "reviews": 103,
+      "category": "Food"
+    },
+    {
+      "id": 143,
+      "name": "True Elements Raw Chia 1kg",
+      "image": "https://images.meesho.com/images/products/308564621/vth6w_400.webp",
+      "price": 465,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 13,
+      "category": "Food"
+    },
+    {
+      "id": 144,
+      "name": "True Elements Spearmint Herbal Tea 100gm",
+      "image": "https://images.meesho.com/images/products/420917917/8he3l_400.webp",
+      "price": 279,
+      "delivery": "Free Delivery",
+      "rating": 4.5,
+      "reviews": 4,
+      "category": "Beverages"
+    },
+    {
+      "id": 145,
+      "name": "Happilo Champion Mix 350g",
+      "image": "https://images.meesho.com/images/products/471228296/svm8b_400.webp",
+      "price": 288,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 70,
+      "category": "Food"
+    },
+    {
+      "id": 146,
+      "name": "Healthy Flax Seed Chutney Powder - 125gm",
+      "image": "https://images.meesho.com/images/products/165477279/jtp3x_400.webp",
+      "price": 156,
+      "delivery": "Free Delivery",
+      "rating": 4.4,
+      "reviews": 62,
+      "category": "Food"
+    },
+    {
+      "id": 147,
+      "name": "Organic Multigrain Dry Fruit Baby Cereal 400g",
+      "image": "https://images.meesho.com/images/products/295143651/xkyms_400.webp",
+      "price": 370,
+      "delivery": "Free Delivery",
+      "rating": 3.9,
+      "reviews": 150,
+      "category": "Baby Care"
+    },
+    {
+      "id": 148,
+      "name": "Multigrain Cereal with Dryfruits 400g x 2",
+      "image": "https://images.meesho.com/images/products/321344695/afnr1_400.webp",
+      "price": 356,
+      "delivery": "Free Delivery",
+      "rating": 3.7,
+      "reviews": 44,
+      "category": "Baby Care"
+    },
+    {
+      "id": 149,
+      "name": "Rava Porridge First Food for Babies 400g x 2",
+      "image": "https://images.meesho.com/images/products/321365944/wmunt_400.webp",
+      "price": 335,
+      "delivery": "Free Delivery",
+      "rating": 3.7,
+      "reviews": 6,
+      "category": "Baby Care"
+    },
+    {
+      "id": 150,
+      "name": "Happilo Kashmiri Saffron 1g (Pack of 2)",
+      "image": "https://images.meesho.com/images/products/471152059/elbur_400.webp",
+      "price": 494,
+      "delivery": "Free Delivery",
+      "rating": 4.1,
+      "reviews": 677,
+      "category": "Food"
+    },
+    {
+      "id": 151,
+      "name": "Yogabar Fruit and Nut Muesli 700g (Pack of 2)",
+      "image": "https://images.meesho.com/images/products/189354381/suho6_400.webp",
+      "price": 513,
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 677,
+      "category": "Food"
+    },
+    {
+      "id": 152,
+      "name": "Yogabar Dark Chocolate Muesli 400g",
+      "image": "https://images.meesho.com/images/products/166012043/lwxxj_400.webp",
+      "price": 209,
+      "delivery": "Free Delivery",
+      "rating": 4.3,
+      "reviews": 3248,
+      "category": "Food"
+    }
+  ],
+  "gold": {
+    "lehengas": [
       {
-        "id": 1,
-        "name": "Trendy Retro Men Shirts",
-        "image": "https://images.meesho.com/images/products/375061729/0lurd_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/375061729/1lurd_400.webp",
-          "https://images.meesho.com/images/products/375061729/2lurd_400.webp",
-          "https://images.meesho.com/images/products/375061729/3lurd_400.webp"
-        ],
-        "price": "₹145",
+        "id": 153,
+        "name": "Fancy Designer Flared Embroidered Rajasthani Bridal Lehenga",
+        "image": "https://images.meesho.com/images/products/161035341/xe8vb_400.webp",
+        "price": 1134,
         "delivery": "Free Delivery",
-        "rating": "4.1",
-        "reviews": "27004 Reviews",
-        "category": "Men's Fashion"
+        "rating": 4.1,
+        "reviews": 1978,
+        "category": "Lehenga"
       },
       {
-        "id": 2,
-        "name": "Trendy Ravishing Women Tops & Tunics",
-        "image": "https://images.meesho.com/images/products/463135110/138aw_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/463135110/138aw_1_400.webp",
-          "https://images.meesho.com/images/products/463135110/138aw_2_400.webp",
-          "https://images.meesho.com/images/products/463135110/138aw_3_400.webp"
-        ],
-        "price": "₹246",
+        "id": 154,
+        "name": "Fancy Designer Flared Embroidered Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/35207365/uenyi_400.webp",
+        "price": 1402,
         "delivery": "Free Delivery",
-        "rating": "4.0",
-        "reviews": "2718 Reviews",
-        "category": "Women's Fashion"
+        "rating": 4.4,
+        "reviews": 1408,
+        "category": "Lehenga"
       },
       {
-        "id": 3,
-        "name": "Useful Clothes Covers",
-        "image": "https://images.meesho.com/images/products/126033594/1o2rf_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/126033594/2o2rf_400.webp",
-          "https://images.meesho.com/images/products/126033594/3o2rf_400.webp",
-          "https://images.meesho.com/images/products/126033594/4o2rf_400.webp"
-        ],
-        "price": "₹160",
+        "id": 155,
+        "name": "Jivika Fabulous Women Lehenga",
+        "image": "https://images.meesho.com/images/products/375672670/triyv_400.webp",
+        "price": 1161,
         "delivery": "Free Delivery",
-        "rating": "4.2",
-        "reviews": "78094 Reviews",
-        "category": "Home & Kitchen"
+        "rating": 4.2,
+        "reviews": 1019,
+        "category": "Lehenga"
       },
       {
-        "id": 4,
-        "name": "Stylish Women Dresses",
-        "image": "https://images.meesho.com/images/products/329697827/1d6az_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/329697827/2d6az_400.webp",
-          "https://images.meesho.com/images/products/329697827/3d6az_400.webp",
-          "https://images.meesho.com/images/products/329697827/4d6az_400.webp"
-        ],
-        "price": "₹479",
+        "id": 156,
+        "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
+        "image": "https://images.meesho.com/images/products/137496787/sjm8a_400.webp",
+        "price": 1101,
         "delivery": "Free Delivery",
-        "rating": "4.4",
-        "reviews": "10500 Reviews",
-        "category": "Women's Fashion"
+        "rating": 4.1,
+        "reviews": 1169,
+        "category": "Lehenga"
       },
       {
-        "id": 5,
-        "name": "Exclusive Men Sneakers",
-        "image": "https://images.meesho.com/images/products/451278131/a93g6_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/451278131/a93g6_1_400.webp",
-          "https://images.meesho.com/images/products/451278131/a93g6_2_400.webp",
-          "https://images.meesho.com/images/products/451278131/a93g6_3_400.webp"
-        ],
-        "price": "₹699",
+        "id": 157,
+        "name": "Fancy Designer Western Ruffle Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/41923922/wojwa_400.webp",
+        "price": 1413,
         "delivery": "Free Delivery",
-        "rating": "4.3",
-        "reviews": "8720 Reviews",
-        "category": "Footwear"
+        "rating": 4.3,
+        "reviews": 2145,
+        "category": "Lehenga"
       },
       {
-        "id": 6,
-        "name": "Classic Women Handbags",
-        "image": "https://images.meesho.com/images/products/332145130/9akgs_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/332145130/9akgs_1_400.webp",
-          "https://images.meesho.com/images/products/332145130/9akgs_2_400.webp",
-          "https://images.meesho.com/images/products/332145130/9akgs_3_400.webp"
-        ],
-        "price": "₹899",
+        "id": 158,
+        "name": "Abhisarika Voguish Women Lehenga",
+        "image": "https://images.meesho.com/images/products/402392262/spex7_400.webp",
+        "price": 946,
         "delivery": "Free Delivery",
-        "rating": "4.5",
-        "reviews": "12520 Reviews",
-        "category": "Accessories"
+        "rating": 4.2,
+        "reviews": 440,
+        "category": "Lehenga"
       },
       {
-        "id": 7,
-        "name": "Women's Stylish Footwear",
-        "image": "https://images.meesho.com/images/products/123234564/9kdfg_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/123234564/9kdfg_1_400.webp",
-          "https://images.meesho.com/images/products/123234564/9kdfg_2_400.webp",
-          "https://images.meesho.com/images/products/123234564/9kdfg_3_400.webp"
-        ],
-        "price": "₹399",
+        "id": 159,
+        "name": "Fancy Designer Flared Embroidered Rajasthani Mehendi Lehenga",
+        "image": "https://images.meesho.com/images/products/114996869/mgrul_400.webp",
+        "price": 824,
         "delivery": "Free Delivery",
-        "rating": "4.0",
-        "reviews": "6400 Reviews",
-        "category": "Footwear"
+        "rating": 3.9,
+        "reviews": 282,
+        "category": "Lehenga"
       },
       {
-        "id": 8,
-        "name": "Elegant Men's Wallet",
-        "image": "https://images.meesho.com/images/products/198273328/2x6io_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/198273328/2x6io_1_400.webp",
-          "https://images.meesho.com/images/products/198273328/2x6io_2_400.webp",
-          "https://images.meesho.com/images/products/198273328/2x6io_3_400.webp"
-        ],
-        "price": "₹299",
+        "id": 160,
+        "name": "Fancy Designer Flared Mirror Work Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/14450118/a61d4_400.webp",
+        "price": 1063,
         "delivery": "Free Delivery",
-        "rating": "4.2",
-        "reviews": "8047 Reviews",
-        "category": "Men's Accessories"
+        "rating": 4.1,
+        "reviews": 5077,
+        "category": "Lehenga"
       },
       {
-        "id": 9,
-        "name": "Classic Kitchen Set",
-        "image": "https://images.meesho.com/images/products/459832230/bxyhp_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/459832230/bxyhp_1_400.webp",
-          "https://images.meesho.com/images/products/459832230/bxyhp_2_400.webp",
-          "https://images.meesho.com/images/products/459832230/bxyhp_3_400.webp"
-        ],
-        "price": "₹799",
+        "id": 161,
+        "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
+        "image": "https://images.meesho.com/images/products/162496173/27pdd_400.webp",
+        "price": 1101,
         "delivery": "Free Delivery",
-        "rating": "4.3",
-        "reviews": "3982 Reviews",
-        "category": "Home & Kitchen"
+        "rating": 4,
+        "reviews": 61,
+        "category": "Lehenga"
       },
       {
-        "id": 10,
-        "name": "Women's Trendy Watch",
-        "image": "https://images.meesho.com/images/products/498239274/f76gs_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/498239274/f76gs_1_400.webp",
-          "https://images.meesho.com/images/products/498239274/f76gs_2_400.webp",
-          "https://images.meesho.com/images/products/498239274/f76gs_3_400.webp"
-        ],
-        "price": "₹499",
+        "id": 162,
+        "name": "Charvi Fabulous Women Lehenga",
+        "image": "https://images.meesho.com/images/products/402465320/xrajm_400.webp",
+        "price": 1015,
         "delivery": "Free Delivery",
-        "rating": "4.0",
-        "reviews": "3800 Reviews",
-        "category": "Accessories"
+        "rating": 4.6,
+        "reviews": 21,
+        "category": "Lehenga"
       },
       {
-        "id": 11,
-        "name": "Casual Men Shoes",
-        "image": "https://images.meesho.com/images/products/438541231/wqa6i_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/438541231/wqa6i_1_400.webp",
-          "https://images.meesho.com/images/products/438541231/wqa6i_2_400.webp",
-          "https://images.meesho.com/images/products/438541231/wqa6i_3_400.webp"
-        ],
-        "price": "₹499",
+        "id": 163,
+        "name": "Fancy Designer Flared Sequinned Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/44893643/yvgcb_400.webp",
+        "price": 1093,
         "delivery": "Free Delivery",
-        "rating": "4.3",
-        "reviews": "11002 Reviews",
-        "category": "Footwear"
+        "rating": 4.1,
+        "reviews": 279,
+        "category": "Lehenga"
       },
       {
-        "id": 12,
-        "name": "Stylish Sunglasses",
-        "image": "https://images.meesho.com/images/products/537892724/16zbt_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/537892724/16zbt_1_400.webp",
-          "https://images.meesho.com/images/products/537892724/16zbt_2_400.webp",
-          "https://images.meesho.com/images/products/537892724/16zbt_3_400.webp"
-        ],
-        "price": "₹399",
+        "id": 164,
+        "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
+        "image": "https://images.meesho.com/images/products/156403116/yliys_400.webp",
+        "price": 1031,
         "delivery": "Free Delivery",
-        "rating": "4.2",
-        "reviews": "6891 Reviews",
-        "category": "Accessories"
+        "rating": 4.1,
+        "reviews": 287,
+        "category": "Lehenga"
       },
       {
-        "id": 13,
-        "name": "Elegant Office Chair",
-        "image": "https://images.meesho.com/images/products/558021116/2dp4w_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/558021116/2dp4w_1_400.webp",
-          "https://images.meesho.com/images/products/558021116/2dp4w_2_400.webp",
-          "https://images.meesho.com/images/products/558021116/2dp4w_3_400.webp"
-        ],
-        "price": "₹1499",
+        "id": 165,
+        "name": "Trendy Alluring Women Lehenga",
+        "image": "https://images.meesho.com/images/products/344602258/cokni_400.webp",
+        "price": 957,
         "delivery": "Free Delivery",
-        "rating": "4.3",
-        "reviews": "11224 Reviews",
-        "category": "Furniture"
+        "rating": 4,
+        "reviews": 127,
+        "category": "Lehenga"
       },
       {
-        "id": 14,
-        "name": "Smartphone Cases",
-        "image": "https://images.meesho.com/images/products/493759631/a0lvh_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/493759631/a0lvh_1_400.webp",
-          "https://images.meesho.com/images/products/493759631/a0lvh_2_400.webp",
-          "https://images.meesho.com/images/products/493759631/a0lvh_3_400.webp"
-        ],
-        "price": "₹249",
+        "id": 166,
+        "name": "Aagam Pretty Women Lehenga",
+        "image": "https://images.meesho.com/images/products/309173453/d5iml_400.webp",
+        "price": 1503,
         "delivery": "Free Delivery",
-        "rating": "4.1",
-        "reviews": "5200 Reviews",
-        "category": "Mobile Accessories"
+        "rating": 4.5,
+        "reviews": 394,
+        "category": "Lehenga"
       },
       {
-        "id": 15,
-        "name": "Women Casual Slippers",
-        "image": "https://images.meesho.com/images/products/425863819/d7lgf_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/425863819/d7lgf_1_400.webp",
-          "https://images.meesho.com/images/products/425863819/d7lgf_2_400.webp",
-          "https://images.meesho.com/images/products/425863819/d7lgf_3_400.webp"
-        ],
-        "price": "₹299",
+        "id": 167,
+        "name": "Fancy Designer Flared Embroidered Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/66261672/u6hdj_400.webp",
+        "price": 1274,
         "delivery": "Free Delivery",
-        "rating": "4.0",
-        "reviews": "4500 Reviews",
-        "category": "Footwear"
+        "rating": 4.1,
+        "reviews": 1184,
+        "category": "Lehenga"
       },
       {
-        "id": 16,
-        "name": "Luxury Bed Sheet Set",
-        "image": "https://images.meesho.com/images/products/524526712/gw7nd_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/524526712/gw7nd_1_400.webp",
-          "https://images.meesho.com/images/products/524526712/gw7nd_2_400.webp",
-          "https://images.meesho.com/images/products/524526712/gw7nd_3_400.webp"
-        ],
-        "price": "₹599",
+        "id": 168,
+        "name": "Myra Fabulous Women Lehenga",
+        "image": "https://images.meesho.com/images/products/322115992/ofrb1_400.webp",
+        "price": 940,
         "delivery": "Free Delivery",
-        "rating": "4.5",
-        "reviews": "3200 Reviews",
-        "category": "Home & Kitchen"
+        "rating": 4.1,
+        "reviews": 572,
+        "category": "Lehenga"
       },
       {
-        "id": 17,
-        "name": "Outdoor Sports Watch",
-        "image": "https://images.meesho.com/images/products/524529179/bx5wz_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/524529179/bx5wz_1_400.webp",
-          "https://images.meesho.com/images/products/524529179/bx5wz_2_400.webp",
-          "https://images.meesho.com/images/products/524529179/bx5wz_3_400.webp"
-        ],
-        "price": "₹1299",
+        "id": 169,
+        "name": "Aakarsha Superior Women Lehenga",
+        "image": "https://images.meesho.com/images/products/392764814/kuc1d_400.webp",
+        "price": 963,
         "delivery": "Free Delivery",
-        "rating": "4.6",
-        "reviews": "2100 Reviews",
-        "category": "Accessories"
+        "rating": 4,
+        "reviews": 114,
+        "category": "Lehenga"
       },
       {
-        "id": 18,
-        "name": "Premium Beard Grooming Kit",
-        "image": "https://images.meesho.com/images/products/567123456/9x4vo_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/567123456/9x4vo_1_400.webp",
-          "https://images.meesho.com/images/products/567123456/9x4vo_2_400.webp",
-          "https://images.meesho.com/images/products/567123456/9x4vo_3_400.webp"
-        ],
-        "price": "₹599",
+        "id": 170,
+        "name": "Fancy Designer Gujarati Embroidered Rajasthani Bridal Lehenga",
+        "image": "https://images.meesho.com/images/products/159696549/ygknw_400.webp",
+        "price": 998,
         "delivery": "Free Delivery",
-        "rating": "4.7",
-        "reviews": "4500 Reviews",
-        "category": "Men's Grooming"
+        "rating": 3.9,
+        "reviews": 16,
+        "category": "Lehenga"
       },
       {
-        "id": 19,
-        "name": "Bedding Set",
-        "image": "https://images.meesho.com/images/products/534890276/wqu7e_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/534890276/wqu7e_1_400.webp",
-          "https://images.meesho.com/images/products/534890276/wqu7e_2_400.webp",
-          "https://images.meesho.com/images/products/534890276/wqu7e_3_400.webp"
-        ],
-        "price": "₹999",
+        "id": 171,
+        "name": "Fancy Designer Pleated Embroidered Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/28812877/d2c40_400.webp",
+        "price": 1060,
         "delivery": "Free Delivery",
-        "rating": "4.2",
-        "reviews": "7100 Reviews",
-        "category": "Home & Kitchen"
+        "rating": 4.1,
+        "reviews": 1180,
+        "category": "Lehenga"
       },
       {
-        "id": 20,
-        "name": "Office Organizer Set",
-        "image": "https://images.meesho.com/images/products/467014521/3okve_400.webp",
-        "additionalImages": [
-          "https://images.meesho.com/images/products/467014521/3okve_1_400.webp",
-          "https://images.meesho.com/images/products/467014521/3okve_2_400.webp",
-          "https://images.meesho.com/images/products/467014521/3okve_3_400.webp"
-        ],
-        "price": "₹499",
+        "id": 172,
+        "name": "Fancy Designer Plain Embroidered Indo Western Party Lehenga",
+        "image": "https://images.meesho.com/images/products/165710933/yvmio_400.webp",
+        "price": 1230,
         "delivery": "Free Delivery",
-        "rating": "4.1",
-        "reviews": "3200 Reviews",
-        "category": "Office Supplies"
+        "rating": 4.1,
+        "reviews": 126,
+        "category": "Lehenga"
+      }
+    ],
+    "kurtas": [
+      {
+        "id": 173,
+        "name": "Fancy Men Kurta Set",
+        "image": "https://images.meesho.com/images/products/5920831/yaykq_400.webp",
+        "price": 1361,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1908,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 174,
+        "name": "Comfy Men Kurtas",
+        "image": "https://images.meesho.com/images/products/277799137/k44cp_400.webp",
+        "price": 583,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 4576,
+        "category": "Men Kurtas"
+      },
+      {
+        "id": 175,
+        "name": "Modern Men Kurtas",
+        "image": "https://images.meesho.com/images/products/384124514/lzudh_400.webp",
+        "price": 567,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1910,
+        "category": "Men Kurtas"
+      },
+      {
+        "id": 176,
+        "name": "Essential Men Kurta Sets",
+        "image": "https://images.meesho.com/images/products/520508136/l3tll_400.webp",
+        "price": 804,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 2237,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 177,
+        "name": "Modern Men Kurta and Churidar Set",
+        "image": "https://images.meesho.com/images/products/211626229/jh2dh_400.webp",
+        "price": 850,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 1940,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 178,
+        "name": "Fashionable Men Kurta Sets",
+        "image": "https://images.meesho.com/images/products/521675557/wz4lw_400.webp",
+        "price": 804,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 2371,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 179,
+        "name": "Designer Men Kurta Sets",
+        "image": "https://images.meesho.com/images/products/6585726/65207_400.webp",
+        "price": 823,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 2015,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 180,
+        "name": "Classy Men Kurta Sets",
+        "image": "https://images.meesho.com/images/products/196706838/l0uko_400.webp",
+        "price": 939,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 583,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 181,
+        "name": "Rutva Men’s Kurta Pyjama Set",
+        "image": "https://images.meesho.com/images/products/165839358/frndt_400.webp",
+        "price": 1029,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 861,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 182,
+        "name": "Trendy Men Kurta Set",
+        "image": "https://images.meesho.com/images/products/6585586/d4628_400.webp",
+        "price": 864,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 793,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 183,
+        "name": "Urbane Men's Sherwani Set",
+        "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
+        "price": 1088,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 2087,
+        "category": "Sherwani"
+      },
+      {
+        "id": 184,
+        "name": "StyleVault Men's Kurta Set",
+        "image": "https://images.meesho.com/images/products/203618618/xaabd_400.webp",
+        "price": 687,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1634,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 185,
+        "name": "Men's Plain Kurta Pajama with Jacket",
+        "image": "https://images.meesho.com/images/products/204277182/koucz_400.webp",
+        "price": 730,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1890,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 186,
+        "name": "Lucknowi Work Kurta Pyjama",
+        "image": "https://images.meesho.com/images/products/378501214/4tnnm_400.webp",
+        "price": 820,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 2224,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 187,
+        "name": "Solid Kurta with Nehru Jacket",
+        "image": "https://images.meesho.com/images/products/218617566/gxe3f_400.webp",
+        "price": 683,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 4911,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 188,
+        "name": "Modern Men Kurta Set",
+        "image": "https://images.meesho.com/images/products/31318446/605c4_400.webp",
+        "price": 555,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1351,
+        "category": "Men Kurta Sets"
+      },
+      {
+        "id": 189,
+        "name": "Jubba Set with Rumal",
+        "image": "https://images.meesho.com/images/products/245769390/z4kfa_400.webp",
+        "price": 708,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 906,
+        "category": "Jubba"
+      },
+      {
+        "id": 190,
+        "name": "Chikankari Kurta - Black",
+        "image": "https://images.meesho.com/images/products/384125088/ruxyu_400.webp",
+        "price": 531,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 408,
+        "category": "Men Kurtas"
+      },
+      {
+        "id": 191,
+        "name": "Kurta Pyjama Set with Green Jacket",
+        "image": "https://images.meesho.com/images/products/396826848/wh1wf_400.webp",
+        "price": 631,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 125,
+        "category": "Men Kurta Sets"
+      }
+    ],
+    "Sarees": [
+      {
+        "id": 192,
+        "name": "Aakarsha Fabulous Sarees",
+        "image": "https://images.meesho.com/images/products/472072273/o5xdn_400.webp",
+        "price": 1038,
+        "delivery": "Free Delivery",
+        "rating": 4.5,
+        "reviews": 91,
+        "category": "Sarees"
+      },
+      {
+        "id": 193,
+        "name": "Kashvi Drishya Sarees",
+        "image": "https://images.meesho.com/images/products/396679858/i5tmt_400.webp",
+        "price": 670,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 2543,
+        "category": "Sarees"
+      },
+      {
+        "id": 194,
+        "name": "Aagam Pretty Sarees",
+        "image": "https://images.meesho.com/images/products/11403233/6btzy_400.webp",
+        "price": 717,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 4448,
+        "category": "Sarees"
+      },
+      {
+        "id": 195,
+        "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador",
+        "image": "https://images.meesho.com/images/products/508690667/dcnds_400.webp",
+        "price": 914,
+        "delivery": "Free Delivery",
+        "rating": 5,
+        "reviews": 6,
+        "category": "Sarees"
+      },
+      {
+        "id": 196,
+        "name": "Kashvi Attractive Sarees",
+        "image": "https://images.meesho.com/images/products/384961749/gbfw5_400.webp",
+        "price": 880,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 10338,
+        "category": "Sarees"
+      },
+      {
+        "id": 197,
+        "name": "SKiran's Mix Poly Mekhla Sadar - Colouring Jari Mekhala Chador",
+        "image": "https://images.meesho.com/images/products/438127873/wfwyx_400.webp",
+        "price": 896,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 81,
+        "category": "Sarees"
+      },
+      {
+        "id": 198,
+        "name": "SKiran's Assamese Premium Poly Mekhla Chador - Mekhela Sador",
+        "image": "https://images.meesho.com/images/products/124184716/qised_400.webp",
+        "price": 1153,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 150,
+        "category": "Sarees"
+      },
+      {
+        "id": 199,
+        "name": "Aagyeyi Voguish Sarees",
+        "image": "https://images.meesho.com/images/products/253279352/ikvnq_400.webp",
+        "price": 705,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 2565,
+        "category": "Sarees"
+      },
+      {
+        "id": 200,
+        "name": "Kashvi Fashionable Sarees",
+        "image": "https://images.meesho.com/images/products/9159125/11870_400.webp",
+        "price": 663,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 17258,
+        "category": "Sarees"
+      },
+      {
+        "id": 201,
+        "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador - Mix Pat",
+        "image": "https://images.meesho.com/images/products/472063799/ydn4v_400.webp",
+        "price": 936,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 17,
+        "category": "Sarees"
+      },
+      {
+        "id": 202,
+        "name": "SKiran's Mix Poly Mekhla Sadar - Chiku Mekhala Sador - Mix Pat",
+        "image": "https://images.meesho.com/images/products/508690654/cnxxr_400.webp",
+        "price": 936,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 6,
+        "category": "Sarees"
+      },
+      {
+        "id": 203,
+        "name": "Aishani Fashionable Sarees",
+        "image": "https://images.meesho.com/images/products/401159482/pxzop_400.webp",
+        "price": 662,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 1266,
+        "category": "Sarees"
+      },
+      {
+        "id": 204,
+        "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador",
+        "image": "https://images.meesho.com/images/products/349576801/to3d8_400.webp",
+        "price": 1156,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 0,
+        "category": "Sarees"
+      },
+      {
+        "id": 205,
+        "name": "Myra Superior Sarees",
+        "image": "https://images.meesho.com/images/products/284396425/domdp_400.webp",
+        "price": 706,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1135,
+        "category": "Sarees"
+      },
+      {
+        "id": 206,
+        "name": "Charvi Graceful Sarees",
+        "image": "https://images.meesho.com/images/products/232757993/y8zzh_400.webp",
+        "price": 1215,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 5949,
+        "category": "Sarees"
+      },
+      {
+        "id": 207,
+        "name": "SKiran's Artificial MM Toss Fix Pari - Mekhla Sadar",
+        "image": "https://images.meesho.com/images/products/494506285/7cwxc_400.webp",
+        "price": 911,
+        "delivery": "Free Delivery",
+        "rating": 3.5,
+        "reviews": 6,
+        "category": "Sarees"
+      },
+      {
+        "id": 208,
+        "name": "Charvi Sensational Sarees",
+        "image": "https://images.meesho.com/images/products/519253671/ingu9_400.webp",
+        "price": 745,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 5,
+        "category": "Sarees"
+      },
+      {
+        "id": 209,
+        "name": "Trendy Graceful Sarees",
+        "image": "https://images.meesho.com/images/products/377353299/5rqwf_400.webp",
+        "price": 802,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 5412,
+        "category": "Sarees"
+      },
+      {
+        "id": 210,
+        "name": "Chitrarekha Ensemble Sarees",
+        "image": "https://images.meesho.com/images/products/188364552/vj1wg_400.webp",
+        "price": 802,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 1200,
+        "category": "Sarees"
+      }
+    ],
+    "Jewellery": [
+      {
+        "id": 211,
+        "name": "Diva Colorful Bracelet & Bangles",
+        "image": "https://images.meesho.com/images/products/530703034/2sarc_400.webp",
+        "price": 554,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 1500,
+        "category": "Jewellery"
+      },
+      {
+        "id": 212,
+        "name": "Elite Elegant Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/51562905/prw3u_400.webp",
+        "price": 817,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 8017,
+        "original_price": 858,
+        "discount": "5% off",
+        "category": "Jewellery"
+      },
+      {
+        "id": 213,
+        "name": "Princess Chic Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/209005681/7q5zk_400.webp",
+        "price": 645,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 2405,
+        "category": "Jewellery"
+      },
+      {
+        "id": 214,
+        "name": "Elite Fancy Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/400697548/g3yad_400.webp",
+        "price": 1002,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1558,
+        "category": "Jewellery"
+      },
+      {
+        "id": 215,
+        "name": "Feminine Glittering Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/392676065/2urwa_400.webp",
+        "price": 608,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 900,
+        "category": "Jewellery"
+      },
+      {
+        "id": 216,
+        "name": "Shimmering Chic Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/531322449/7ifkd_400.webp",
+        "price": 702,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1200,
+        "category": "Jewellery"
+      },
+      {
+        "id": 217,
+        "name": "Gold Plated Attiga Necklace",
+        "image": "https://images.meesho.com/images/products/129812174/k8jaz_400.webp",
+        "price": 376,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1350,
+        "category": "Jewellery"
+      },
+      {
+        "id": 218,
+        "name": "Sizzling Charming Women Necklaces & Chains",
+        "image": "https://images.meesho.com/images/products/383014197/airzk_400.webp",
+        "price": 416,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 3857,
+        "category": "Jewellery"
+      },
+      {
+        "id": 219,
+        "name": "Sizzling Bejeweled Women Necklaces & Chains",
+        "image": "https://images.meesho.com/images/products/224419807/9vwdd_400.webp",
+        "price": 355,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 135,
+        "category": "Jewellery"
+      },
+      {
+        "id": 220,
+        "name": "Diva Fancy Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/224419807/9vwdd_400.webp",
+        "price": 524,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 2000,
+        "category": "Jewellery"
+      },
+      {
+        "id": 221,
+        "name": "Shimmering Colorful Mangalsutras",
+        "image": "https://images.meesho.com/images/products/517598922/ml9ym_400.webp",
+        "price": 286,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 500,
+        "category": "Jewellery"
+      },
+      {
+        "id": 222,
+        "name": "Shimmering Fusion Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/216778645/do6py_400.webp",
+        "price": 482,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 420,
+        "category": "Jewellery"
+      },
+      {
+        "id": 223,
+        "name": "Elite Colorful Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/387706401/6ehjb_400.webp",
+        "price": 477,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1337,
+        "category": "Jewellery"
+      },
+      {
+        "id": 224,
+        "name": "Sizzling Graceful Nosepins",
+        "image": "https://images.meesho.com/images/products/50921557/slzmo_400.webp",
+        "price": 333,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 1800,
+        "category": "Jewellery"
+      },
+      {
+        "id": 225,
+        "name": "Elite Graceful Earrings",
+        "image": "https://images.meesho.com/images/products/25687689/hvb1o_400.webp",
+        "price": 366,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 1519,
+        "category": "Jewellery"
+      },
+      {
+        "id": 226,
+        "name": "Premium Quality Microplated Long Haram",
+        "image": "https://images.meesho.com/images/products/183680530/16ens_400.webp",
+        "price": 388,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1958,
+        "category": "Jewellery"
+      },
+      {
+        "id": 227,
+        "name": "Elite Graceful Mangalsutras",
+        "image": "https://images.meesho.com/images/products/313734094/ve0b5_400.webp",
+        "price": 311,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 2779,
+        "category": "Jewellery"
+      },
+      {
+        "id": 228,
+        "name": "Allure Glittering Women Necklaces & Chains",
+        "image": "https://images.meesho.com/images/products/334089910/sidmo_400.webp",
+        "price": 563,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 2197,
+        "category": "Jewellery"
+      },
+      {
+        "id": 229,
+        "name": "Diva Glittering Jewellery Sets",
+        "image": "https://images.meesho.com/images/products/402214024/f2ukh_400.webp",
+        "price": 533,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 1160,
+        "category": "Jewellery"
+      },
+      {
+        "id": 230,
+        "name": "Princess Colorful Bracelet & Bangles",
+        "image": "https://images.meesho.com/images/products/57607459/hxscb_400.webp",
+        "price": 464,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 5516,
+        "category": "Jewellery"
       }
     ]
-    
-  ],
-  "ethnicwear":[
+  },
+  "user": [
     {
-     
-          "id": 21,
-          "name": "Banarasi Silk Sarees New Design 2024",
-          "image": "https://images.meesho.com/images/products/422613780/qjabu_400.webp",
-          "price": "₹461",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "309 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 22,
-          "name": "Alisha Pretty Kurtis",
-          "image": "https://images.meesho.com/images/products/149834633/saqqo_400.webp",
-          "price": "₹255",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "59383 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 23,
-          "name": "Jivika Voguish Women Kurta Sets",
-          "image": "https://images.meesho.com/images/products/32962343/ir564_400.webp",
-          "price": "₹306",
-          "delivery": "Free Delivery",
-          "rating": "3.7",
-          "reviews": "179073 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 24,
-          "name": "Aishani Graceful Sarees",
-          "image": "https://images.meesho.com/images/products/458445578/lxp44_400.webp",
-          "price": "₹397",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "1897 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 25,
-          "name": "Chitrarekha Attractive Kurtis",
-          "image": "https://images.meesho.com/images/products/191005346/mocgn_400.webp",
-          "price": "₹215",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "78785 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 26,
-          "name": "Alisha Attractive Sarees",
-          "image": "https://images.meesho.com/images/products/325100981/uokgq_400.webp",
-          "price": "₹577",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "78785 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 27,
-          "name": "Trendy Pretty Sarees",
-          "image": "https://images.meesho.com/images/products/382519791/yzcii_400.webp",
-          "price": "₹382",
-          "delivery": "Free Delivery",
-          "rating": "4.1",
-          "reviews": "2962 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 28,
-          "name": "Alisha Petite Kurtis",
-          "image": "https://images.meesho.com/images/products/383549503/7cfzv_400.webp",
-          "price": "₹210",
-          "delivery": "Free Delivery",
-          "rating": "4.0",
-          "reviews": "26555 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 29,
-          "name": "Aagyeyi Attractive Sarees",
-          "image": "https://images.meesho.com/images/products/532797949/dngrv_400.webp",
-          "price": "₹239",
-          "delivery": "Free Delivery",
-          "rating": "3.8",
-          "reviews": "72040 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 30,
-          "name": "Alisha Fabulous Sarees",
-          "image": "https://images.meesho.com/images/products/472107918/t0zam_400.webp",
-          "price": "₹359",
-          "delivery": "Free Delivery",
-          "rating": "5.0",
-          "reviews": "6 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 31,
-          "name": "Dupatta Sets",
-          "image": "https://images.meesho.com/images/products/68464151/f1nit_400.webp",
-          "price": "₹457",
-          "delivery": "Free Delivery",
-          "rating": "4.2",
-          "reviews": "380 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 32,
-          "name": "Ikat Net Embroidered Saree With Blouse",
-          "image": "https://images.meesho.com/images/products/437287822/xv7bx_400.webp",
-          "price": "₹337",
-          "delivery": "Free Delivery",
-          "rating": "3.9",
-          "reviews": "48220 Reviews",
-          "category": "Women's Fashion"
-        },
-        {
-          "id": 33,
-          "name": "Polyster/Crepe fabric-Adrika Graceful Kurtis",
-          "image": "https://images.meesho.com/images/products/190564731/qwvj8_400.webp",
-          "price": "₹165",
-          "delivery": "Free Delivery",
-          "rating": "3.9",
-          "reviews": "60778 Reviews",
-          "category": "Women's Fashion"
-        }
-      ],
-      "westrendress":[
-        
-          {
-            "id": 34,
-            "name": "Comfy Graceful Women Dresses",
-            "image": "https://images.meesho.com/images/products/386329438/1bjhj_400.webp",
-            "price": "₹211",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "6522 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 35,
-            "name": "Fancy Sensational Women Dresses",
-            "image": "https://images.meesho.com/images/products/381955699/td5ma_400.webp",
-            "price": "₹309",
-            "delivery": "Free Delivery",
-            "rating": "3.9",
-            "reviews": "17628 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 36,
-            "name": "Stylish Fashionista Women Dresses",
-            "image": "https://images.meesho.com/images/products/384983175/fhgox_400.webp",
-            "price": "₹356",
-            "delivery": "Free Delivery",
-            "rating": "4.2",
-            "reviews": "11259 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 37,
-            "name": "Urbane Retro Women Dresses",
-            "image": "https://images.meesho.com/images/products/382895205/jgonj_400.webp",
-            "price": "₹231",
-            "delivery": "Free Delivery",
-            "rating": "3.9",
-            "reviews": "12132 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 38,
-            "name": "Honky Tonky Women's Dresses",
-            "image": "https://images.meesho.com/images/products/399776712/1weat_400.webp",
-            "price": "₹328",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "3931 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 39,
-            "name": "Pretty Glamorous Women Dresses",
-            "image": "https://images.meesho.com/images/products/399022460/c5ikm_400.webp",
-            "price": "₹189",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "3807 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 40,
-            "name": "Urbane Partywear Women Dresses",
-            "image": "https://images.meesho.com/images/products/245735899/nlymr_400.webp",
-            "price": "₹262",
-            "delivery": "Free Delivery",
-            "rating": "4.0",
-            "reviews": "9123 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 41,
-            "name": "Trendy Fashionista Women Dresses",
-            "image": "https://images.meesho.com/images/products/399011662/dbdmt_400.webp",
-            "price": "₹266",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "43425 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 42,
-            "name": "SHEETAL Associates Women's Dresses",
-            "image": "https://images.meesho.com/images/products/382591443/nhjzm_400.webp",
-            "price": "₹361",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "28662 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 43,
-            "name": "Classic Modern Women Dresses",
-            "image": "https://images.meesho.com/images/products/392763613/oo3gm_400.webp",
-            "price": "₹190",
-            "delivery": "Free Delivery",
-            "rating": "3.7",
-            "reviews": "6900 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 44,
-            "name": "SHEETAL Associates Women's Dresses",
-            "image": "https://images.meesho.com/images/products/382591422/bnqva_400.webp",
-            "price": "₹328",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "3931 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 45,
-            "name": "Pretty Modern Women Dresses",
-            "image": "https://images.meesho.com/images/products/396900145/reocm_400.webp",
-            "price": "₹370",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "11294 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 46,
-            "name": "Pretty Fabulous Women Dresses",
-            "image": "https://images.meesho.com/images/products/385037845/ls93q_400.webp",
-            "price": "₹490",
-            "delivery": "Free Delivery",
-            "rating": "4.0",
-            "reviews": "537 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 47,
-            "name": "Honky Tonky Women's Dresses",
-            "image": "https://images.meesho.com/images/products/398390123/gfukc_400.webp",
-            "price": "₹328",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "3471 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 48,
-            "name": "Classy Latest Women Dresses",
-            "image": "https://images.meesho.com/images/products/380450262/fbxhf_400.webp",
-            "price": "₹343",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "12465 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 49,
-            "name": "Trendy Feminine Women Dresses",
-            "image": "https://images.meesho.com/images/products/391284397/i1yor_400.webp",
-            "price": "₹401",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "5760 Reviews",
-            "category": "Women's Fashion"
-          },
-          {
-            "id": 50,
-            "name": "Pretty Partywear Women Dresses",
-            "image": "https://images.meesho.com/images/products/387360710/y7mrb_400.webp",
-            "price": "₹306",
-            "delivery": "Free Delivery",
-            "rating": "4.3",
-            "reviews": "10525 Reviews",
-            "category": "Women's Fashion"
-          }
-        ],
-
-        "Menswear":[
-          {
-            "id": 51,
-            "name": "Kay Dee Stylish Cotton Vest Vol 1",
-            "image": "https://images.meesho.com/images/products/6242503/d60b1_400.webp",
-            "price": "₹241",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "230 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 52,
-            "name": "Sunglow Matty Tshirt",
-            "image": "https://images.meesho.com/images/products/91388895/ijjhe_400.webp",
-            "price": "₹233",
-            "delivery": "Free Delivery",
-            "rating": "3.7",
-            "reviews": "14771 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 53,
-            "name": "Zeffit Men's Track Pants",
-            "image": "https://images.meesho.com/images/products/1707198/1_400.webp",
-            "price": "₹270",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "22404 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 54,
-            "name": "Urbane Gym Vests",
-            "image": "https://images.meesho.com/images/products/498708512/g3oaq_400.webp",
-            "price": "₹258",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "22404 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 55,
-            "name": "Trendy Men Kurta Sets",
-            "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
-            "price": "₹1,088",
-            "delivery": "Free Delivery",
-            "rating": "3.7",
-            "reviews": "Supplier",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 56,
-            "name": "Trendy Fashionista Men Shirts",
-            "image": "https://images.meesho.com/images/products/6585573/67517_400.webp",
-            "price": "₹238",
-            "delivery": "Free Delivery",
-            "rating": "4.2",
-            "reviews": "2087 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 57,
-            "name": "Sparrow K Full Sleeve Tshirt for Boys and Men",
-            "image": "https://images.meesho.com/images/products/485621590/pnrwa_400.webp",
-            "price": "₹190",
-            "delivery": "Free Delivery",
-            "rating": "4.2",
-            "reviews": "103 Reviews",
-            "category": "Sweatshirts"
-          },
-          {
-            "id": 58,
-            "name": "Frekman Stylish Cotton Printed Men's Shirt",
-            "image": "https://images.meesho.com/images/products/2653067/1_400.webp",
-            "price": "₹227",
-            "delivery": "Free Delivery",
-            "rating": "3.9",
-            "reviews": "73384 Reviews",
-            "category": "Shirts"
-          },
-          {
-            "id": 59,
-            "name": "Gym Stringer Vest Gym Vest Racer Y Back Sports Tank Tops Sando for Men",
-            "image": "https://images.meesho.com/images/products/293751795/xvd1f_400.webp",
-            "price": "₹160",
-            "delivery": "Free Delivery",
-            "rating": "3.9",
-            "reviews": "17054 Reviews",
-            "category": "Gym Vests"
-          },
-          {
-            "id": 60,
-            "name": "My Life Line Alphabet R Full Sleeve Tshirt for Boys and Men",
-            "image": "https://images.meesho.com/images/products/485811740/t9xyn_400.webp",
-            "price": "₹190",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "95 Reviews",
-            "category": "Tshirts"
-          },
-          {
-            "id": 61,
-            "name": "Ravishing Latest Men Track Pants",
-            "image": "https://images.meesho.com/images/products/66623573/7ag52_400.webp",
-            "price": "₹267",
-            "delivery": "Free Delivery",
-            "rating": "4.0",
-            "reviews": "279 Reviews",
-            "category": "Track Pants"
-          },
-          {
-            "id": 62,
-            "name": "Men Solid Casual Running Regular Fit Above Knee Length Shorts Nikkar Bermuda Black",
-            "image": "https://images.meesho.com/images/products/535248149/tyfjx_400.webp",
-            "price": "₹340",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "2543 Reviews",
-            "category": "Shorts"
-          },
-          {
-            "id": 63,
-            "name": "Kay Dee Stylish Cotton Vest Vol 1",
-            "image": "https://images.meesho.com/images/products/6242503/d60b1_400.webp",
-            "price": "₹241",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "230 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 64,
-            "name": "Sunglow Matty Tshirt",
-            "image": "https://images.meesho.com/images/products/91388895/ijjhe_400.webp",
-            "price": "₹233",
-            "delivery": "Free Delivery",
-            "rating": "3.7",
-            "reviews": "14771 Reviews",
-            "category": "Tshirts"
-          },
-          {
-            "id": 65,
-            "name": "Zeffit Men's Track Pants",
-            "image": "https://images.meesho.com/images/products/1707198/1_400.webp",
-            "price": "₹270",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "22404 Reviews",
-            "category": "Track Pants"
-          },
-          {
-            "id": 66,
-            "name": "Urbane Gym Vests",
-            "image": "https://images.meesho.com/images/products/498708512/g3oaq_400.webp",
-            "price": "₹258",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "22404 Reviews",
-            "category": "Gym Vests"
-          },
-          {
-            "id": 67,
-            "name": "Trendy Men Kurta Sets",
-            "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
-            "price": "₹1,088",
-            "delivery": "Free Delivery",
-            "rating": "3.7",
-            "reviews": "Supplier",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 68,
-            "name": "Trendy Fashionista Men Shirts",
-            "image": "https://images.meesho.com/images/products/6585573/67517_400.webp",
-            "price": "₹238",
-            "delivery": "Free Delivery",
-            "rating": "4.2",
-            "reviews": "2087 Reviews",
-            "category": "Men's Fashion"
-          },
-          {
-            "id": 69,
-            "name": "Sparrow D Full Sleeve Tshirt for Boys and Men",
-            "image": "https://images.meesho.com/images/products/485161502/epgsl_400.webp",
-            "price": "₹186",
-            "delivery": "Free Delivery",
-            "rating": "4.1",
-            "reviews": "128 Reviews",
-            "category": "Tshirts"
-          },
-          {
-            "id": 70,
-            "name": "New Men Shirts 2025",
-            "image": "https://images.meesho.com/images/products/525308453/prc1j_400.webp",
-            "price": "₹267",
-            "delivery": "Free Delivery",
-            "rating": "3.8",
-            "reviews": "67 Reviews",
-            "category": "Shirts"
-          }
-        ],
-        "footwear":[
-          {
-              "id": 71,
-              "name": "Wonderful Kids Boys Flip Flops",
-              "image": "https://images.meesho.com/images/products/310924355/dttwp_400.webp",
-              "price": "₹140",
-              "delivery": "Free Delivery",
-              "rating": "3.9",
-              "reviews": "1094 Reviews",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 72,
-              "name": "Modern Graceful Men Flip Flops",
-              "image": "https://images.meesho.com/images/products/41816149/8ioys_400.webp",
-              "price": "₹168",
-              "delivery": "Free Delivery",
-              "rating": "3.7",
-              "reviews": "30122 Reviews",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 73,
-              "name": "Modern Graceful Women Flipflops & Slippers",
-              "image": "https://images.meesho.com/images/products/326061661/6hbdp_400.webp",
-              "price": "₹111",
-              "delivery": "Free Delivery",
-              "rating": "4.1",
-              "reviews": "69705 Reviews",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 74,
-              "name": "Trendy Kids Heels",
-              "image": "https://images.meesho.com/images/products/427376570/s6yrb_400.webp",
-              "price": "₹260",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "1877 Reviews",
-              "category": "Heels"
-          },
-          {
-              "id": 75,
-              "name": "Phonolite Flipflops & Slippers For Women",
-              "image": "https://images.meesho.com/images/products/94090879/ui5yg_400.webp",
-              "price": "₹179",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "N/A",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 76,
-              "name": "Styles Bellies",
-              "image": "https://images.meesho.com/images/products/489432081/h9ja6_400.webp",
-              "price": "₹251",
-              "delivery": "Free Delivery",
-              "rating": "4.1",
-              "reviews": "32633 Reviews",
-              "category": "Bellies"
-          },
-          {
-              "id": 77,
-              "name": "Classic Wiper",
-              "image": "https://images.meesho.com/images/products/389746896/f5lpx_400.webp",
-              "price": "₹133",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "1530 Reviews",
-              "category": "Wiper"
-          },
-          {
-              "id": 78,
-              "name": "Vokline Flip Flops For Men",
-              "image": "https://images.meesho.com/images/products/137626314/zyscv_400.webp",
-              "price": "₹190",
-              "delivery": "Free Delivery",
-              "rating": "3.8",
-              "reviews": "16600 Reviews",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 79,
-              "name": "Relaxed Fashionable Men Flip Flops",
-              "image": "https://images.meesho.com/images/products/376041823/a6zbi_400.webp",
-              "price": "₹179",
-              "delivery": "Free Delivery",
-              "rating": "3.9",
-              "reviews": "N/A",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 80,
-              "name": "Styles Bellies",
-              "image": "https://images.meesho.com/images/products/479373995/etfk3_400.webp",
-              "price": "₹236",
-              "delivery": "Free Delivery",
-              "rating": "3.9",
-              "reviews": "475 Reviews",
-              "category": "Bellies"
-          },
-          {
-              "id": 81,
-              "name": "Cutiepie Infants Sandals & Shoes",
-              "image": "https://images.meesho.com/images/products/418782756/hudkd_400.webp",
-              "price": "₹242",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "1743 Reviews",
-              "category": "Sandals & Shoes"
-          },
-          {
-              "id": 82,
-              "name": "Raysfield Life Style Casual Shoes For Men",
-              "image": "https://images.meesho.com/images/products/370528537/mczok_400.webp",
-              "price": "₹342",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "29689 Reviews",
-              "category": "Casual Shoes"
-          },
-          {
-              "id": 83,
-              "name": "Graceful Kids Boys School Shoes",
-              "image": "https://images.meesho.com/images/products/467415194/rjqmh_400.webp",
-              "price": "₹223",
-              "delivery": "Free Delivery",
-              "rating": "4.1",
-              "reviews": "1077 Reviews",
-              "category": "School Shoes"
-          },
-          {
-              "id": 84,
-              "name": "Latest Fabulous Women Flipflops & Slippers",
-              "image": "https://images.meesho.com/images/products/379150099/5xjkn_400.webp",
-              "price": "₹167",
-              "delivery": "Free Delivery",
-              "rating": "3.8",
-              "reviews": "13868 Reviews",
-              "category": "Flip Flops"
-          },
-          {
-              "id": 85,
-              "name": "Birde Sports Shoes For Men",
-              "image": "https://images.meesho.com/images/products/266882199/3xl12_400.webp",
-              "price": "₹1499",
-              "delivery": "Free Delivery",
-              "rating": "4.0",
-              "reviews": "21362 Reviews",
-              "category": "Sports Shoes"
-          },
-          {
-              "id": 86,
-              "name": "Nylon Heel Sandals",
-              "image": "https://images.meesho.com/images/products/514055806/h92go_400.webp",
-              "price": "₹318",
-              "delivery": "Free Delivery",
-              "rating": "3.4",
-              "reviews": "20 Reviews",
-              "category": "Heel Sandals"
-          },
-          {
-              "id": 87,
-              "name": "Two Soft Women Slippers",
-              "image": "https://images.meesho.com/images/products/356658031/kg0yz_400.webp",
-              "price": "₹162",
-              "delivery": "Free Delivery",
-              "rating": "3.9",
-              "reviews": "11864 Reviews",
-              "category": "Slippers"
-          },
-          {
-              "id": 88,
-              "name": "Pennen Pu Platform Sandals",
-              "image": "https://images.meesho.com/images/products/474159158/pauu4_400.webp",
-              "price": "₹446",
-              "delivery": "Free Delivery",
-              "rating": "3.9",
-              "reviews": "287 Reviews",
-              "category": "Platform Sandals"
-          },
-          {
-              "id": 89,
-              "name": "Paragon Sandals For Men",
-              "image": "https://images.meesho.com/images/products/335966896/ioetx_400.webp",
-              "price": "₹799",
-              "delivery": "Free Delivery",
-              "rating": "4.3",
-              "reviews": "123 Reviews",
-              "category": "Sandals"
-          },
-          {
-              "id": 90,
-              "name": "Modern Attractive Women Flipflops & Slippers",
-              "image": "https://images.meesho.com/images/products/332463695/woduf_400.webp",
-              "price": "₹131",
-              "delivery": "Free Delivery",
-              "rating": "4.1",
-              "reviews": "16613 Reviews",
-              "category": "Flip Flops"
-          }
-      ],
-  
-        "homedecore": [
-          {
-            "id": 91,
-            "name": "Trendy Wall Hooks",
-            "image": "https://images.meesho.com/images/products/435516670/2cfdb_400.webp",
-            "price": 111,
-            "delivery": "Free Delivery",
-            "rating": 4.3,
-            "reviews": 1821,
-            "category": "Trendy"
-          },
-          {
-            "id": 92,
-            "name": "Royal Kitchen Napkins",
-            "image": "https://images.meesho.com/images/products/377818182/httqz_400.webp",
-            "price": 96,
-            "delivery": "Free Delivery",
-            "rating": 4.0,
-            "reviews": 49545,
-            "category": "Royal"
-          },
-          {
-            "id": 93,
-            "name": "Ravishing Bedsheets",
-            "image": "https://images.meesho.com/images/products/177309950/s9avx_400.webp",
-            "price": 212,
-            "delivery": "Free Delivery",
-            "rating": 3.9,
-            "reviews": 259,
-            "category": "Ravishing"
-          },
-          {
-            "id": 94,
-            "name": "New Wall Hooks",
-            "image": "https://images.meesho.com/images/products/271659295/5zth0_400.webp",
-            "price": 110,
-            "delivery": "Free Delivery",
-            "rating": 4.2,
-            "reviews": 14718,
-            "category": "New"
-          },
-          {
-            "id": 95,
-            "name": "Attractive Artificial Plant, Flower and Shrubs",
-            "image": "https://images.meesho.com/images/products/334354076/fxind_400.webp",
-            "price": 171,
-            "delivery": "Free Delivery",
-            "rating": 4.2,
-            "reviews": 25267,
-            "category": "Attractive"
-          },
-          {
-            "id": 96,
-            "name": "Graceful Kitchen Napkins",
-            "image": "https://images.meesho.com/images/products/346958930/dqg7x_400.webp",
-            "price": 118,
-            "delivery": "Free Delivery",
-            "rating": 3.9,
-            "reviews": 2810,
-            "category": "Graceful"
-          },
-          {
-            "id": 97,
-            "name": "Classic Plant Accessories",
-            "image": "https://images.meesho.com/images/products/341322139/fs9en_400.webp",
-            "price": 733,
-            "delivery": "Free Delivery",
-            "rating": 4.2,
-            "reviews": 563,
-            "category": "Classic"
-          },
-          {
-            "id": 98,
-            "name": "Classy Bedsheets",
-            "image": "https://images.meesho.com/images/products/403396495/latow_400.webp",
-            "price": 169,
-            "delivery": "Free Delivery",
-            "rating": 3.6,
-            "reviews": 4753,
-            "category": "Classy"
-          },
-          {
-            "id": 99,
-            "name": "Elegant Bedsheets",
-            "image": "https://images.meesho.com/images/products/299828272/dltax_400.webp",
-            "price": 160,
-            "delivery": "Free Delivery",
-            "rating": 3.8,
-            "reviews": 27342,
-            "category": "Elegant"
-          },
-          {
-            "id": 100,
-            "name": "Useful Wall Hooks",
-            "image": "https://images.meesho.com/images/products/486330028/p2fbw_400.webp",
-            "price": 121,
-            "delivery": "Free Delivery",
-            "rating": 4.7,
-            "reviews": 29,
-            "category": "Useful"
-          }
-        ],
-        "beauty":[
-         
-              {
-                "id": 101,
-                "name": "Muuchstac Ocean Face Wash (100 ml) (Pack of 2) Face Wash for Men",
-                "image": "https://images.meesho.com/images/products/199998279/fjvtt_400.webp",
-                "price": 217,
-                "originalPrice": 598,
-                "discount": "64% off",
-                "delivery": "Free Delivery",
-                "rating": 4.1,
-                "reviews": 55434,
-                "category": "Face Wash"
-              },
-              {
-                "id": 102,
-                "name": "Muuchstac Ocean Face Wash (100 ml) (Pack of 3)",
-                "image": "https://images.meesho.com/images/products/199994486/y67cv_400.webp",
-                "price": 279,
-                "originalPrice": 897,
-                "discount": "69% off",
-                "delivery": "Free Delivery",
-                "rating": 4.1,
-                "reviews": 45921,
-                "category": "Face Wash"
-              },
-              {
-                "id": 103,
-                "name": "Muuchstac Ocean Face Wash (100 ml)",
-                "image": "https://images.meesho.com/images/products/210970371/luaor_400.webp",
-                "price": 159,
-                "originalPrice": 299,
-                "discount": "47% off",
-                "delivery": "Free Delivery",
-                "rating": 4.0,
-                "reviews": 49382,
-                "category": "Face Wash"
-              },
-              {
-                "id": 104,
-                "name": "Classic Face Rollers",
-                "image": "https://images.meesho.com/images/products/406099925/av7oy_400.webp",
-                "price": 103,
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 3943,
-                "category": "Beauty Tools"
-              },
-              {
-                "id": 105,
-                "name": "BEST CHOICE NUTRITION Vitamin E Oil Capsule",
-                "image": "https://images.meesho.com/images/products/14176377/09vvo_400.webp",
-                "price": 100,
-                "originalPrice": 104,
-                "discount": "4% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 6390,
-                "category": "Skincare"
-              },
-              {
-                "id": 106,
-                "name": "Mamaearth Rice Face Wash With Rice Water & Niacinamide for Glass Skin - 100 ml",
-                "image": "https://images.meesho.com/images/products/295081509/mtxdo_400.webp",
-                "price": 246,
-                "originalPrice": 269,
-                "discount": "9% off",
-                "delivery": "Free Delivery",
-                "rating": 4.4,
-                "reviews": 65413,
-                "category": "Face Wash"
-              },
-              {
-                "id": 107,
-                "name": "Paree Latest Sanitary Napkins",
-                "image": "https://images.meesho.com/images/products/193130428/dfzfu_400.webp",
-                "price": 221,
-                "originalPrice": 325,
-                "discount": "32% off",
-                "delivery": "Free Delivery",
-                "category": "Personal Care"
-              },
-              {
-                "id": 108,
-                "name": "New Face Rollers",
-                "image": "https://images.meesho.com/images/products/402391334/ktlj1_400.webp",
-                "price": 89,
-                "originalPrice": 97,
-                "discount": "8% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 62559,
-                "category": "Beauty Tools"
-              },
-              {
-                "id": 109,
-                "name": "Bummy Paints Fancy Baby Diapers",
-                "image": "https://images.meesho.com/images/products/79544435/yzk20_400.webp",
-                "price": 421,
-                "originalPrice": 949,
-                "discount": "56% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 7923,
-                "category": "Baby Care"
-              },
-              {
-                "id": 110,
-                "name": "DERMATOUCH / Unflavoured / Face Wash / Anti Pigmentation, Pack of 1",
-                "image": "https://images.meesho.com/images/products/186909137/jgrvh_400.webp",
-                "price": 255,
-                "originalPrice": 317,
-                "discount": "20% off",
-                "delivery": "Free Delivery",
-                "rating": 4.3,
-                "reviews": 13576,
-                "category": "Face Wash"
-              },
-              {
-                "id": 111,
-                "name": "Mamaearth Vitamin C Daily Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g",
-                "image": "https://images.meesho.com/images/products/195110069/bcef8_400.webp",
-                "price": 235,
-                "originalPrice": 249,
-                "discount": "6% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 66475,
-                "category": "Skincare"
-              },
-              {
-                "id": 112,
-                "name": "Classic Hair Applicator Bottles",
-                "image": "https://images.meesho.com/images/products/402676483/twof4_400.webp",
-                "price": 88,
-                "originalPrice": 90,
-                "discount": "2% off",
-                "delivery": "Free Delivery",
-                "rating": 4.3,
-                "reviews": 22219,
-                "category": "Beauty Tools"
-              },
-              {
-                "id": 113,
-                "name": "Classy Face Epillators",
-                "image": "https://images.meesho.com/images/products/76118913/sslj4_400.webp",
-                "price": 220,
-                "originalPrice": 226,
-                "discount": "3% off",
-                "delivery": "Free Delivery",
-                "rating": 3.8,
-                "reviews": 15398,
-                "category": "Beauty Tools"
-              },
-              {
-                "id": 114,
-                "name": "Fancy Face Packs",
-                "image": "https://images.meesho.com/images/products/401262974/olmla_400.webp",
-                "price": 90,
-                "originalPrice": 93,
-                "discount": "3% off",
-                "delivery": "Free Delivery",
-                "rating": 4.1,
-                "reviews": 10547,
-                "category": "Skincare"
-              },
-              {
-                "id": 115,
-                "name": "Bella vita Everyday Perfumes for Women",
-                "image": "https://images.meesho.com/images/products/311768960/5xb8w_400.webp",
-                "price": 167,
-                "originalPrice": 399,
-                "discount": "58% off",
-                "delivery": "Free Delivery",
-                "rating": 4.4,
-                "reviews": 105796,
-                "category": "Fragrance"
-              },
-              {
-                "id": 116,
-                "name": "Paree Everyday Menstrual/Sanitary pads",
-                "image": "https://images.meesho.com/images/products/343072840/lvtlp_400.webp",
-                "price": 196,
-                "originalPrice": 280,
-                "discount": "30% off",
-                "delivery": "Free Delivery",
-                "rating": 3.7,
-                "reviews": 11980,
-                "category": "Personal Care"
-              },
-              {
-                "id": 117,
-                "name": "Useful Nail Cutter",
-                "image": "https://images.meesho.com/images/products/250197421/x5pnc_400.webp",
-                "price": 214,
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 21158,
-                "category": "Beauty Tools"
-              },
-              {
-                "id": 118,
-                "name": "New Face Packs",
-                "price": 83,
-                "delivery": "Free Delivery",
-                "rating": 3.8,
-                "reviews": 14792,
-                "category": "Skincare"
-              },
-              {
-                "id": 119,
-                "name": "Ramsons U R Lovely Perfume Body Spray | 30ml | Perfume For Women| Long Lasting Perfume | Luxury Perfume | Premium Perfume",
-                "image": "https://images.meesho.com/images/products/289837755/xqawd_400.webp",
-                "price": 151,
-                "originalPrice": 189,
-                "discount": "20% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 77479,
-                "category": "Fragrance"
-              },
-              {
-                "id": 120,
-                "name": "PLIX - THE PLANT FIX Fancy Facewash & Scrubs",
-                "image": "https://images.meesho.com/images/products/292791610/yyy6n_400.webp",
-                "price": 294,
-                "originalPrice": 400,
-                "discount": "26% off",
-                "delivery": "Free Delivery",
-                "rating": 4.2,
-                "reviews": 6545,
-                "category": "Face Wash"
-              }
-            ],
-
-          "accessories":[
-       
-                {
-                  "id": 121,
-                  "name": "Beautiful Handbag for women",
-                  "image": "https://images.meesho.com/images/products/331972072/hzna0_400.webp",
-                  "price": 121,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 89259,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 122,
-                  "name": "Men's Brown Two Fold Wallet",
-                  "image": "https://images.meesho.com/images/products/88681655/nem6l_400.webp",
-                  "price": 117,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 41099,
-                  "category": "Wallets"
-                },
-                {
-                  "id": 123,
-                  "name": "Trendy New Backpacks",
-                  "image": "https://images.meesho.com/images/products/392383953/azmdh_400.webp",
-                  "price": 183,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 4640,
-                  "category": "Backpacks"
-                },
-                {
-                  "id": 124,
-                  "name": "Daniel Clark Handbag",
-                  "image": "https://images.meesho.com/images/products/194885424/hvchs_400.webp",
-                  "price": 215,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 33579,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 125,
-                  "name": "Women Duffel Bags",
-                  "image": "https://images.meesho.com/images/products/195070537/vm077_400.webp",
-                  "price": 257,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 4983,
-                  "category": "Bags"
-                },
-                {
-                  "id": 126,
-                  "name": "Grey Chatkani Handbag",
-                  "image": "https://images.meesho.com/images/products/320197567/44pbc_400.webp",
-                  "price": 194,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 13133,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 127,
-                  "name": "Stylish Men Wallets",
-                  "image": "https://images.meesho.com/images/products/81412794/ivama_400.webp",
-                  "price": 92,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 4836,
-                  "category": "Wallets"
-                },
-                {
-                  "id": 128,
-                  "name": "Women Travel Bags",
-                  "image": "https://images.meesho.com/images/products/288944680/tanfr_400.webp",
-                  "price": 252,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 16774,
-                  "category": "Bags"
-                },
-                {
-                  "id": 129,
-                  "name": "Casual Handbag for women",
-                  "image": "https://images.meesho.com/images/products/393333357/xxsyi_400.webp",
-                  "price": 187,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 6517,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 130,
-                  "name": "PU Leather Women Handbag",
-                  "image": "https://images.meesho.com/images/products/377819345/pqjws_400.webp",
-                  "price": 216,
-                  "delivery": "Free Delivery",
-                  "rating": 4.1,
-                  "reviews": 30454,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 131,
-                  "name": "Women's Faux Leather Handbag",
-                  "image": "https://images.meesho.com/images/products/4158256/1_400.webp",
-                  "price": 170,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 44803,
-                  "category": "Handbags"
-                },
-                {
-                  "id": 132,
-                  "name": "Women Backpacks",
-                  "image": "https://images.meesho.com/images/products/342686758/lzokz_400.webp",
-                  "price": 226,
-                  "delivery": "Free Delivery",
-                  "rating": 4.0,
-                  "reviews": 5748,
-                  "category": "Backpacks"
-                },
-                {
-                  "id": 133,
-                  "name": "Designer Tote Bag",
-                  "image": "https://images.meesho.com/images/products/374646373/c4bx8_400.webp",
-                  "price": 186,
-                  "delivery": "Free Delivery",
-                  "rating": 4.2,
-                  "reviews": 14887,
-                  "category": "Bags"
-                },
-                {
-                  "id": 134,
-                  "name": "Synthetic Hair Extensions",
-                  "image": "https://images.meesho.com/images/products/91008491/bk0xd_400.webp",
-                  "price": 143,
-                  "delivery": "Free Delivery",
-                  "rating": 3.9,
-                  "reviews": 3801,
-                  "category": "Beauty"
-                }
-          ],
-          "grocery":[
-            {
-              "id": 135,
-              "name": "Yogabar Himalayan Pure Shilajit/Shilajeet Resin 20g",
-              "image": "https://images.meesho.com/images/products/455726160/b2qw4_400.webp",
-              "price": 534,
-              "delivery": "Free Delivery",
-              "rating": 4.3,
-              "reviews": 45,
-              "category": "Health"
-            },
-            {
-              "id": 136,
-              "name": "Bedmi poori atta-Ready to cook 400gm",
-              "image": "https://images.meesho.com/images/products/292902919/cb57s_400.webp",
-              "price": 143,
-              "delivery": "Free Delivery",
-              "rating": 4.1,
-              "reviews": 45,
-              "category": "Food"
-            },
-            {
-              "id": 137,
-              "name": "True Elements Raw White Sesame Seeds 400gm",
-              "image": "https://images.meesho.com/images/products/466565950/tjxqy_400.webp",
-              "price": 193,
-              "delivery": "Free Delivery",
-              "rating": 3.6,
-              "reviews": 7,
-              "category": "Food"
-            },
-            {
-              "id": 138,
-              "name": "True Elements Chia Seeds 150gm pack of 2",
-              "image": "https://images.meesho.com/images/products/335186099/8npru_400.webp",
-              "price": 158,
-              "delivery": "Free Delivery",
-              "rating": 4.3,
-              "reviews": 5516,
-              "category": "Food"
-            },
-            {
-              "id": 139,
-              "name": "Yogabar High Protein Muesli - 850 gm",
-              "image": "https://images.meesho.com/images/products/214720686/owjw3_400.webp",
-              "price": 378,
-              "delivery": "Free Delivery",
-              "rating": 2.8,
-              "reviews": 50,
-              "category": "Food"
-            },
-            {
-              "id": 140,
-              "name": "True Elements Quinoa 200gm",
-              "image": "https://images.meesho.com/images/products/351205668/ui0yt_400.webp",
-              "price": 155,
-              "delivery": "Free Delivery",
-              "rating": 4.2,
-              "reviews": 13,
-              "category": "Food"
-            },
-            {
-              "id": 141,
-              "name": "Yogabar 100% Rolled Oats 1 kg Pouch",
-              "image": "https://images.meesho.com/images/products/440548651/rd671_400.webp",
-              "price": 381,
-              "delivery": "Free Delivery",
-              "rating": 4.1,
-              "reviews": 33,
-              "category": "Food"
-            },
-            {
-              "id": 142,
-              "name": "True Elements Chia Seeds 250gm pack of 2",
-              "image": "https://images.meesho.com/images/products/338412089/uyii4_400.webp",
-              "price": 297,
-              "delivery": "Free Delivery",
-              "rating": 4.2,
-              "reviews": 103,
-              "category": "Food"
-            },
-            {
-              "id": 143,
-              "name": "True Elements Raw Chia 1kg",
-              "image": "https://images.meesho.com/images/products/308564621/vth6w_400.webp",
-              "price": 465,
-              "delivery": "Free Delivery",
-              "rating": 4.1,
-              "reviews": 13,
-              "category": "Food"
-            },
-            {
-              "id": 144,
-              "name": "True Elements Spearmint Herbal Tea 100gm",
-              "image": "https://images.meesho.com/images/products/420917917/8he3l_400.webp",
-              "price": 279,
-              "delivery": "Free Delivery",
-              "rating": 4.5,
-              "reviews": 4,
-              "category": "Beverages"
-            },
-            {
-              "id": 145,
-              "name": "Happilo Champion Mix 350g",
-              "image": "https://images.meesho.com/images/products/471228296/svm8b_400.webp",
-              "price": 288,
-              "delivery": "Free Delivery",
-              "rating": 4.1,
-              "reviews": 70,
-              "category": "Food"
-            },
-            {
-              "id": 146,
-              "name": "Healthy Flax Seed Chutney Powder - 125gm",
-              "image": "https://images.meesho.com/images/products/165477279/jtp3x_400.webp",
-              "price": 156,
-              "delivery": "Free Delivery",
-              "rating": 4.4,
-              "reviews": 62,
-              "category": "Food"
-            },
-            {
-              "id": 147,
-              "name": "Organic Multigrain Dry Fruit Baby Cereal 400g",
-              "image": "https://images.meesho.com/images/products/295143651/xkyms_400.webp",
-              "price": 370,
-              "delivery": "Free Delivery",
-              "rating": 3.9,
-              "reviews": 150,
-              "category": "Baby Care"
-            },
-            {
-              "id": 148,
-              "name": "Multigrain Cereal with Dryfruits 400g x 2",
-              "image": "https://images.meesho.com/images/products/321344695/afnr1_400.webp",
-              "price": 356,
-              "delivery": "Free Delivery",
-              "rating": 3.7,
-              "reviews": 44,
-              "category": "Baby Care"
-            },
-            {
-              "id": 149,
-              "name": "Rava Porridge First Food for Babies 400g x 2",
-              "image": "https://images.meesho.com/images/products/321365944/wmunt_400.webp",
-              "price": 335,
-              "delivery": "Free Delivery",
-              "rating": 3.7,
-              "reviews": 6,
-              "category": "Baby Care"
-            },
-            {
-              "id": 150,
-              "name": "Happilo Kashmiri Saffron 1g (Pack of 2)",
-              "image": "https://images.meesho.com/images/products/471152059/elbur_400.webp",
-              "price": 494,
-              "delivery": "Free Delivery",
-              "rating": 4.1,
-              "reviews": 677,
-              "category": "Food"
-            },
-            {
-              "id": 151,
-              "name": "Yogabar Fruit and Nut Muesli 700g (Pack of 2)",
-              "image": "https://images.meesho.com/images/products/189354381/suho6_400.webp",
-              "price": 513,
-              "delivery": "Free Delivery",
-              "rating": 4.3,
-              "reviews": 677,
-              "category": "Food"
-            },
-            {
-              "id": 152,
-              "name": "Yogabar Dark Chocolate Muesli 400g",
-              "image": "https://images.meesho.com/images/products/166012043/lwxxj_400.webp",
-              "price": 209,
-              "delivery": "Free Delivery",
-              "rating": 4.3,
-              "reviews": 3248,
-              "category": "Food"
-            }
-          ],
-          
-          "gold":{
-            "lehengas":[
-           
-                  {
-                    "id": 153,
-                    "name": "Fancy Designer Flared Embroidered Rajasthani Bridal Lehenga",
-                    "image": "https://images.meesho.com/images/products/161035341/xe8vb_400.webp",
-                    "price": 1134,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1978,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 154,
-                    "name": "Fancy Designer Flared Embroidered Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/35207365/uenyi_400.webp",
-                    "price": 1402,
-                    "delivery": "Free Delivery",
-                    "rating": 4.4,
-                    "reviews": 1408,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 155,
-                    "name": "Jivika Fabulous Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/375672670/triyv_400.webp",
-                    "price": 1161,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 1019,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 156,
-                    "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
-                    "image": "https://images.meesho.com/images/products/137496787/sjm8a_400.webp",
-                    "price": 1101,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1169,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 157,
-                    "name": "Fancy Designer Western Ruffle Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/41923922/wojwa_400.webp",
-                    "price": 1413,
-                    "delivery": "Free Delivery",
-                    "rating": 4.3,
-                    "reviews": 2145,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 158,
-                    "name": "Abhisarika Voguish Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/402392262/spex7_400.webp",
-                    "price": 946,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 440,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 159,
-                    "name": "Fancy Designer Flared Embroidered Rajasthani Mehendi Lehenga",
-                    "image": "https://images.meesho.com/images/products/114996869/mgrul_400.webp",
-                    "price": 824,
-                    "delivery": "Free Delivery",
-                    "rating": 3.9,
-                    "reviews": 282,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 160,
-                    "name": "Fancy Designer Flared Mirror Work Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/14450118/a61d4_400.webp",
-                    "price": 1063,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 5077,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 161,
-                    "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
-                    "image": "https://images.meesho.com/images/products/162496173/27pdd_400.webp",
-                    "price": 1101,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 61,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 162,
-                    "name": "Charvi Fabulous Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/402465320/xrajm_400.webp",
-                    "price": 1015,
-                    "delivery": "Free Delivery",
-                    "rating": 4.6,
-                    "reviews": 21,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 163,
-                    "name": "Fancy Designer Flared Sequinned Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/44893643/yvgcb_400.webp",
-                    "price": 1093,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 279,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 164,
-                    "name": "Fancy Designer Panelled Embroidered Gujarati Bridal Lehenga",
-                    "image": "https://images.meesho.com/images/products/156403116/yliys_400.webp",
-                    "price": 1031,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 287,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 165,
-                    "name": "Trendy Alluring Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/344602258/cokni_400.webp",
-                    "price": 957,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 127,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 166,
-                    "name": "Aagam Pretty Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/309173453/d5iml_400.webp",
-                    "price": 1503,
-                    "delivery": "Free Delivery",
-                    "rating": 4.5,
-                    "reviews": 394,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 167,
-                    "name": "Fancy Designer Flared Embroidered Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/66261672/u6hdj_400.webp",
-                    "price": 1274,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1184,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 168,
-                    "name": "Myra Fabulous Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/322115992/ofrb1_400.webp",
-                    "price": 940,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 572,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 169,
-                    "name": "Aakarsha Superior Women Lehenga",
-                    "image": "https://images.meesho.com/images/products/392764814/kuc1d_400.webp",
-                    "price": 963,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 114,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 170,
-                    "name": "Fancy Designer Gujarati Embroidered Rajasthani Bridal Lehenga",
-                    "image": "https://images.meesho.com/images/products/159696549/ygknw_400.webp",
-                    "price": 998,
-                    "delivery": "Free Delivery",
-                    "rating": 3.9,
-                    "reviews": 16,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 171,
-                    "name": "Fancy Designer Pleated Embroidered Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/28812877/d2c40_400.webp",
-                    "price": 1060,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1180,
-                    "category": "Lehenga"
-                  },
-                  {
-                    "id": 172,
-                    "name": "Fancy Designer Plain Embroidered Indo Western Party Lehenga",
-                    "image": "https://images.meesho.com/images/products/165710933/yvmio_400.webp",
-                    "price": 1230,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 126,
-                    "category": "Lehenga"
-                  }
-                ],
-                "kurtas":[
-                  {
-                    "id": 173,
-                    "name": "Fancy Men Kurta Set",
-                    "image": "https://images.meesho.com/images/products/5920831/yaykq_400.webp",
-                    "price": 1361,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1908,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 174,
-                    "name": "Comfy Men Kurtas",
-                    "image": "https://images.meesho.com/images/products/277799137/k44cp_400.webp",
-                    "price": 583,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 4576,
-                    "category": "Men Kurtas"
-                  },
-                  {
-                    "id": 175,
-                    "name": "Modern Men Kurtas",
-                    "image": "https://images.meesho.com/images/products/384124514/lzudh_400.webp",
-                    "price": 567,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1910,
-                    "category": "Men Kurtas"
-                  },
-                  {
-                    "id": 176,
-                    "name": "Essential Men Kurta Sets",
-                    "image": "https://images.meesho.com/images/products/520508136/l3tll_400.webp",
-                    "price": 804,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 2237,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 177,
-                    "name": "Modern Men Kurta and Churidar Set",
-                    "image": "https://images.meesho.com/images/products/211626229/jh2dh_400.webp",
-                    "price": 850,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 1940,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 178,
-                    "name": "Fashionable Men Kurta Sets",
-                    "image": "https://images.meesho.com/images/products/521675557/wz4lw_400.webp",
-                    "price": 804,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 2371,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 179,
-                    "name": "Designer Men Kurta Sets",
-                    "image": "https://images.meesho.com/images/products/6585726/65207_400.webp",
-                    "price": 823,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 2015,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 180,
-                    "name": "Classy Men Kurta Sets",
-                    "image": "https://images.meesho.com/images/products/196706838/l0uko_400.webp",
-                    "price": 939,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 583,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 181,
-                    "name": "Rutva Men’s Kurta Pyjama Set",
-                    "image": "https://images.meesho.com/images/products/165839358/frndt_400.webp",
-                    "price": 1029,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 861,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 182,
-                    "name": "Trendy Men Kurta Set",
-                    "image": "https://images.meesho.com/images/products/6585586/d4628_400.webp",
-                    "price": 864,
-                    "delivery": "Free Delivery",
-                    "rating": 4.0,
-                    "reviews": 793,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 183,
-                    "name": "Urbane Men's Sherwani Set",
-                    "image": "https://images.meesho.com/images/products/27059214/aftry_400.webp",
-                    "price": 1088,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 2087,
-                    "category": "Sherwani"
-                  },
-                  {
-                    "id": 184,
-                    "name": "StyleVault Men's Kurta Set",
-                    "image": "https://images.meesho.com/images/products/203618618/xaabd_400.webp",
-                    "price": 687,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1634,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 185,
-                    "name": "Men's Plain Kurta Pajama with Jacket",
-                    "image": "https://images.meesho.com/images/products/204277182/koucz_400.webp",
-                    "price": 730,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1890,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 186,
-                    "name": "Lucknowi Work Kurta Pyjama",
-                    "image": "https://images.meesho.com/images/products/378501214/4tnnm_400.webp",
-                    "price": 820,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 2224,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 187,
-                    "name": "Solid Kurta with Nehru Jacket",
-                    "image": "https://images.meesho.com/images/products/218617566/gxe3f_400.webp",
-                    "price": 683,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 4911,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 188,
-                    "name": "Modern Men Kurta Set",
-                    "image": "https://images.meesho.com/images/products/31318446/605c4_400.webp",
-                    "price": 555,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 1351,
-                    "category": "Men Kurta Sets"
-                  },
-                  {
-                    "id": 189,
-                    "name": "Jubba Set with Rumal",
-                    "image": "https://images.meesho.com/images/products/245769390/z4kfa_400.webp",
-                    "price": 708,
-                    "delivery": "Free Delivery",
-                    "rating": 4.2,
-                    "reviews": 906,
-                    "category": "Jubba"
-                  },
-                  {
-                    "id": 190,
-                    "name": "Chikankari Kurta - Black",
-                    "image": "https://images.meesho.com/images/products/384125088/ruxyu_400.webp",
-                    "price": 531,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 408,
-                    "category": "Men Kurtas"
-                  },
-                  {
-                    "id": 191,
-                    "name": "Kurta Pyjama Set with Green Jacket",
-                    "image": "https://images.meesho.com/images/products/396826848/wh1wf_400.webp",
-                    "price": 631,
-                    "delivery": "Free Delivery",
-                    "rating": 4.1,
-                    "reviews": 125,
-                    "category": "Men Kurta Sets"
-                  }
-                ],
-                "Sarees":[
-                  
-                    {
-                      "id": 192,
-                      "name": "Aakarsha Fabulous Sarees",
-                      "image": "https://images.meesho.com/images/products/472072273/o5xdn_400.webp",
-                      "price": 1038,
-                      "delivery": "Free Delivery",
-                      "rating": 4.5,
-                      "reviews": 91,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 193,
-                      "name": "Kashvi Drishya Sarees",
-                      "image": "https://images.meesho.com/images/products/396679858/i5tmt_400.webp",
-                      "price": 670,
-                      "delivery": "Free Delivery",
-                      "rating": 4.0,
-                      "reviews": 2543,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 194,
-                      "name": "Aagam Pretty Sarees",
-                      "image": "https://images.meesho.com/images/products/11403233/6btzy_400.webp",
-                      "price": 717,
-                      "delivery": "Free Delivery",
-                      "rating": 4.0,
-                      "reviews": 4448,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 195,
-                      "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador",
-                      "image": "https://images.meesho.com/images/products/508690667/dcnds_400.webp",
-                      "price": 914,
-                      "delivery": "Free Delivery",
-                      "rating": 5.0,
-                      "reviews": 6,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 196,
-                      "name": "Kashvi Attractive Sarees",
-                      "image": "https://images.meesho.com/images/products/384961749/gbfw5_400.webp",
-                      "price": 880,
-                      "delivery": "Free Delivery",
-                      "rating": 4.1,
-                      "reviews": 10338,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 197,
-                      "name": "SKiran's Mix Poly Mekhla Sadar - Colouring Jari Mekhala Chador",
-                      "image": "https://images.meesho.com/images/products/438127873/wfwyx_400.webp",
-                      "price": 896,
-                      "delivery": "Free Delivery",
-                      "rating": 4.2,
-                      "reviews": 81,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 198,
-                      "name": "SKiran's Assamese Premium Poly Mekhla Chador - Mekhela Sador",
-                      "image": "https://images.meesho.com/images/products/124184716/qised_400.webp",
-                      "price": 1153,
-                      "delivery": "Free Delivery",
-                      "rating": 4.3,
-                      "reviews": 150,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 199,
-                      "name": "Aagyeyi Voguish Sarees",
-                      "image": "https://images.meesho.com/images/products/253279352/ikvnq_400.webp",
-                      "price": 705,
-                      "delivery": "Free Delivery",
-                      "rating": 4.3,
-                      "reviews": 2565,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 200,
-                      "name": "Kashvi Fashionable Sarees",
-                      "image": "https://images.meesho.com/images/products/9159125/11870_400.webp",
-                      "price": 663,
-                      "delivery": "Free Delivery",
-                      "rating": 4.1,
-                      "reviews": 17258,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 201,
-                      "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador - Mix Pat",
-                      "image": "https://images.meesho.com/images/products/472063799/ydn4v_400.webp",
-                      "price": 936,
-                      "delivery": "Free Delivery",
-                      "rating": 3.9,
-                      "reviews": 17,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 202,
-                      "name": "SKiran's Mix Poly Mekhla Sadar - Chiku Mekhala Sador - Mix Pat",
-                      "image": "https://images.meesho.com/images/products/508690654/cnxxr_400.webp",
-                      "price": 936,
-                      "delivery": "Free Delivery",
-                      "rating": 4.3,
-                      "reviews": 6,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 203,
-                      "name": "Aishani Fashionable Sarees",
-                      "image": "https://images.meesho.com/images/products/401159482/pxzop_400.webp",
-                      "price": 662,
-                      "delivery": "Free Delivery",
-                      "rating": 4.2,
-                      "reviews": 1266,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 204,
-                      "name": "SKiran's Mix Poly Mekhla Sadar - Copper Jari Mekhala Chador",
-                      "image": "https://images.meesho.com/images/products/349576801/to3d8_400.webp",
-                      "price": 1156,
-                      "delivery": "Free Delivery",
-                      "rating": 4.3,
-                      "reviews": 0,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 205,
-                      "name": "Myra Superior Sarees",
-                      "image": "https://images.meesho.com/images/products/284396425/domdp_400.webp",
-                      "price": 706,
-                      "delivery": "Free Delivery",
-                      "rating": 4.1,
-                      "reviews": 1135,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 206,
-                      "name": "Charvi Graceful Sarees",
-                      "image": "https://images.meesho.com/images/products/232757993/y8zzh_400.webp",
-                      "price": 1215,
-                      "delivery": "Free Delivery",
-                      "rating": 4.3,
-                      "reviews": 5949,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 207,
-                      "name": "SKiran's Artificial MM Toss Fix Pari - Mekhla Sadar",
-                      "image": "https://images.meesho.com/images/products/494506285/7cwxc_400.webp",
-                      "price": 911,
-                      "delivery": "Free Delivery",
-                      "rating": 3.5,
-                      "reviews": 6,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 208,
-                      "name": "Charvi Sensational Sarees",
-                      "image": "https://images.meesho.com/images/products/519253671/ingu9_400.webp",
-                      "price": 745,
-                      "delivery": "Free Delivery",
-                      "rating": 4.0,
-                      "reviews": 5,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 209,
-                      "name": "Trendy Graceful Sarees",
-                      "image": "https://images.meesho.com/images/products/377353299/5rqwf_400.webp",
-                      "price": 802,
-                      "delivery": "Free Delivery",
-                      "rating": 4.1,
-                      "reviews": 5412,
-                      "category": "Sarees"
-                    },
-                    {
-                      "id": 210,
-                      "name": "Chitrarekha Ensemble Sarees",
-                      "image": "https://images.meesho.com/images/products/188364552/vj1wg_400.webp",
-                      "price": 802,
-                      "delivery": "Free Delivery",
-                      "rating": 4.2,
-                      "reviews": 1200,
-                      "category": "Sarees"
-                    }
-                  
-                  
-                ],
-                "Jewellery":[
-                      {
-                        "id": 211,
-                        "name": "Diva Colorful Bracelet & Bangles",
-                        "image": "https://images.meesho.com/images/products/530703034/2sarc_400.webp",
-                        "price": 554,
-                        "delivery": "Free Delivery",
-                        "rating": 4.0,
-                        "reviews": 1500,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 212,
-                        "name": "Elite Elegant Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/51562905/prw3u_400.webp",
-                        "price": 817,
-                        "delivery": "Free Delivery",
-                        "rating": 4.2,
-                        "reviews": 8017,
-                        "original_price": 858,
-                        "discount": "5% off",
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 213,
-                        "name": "Princess Chic Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/209005681/7q5zk_400.webp",
-                        "price": 645,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 2405,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 214,
-                        "name": "Elite Fancy Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/400697548/g3yad_400.webp",
-                        "price": 1002,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 1558,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 215,
-                        "name": "Feminine Glittering Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/392676065/2urwa_400.webp",
-                        "price": 608,
-                        "delivery": "Free Delivery",
-                        "rating": 4.0,
-                        "reviews": 900,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 216,
-                        "name": "Shimmering Chic Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/531322449/7ifkd_400.webp",
-                        "price": 702,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 1200,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 217,
-                        "name": "Gold Plated Attiga Necklace",
-                        "image": "https://images.meesho.com/images/products/129812174/k8jaz_400.webp",
-                        "price": 376,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 1350,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 218,
-                        "name": "Sizzling Charming Women Necklaces & Chains",
-                        "image": "https://images.meesho.com/images/products/383014197/airzk_400.webp",
-                        "price": 416,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 3857,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 219,
-                        "name": "Sizzling Bejeweled Women Necklaces & Chains",
-                        "image": "https://images.meesho.com/images/products/224419807/9vwdd_400.webp",
-                        "price": 355,
-                        "delivery": "Free Delivery",
-                        "rating": 4.4,
-                        "reviews": 135,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 220,
-                        "name": "Diva Fancy Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/224419807/9vwdd_400.webp",
-                        "price": 524,
-                        "delivery": "Free Delivery",
-                        "rating": 4.2,
-                        "reviews": 2000,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 221,
-                        "name": "Shimmering Colorful Mangalsutras",
-                        "image": "https://images.meesho.com/images/products/517598922/ml9ym_400.webp",
-                        "price": 286,
-                        "delivery": "Free Delivery",
-                        "rating": 4.3,
-                        "reviews": 500,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 222,
-                        "name": "Shimmering Fusion Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/216778645/do6py_400.webp",
-                        "price": 482,
-                        "delivery": "Free Delivery",
-                        "rating": 4.0,
-                        "reviews": 420,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 223,
-                        "name": "Elite Colorful Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/387706401/6ehjb_400.webp",
-                        "price": 477,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 1337,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 224,
-                        "name": "Sizzling Graceful Nosepins",
-                        "image": "https://images.meesho.com/images/products/50921557/slzmo_400.webp",
-                        "price": 333,
-                        "delivery": "Free Delivery",
-                        "rating": 4.0,
-                        "reviews": 1800,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 225,
-                        "name": "Elite Graceful Earrings",
-                        "image": "https://images.meesho.com/images/products/25687689/hvb1o_400.webp",
-                        "price": 366,
-                        "delivery": "Free Delivery",
-                        "rating": 4.3,
-                        "reviews": 1519,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 226,
-                        "name": "Premium Quality Microplated Long Haram",
-                        "image": "https://images.meesho.com/images/products/183680530/16ens_400.webp",
-                        "price": 388,
-                        "delivery": "Free Delivery",
-                        "rating": 4.1,
-                        "reviews": 1958,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 227,
-                        "name": "Elite Graceful Mangalsutras",
-                        "image": "https://images.meesho.com/images/products/313734094/ve0b5_400.webp",
-                        "price": 311,
-                        "delivery": "Free Delivery",
-                        "rating": 4.3,
-                        "reviews": 2779,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 228,
-                        "name": "Allure Glittering Women Necklaces & Chains",
-                        "image": "https://images.meesho.com/images/products/334089910/sidmo_400.webp",
-                        "price": 563,
-                        "delivery": "Free Delivery",
-                        "rating": 4.2,
-                        "reviews": 2197,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 229,
-                        "name": "Diva Glittering Jewellery Sets",
-                        "image": "https://images.meesho.com/images/products/402214024/f2ukh_400.webp",
-                        "price": 533,
-                        "delivery": "Free Delivery",
-                        "rating": 4.3,
-                        "reviews": 1160,
-                        "category": "Jewellery"
-                      },
-                      {
-                        "id": 230,
-                        "name": "Princess Colorful Bracelet & Bangles",
-                        "image": "https://images.meesho.com/images/products/57607459/hxscb_400.webp",
-                        "price": 464,
-                        "delivery": "Free Delivery",
-                        "rating": 4.3,
-                        "reviews": 5516,
-                        "category": "Jewellery"
-                      }
-                    ]
-
-                  }
-              ,
-              "cart":[]
-              
-            
-      
-      
-      
-        
-        
-      
+      "id": 1746527239925,
+      "email": "kunj@gmail.com",
+      "password": "291882"
+    },
+    {
+      "id": 1746527239926,
+      "email": "kun1j@gmail.com",
+      "password": "98292"
+    },
+    {
+      "id": 1746527239926,
+      "email": "12kunj@gmail.com",
+      "password": "991289"
     }
-    
-  
-
+  ]
+}

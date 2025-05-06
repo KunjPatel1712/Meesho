@@ -11,12 +11,14 @@ import Accessories from '../categories/Accessories'
 import Beauty from '../categories/Beauty'
 import Grocery from '../categories/Grocery'
 import CategoryPage from '../Goldproductpage'
-
-
-import ProductDescription from '../Description'
 import Description from '../Description'
-import Cart from './Cart'
 import CartPage from './Cart'
+import Login from '../Login'
+
+
+
+
+
 
 
 
@@ -35,10 +37,11 @@ const Allroutes = () => {
       <Route path='/accessories' element={<Accessories/>} />
       <Route path='/grocery' element ={<Grocery />}/>
 
-      
+    
+   
       <Route path="/category/:category" element={<CategoryPage />} />
-      <Route path="/:category/:id" element={<Description />} />
-
+      <Route path="/product/:id" element={<Description/>} />
+      <Route path="/login" element={<Login />} />
       <Route path="/cart" element={<CartPage />} /> 
     </Routes>
   )

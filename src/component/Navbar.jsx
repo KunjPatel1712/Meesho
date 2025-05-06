@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Navbar, Nav, Form, FormControl, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
+import ProfileMenu from './Profilemenu';
 
 const MeeshoNavbar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -106,6 +107,11 @@ const MeeshoNavbar = () => {
     }
   ];
 
+
+  
+  const handleSignUpClick = () => {
+    history.push('/login');  
+  };
   return (
     <div>
       {/* Main Navbar */}
@@ -147,7 +153,11 @@ const MeeshoNavbar = () => {
                 Investor Relations
               </Nav.Link>
               <Nav.Link href="#profile" className="nav-link">
-                <i className="fas fa-user"></i> Profile
+               
+
+              <ProfileMenu/>
+
+
               </Nav.Link>
               <Nav.Link href="/component/cart" className="nav-link">
         <i className="fas fa-shopping-cart"></i> Cart 
