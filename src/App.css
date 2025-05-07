@@ -319,3 +319,11 @@
       height: 24px;
     }
   }
+
+  /* Ensure search input fills available space */
+.search-input {
+  height: 38px;
+  padding-left: 12px;
+}
+
+/* Style fixes for smaller screens */

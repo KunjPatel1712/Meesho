@@ -7,7 +7,6 @@ const Description = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [product, setProduct] = useState(null);
-
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -20,14 +19,16 @@ const Description = () => {
           "homemain", "Menswear", "westrendress", "homedecore"
         ];
 
+        // Fetch all data from each endpoint
         const allData = await Promise.all(
           endpoints.map((endpoint) =>
             axios.get(`http://localhost:3000/${endpoint}`)
           )
         );
 
-        const allProducts = allData.flatMap(res => res.data);
-        const foundProduct = allProducts.find(p => String(p.id) === id);
+        // Flatten all the results and search for the product by id
+        const allProducts = allData.flatMap((res) => res.data);
+        const foundProduct = allProducts.find((p) => String(p.id) === id);
 
         if (foundProduct) {
           setProduct(foundProduct);
@@ -49,10 +50,10 @@ const Description = () => {
     if (!product) return;
 
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const existing = cart.find(item => item.id === product.id);
+    const existing = cart.find((item) => item.id === product.id);
 
     const updatedCart = existing
-      ? cart.map(item =>
+      ? cart.map((item) =>
           item.id === product.id
             ? { ...item, quantity: item.quantity + 1 }
             : item
@@ -87,21 +88,12 @@ const Description = () => {
 
   if (!product) return null;
 
-  // Use the product's image field for the image
   return (
     <Container className="my-5">
       <Row className="g-4">
-        {/* Left Thumbnails - Vertical */}
-
-        {/* Main Image */}
         <Col xs={12} md={5} className="d-flex justify-content-center">
           <div className="main-image-container">
-            <Image 
-              src={product.image}  // Use product.image
-              alt={product.name} 
-              fluid 
-              className="main-product-image"
-            />
+            <Image src={product.image} alt={product.name} fluid className="main-product-image" />
             {product.discount && (
               <Badge bg="danger" className="discount-badge">
                 {product.discount}% OFF
@@ -110,7 +102,6 @@ const Description = () => {
           </div>
         </Col>
 
-        {/* Product Info */}
         <Col xs={12} md={5}>
           <h1 className="product-title">{product.name}</h1>
 
@@ -125,13 +116,9 @@ const Description = () => {
 
           <div className="price-section mb-3">
             {product.originalPrice && (
-              <span className="original-price me-2">
-                ₹{product.originalPrice}
-              </span>
+              <span className="original-price me-2">₹{product.originalPrice}</span>
             )}
-            <span className="current-price h4 text-danger">
-              ₹{product.price}
-            </span>
+            <span className="current-price h4 text-danger">₹{product.price}</span>
             {product.originalPrice && (
               <span className="discount-percentage ms-2 text-success">
                 {Math.round((1 - product.price / product.originalPrice) * 100)}% off
@@ -150,15 +137,10 @@ const Description = () => {
               <span className="mx-2">1</span>
               <Button variant="outline-secondary" size="sm">+</Button>
             </div>
-            <Button 
-              variant="outline-danger" 
-              onClick={addToCart} 
-              className="flex-grow-1"
-            >
+            <Button variant="outline-danger" onClick={addToCart} className="flex-grow-1">
               🛒 Add to Cart
             </Button>
           </div>
-
         </Col>
       </Row>
     </Container>

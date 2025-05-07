@@ -5,19 +5,19 @@ import { Container, Row, Col, Card, Badge } from "react-bootstrap";
 
 const ProductDetailPage = () => {
   const { id } = useParams(); // Get the product ID from URL params
-  const [product, setProduct] = useState(null);
+  const [prod, setProd] = useState(null);
 
   useEffect(() => {
     // Fetch product details based on the product ID
     axios
       .get(`http://localhost:3000/gold/${id}`)
       .then((res) => {
-        setProduct(res.data);
+        setProd(res.data);
       })
       .catch((err) => console.error(err));
   }, [id]);
 
-  if (!product) {
+  if (!prod) {
     return <div>Loading...</div>;
   }
 
@@ -26,13 +26,13 @@ const ProductDetailPage = () => {
       <Row>
         <Col md={6}>
           <Card>
-            <Card.Img variant="top" src={product.image} alt={product.name} />
+            <Card.Img variant="top" src={prod.image} alt={prod.name} />
             <Card.Body>
-              <Card.Title>{product.name}</Card.Title>
+              <Card.Title>{prod.name}</Card.Title>
               <Card.Text>
-                <strong>₹{product.price}</strong>
+                <strong>₹{prod.price}</strong>
               </Card.Text>
-              <Card.Text>{product.description}</Card.Text>
+              <Card.Text>{prod.description}</Card.Text>
             </Card.Body>
           </Card>
         </Col>

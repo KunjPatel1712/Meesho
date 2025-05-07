@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { Container, Row, Col, Button, Image, Card } from "react-bootstrap";
+import { AiFillStar } from "react-icons/ai";
+import { FaTrashAlt, FaHeart } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
-  const navigate = useNavigate();
+
 
   useEffect(() => {
     const savedCartItems = JSON.parse(localStorage.getItem("cart")) || [];
@@ -72,155 +75,161 @@ const CartPage = () => {
     });
   };
 
+  const navigate = useNavigate();
+
+
+
   return (
   
-    
-        <div style={{ maxWidth: "800px", margin: "auto", padding: "20px", fontFamily: "Arial" }}>
-          <h1 style={{ textAlign: "center" }}>Your Cart</h1>
-          
-          {cartItems.length > 0 ? (
-            <>
-              {cartItems.map((item) => (
-                <div 
-                  key={item.id} 
-                  style={{ 
-                    display: "flex", 
-                    marginBottom: "20px",
-                    padding: "15px",
-                    border: "1px solid #eee",
-                    borderRadius: "8px",
-                    backgroundColor: "#fff"
-                  }}
-                >
-                  <div style={{ display: "flex", flexDirection: "column", marginRight: "20px" }}>
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      style={{ 
-                        width: "100px", 
-                        height: "100px",
-                        objectFit: "cover",
-                        marginBottom: "10px",
-                        borderRadius: "8px" 
-                      }}
-                    />
-{item.additionalImages && item.additionalImages.length > 0 && (
-  <div style={{ display: "flex", gap: "10px" }}>
-    {item.additionalImages.map((image, index) => (
-      <img
-        key={index}
-        src={image}
-        alt={`${item.name} additional ${index + 1}`}
-        style={{
-          width: "50px",
-          height: "50px",
-          objectFit: "cover",
-          borderRadius: "4px"
-        }}
-      />
-    ))}
-  </div>
-)}
+    <Container fluid style={{ background: "#f4f6f8", minHeight: "100vh", padding: "30px" }}>
+    <h2 style={{ textAlign: "center", marginBottom: "30px", fontWeight: "600", fontFamily: "Poppins" }}>🛒 Your Cart</h2>
+  
+    {cartItems.length > 0 ? (
+      <Row>
+        {/* LEFT: Cart Items */}
+        <Col md={8}>
+          {cartItems.map((item) => (
+            <Card
+              key={item.id}
+              className="mb-4"
+              style={{
+                boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
+                border: "none",
+                borderRadius: "12px",
+                padding: "20px",
+                marginBottom: "20px",  // Add margin to space out cards
+              }}
+            >
+              <Row>
+                <Col md={4}>
+                  <Image
+                    src={item.image}
+                    alt={item.name}
+                    fluid
+                    style={{
+                      height: "300px",
+                      width: "auto",
+                      borderRadius: "8px",
+                      marginBottom: "15px",  // Adds space below image
+                    }}
+                  />
+                  <div style={{ display: "flex", gap: "5px", marginTop: "10px", flexWrap: "wrap" }}>
+                    {item.additionalImages?.slice(0, 3).map((img, idx) => (
+                      <img
+                        key={idx}
+                        src={img}
+                        alt={`img-${idx}`}
+                        style={{
+                          width: "45px",
+                          height: "45px",
+                          borderRadius: "6px",
+                          border: "1px solid #ccc",
+                        }}
+                      />
+                    ))}
+                  </div>
+                </Col>
+                <Col md={8}>
+                  <h5 style={{ fontWeight: "600", fontFamily: "Poppins" }}>{item.name}</h5>
+                  <p style={{ color: "#666", fontSize: "14px" }}>Sold by: <strong>Top Seller</strong></p>
+                  <div style={{ display: "flex", alignItems: "center", marginBottom: "8px" }}>
+                    <span style={{
+                      backgroundColor: "#388e3c",
+                      color: "#fff",
+                      padding: "3px 6px",
+                      borderRadius: "4px",
+                      fontSize: "12px",
+                      display: "flex",
+                      alignItems: "center",
+                    }}>
+                      4.3 <AiFillStar style={{ marginLeft: "3px" }} />
+                    </span>
+                    <span style={{ marginLeft: "10px", fontSize: "13px", color: "#888" }}>(1,245 ratings)</span>
+                  </div>
+                  <div style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
+                    <span style={{ fontWeight: "bold", fontSize: "20px" }}>₹{getFormattedPrice(item.price)}</span>
+                    <span style={{ textDecoration: "line-through", color: "#999" }}>₹{getFormattedPrice(item.price * 1.3)}</span>
+                    <span style={{ color: "#388e3c", fontWeight: "500" }}>23% OFF</span>
+                  </div>
 
+                  <p style={{ fontSize: "13px", color: "#444", margin: "8px 0" }}>
+                    🚚 Delivery by <strong>May 12</strong>
+                  </p>
+
+                  {/* Quantity + Actions */}
+                  <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "10px",
+                    marginTop: "10px",
+                    flexWrap: "wrap"
+                  }}>
+                    <Button size="sm" variant="outline-secondary" onClick={() => decreaseQty(item.id)}>-</Button>
+                    <span>{item.quantity}</span>
+                    <Button size="sm" variant="outline-secondary" onClick={() => increaseQty(item.id)}>+</Button>
+                    <Button size="sm" variant="outline-danger" onClick={() => removeItem(item.id)}><FaTrashAlt /></Button>
+                    <Button size="sm" variant="outline-primary"><FaHeart style={{ marginRight: 5 }} /> Save</Button>
                   </div>
-                  
-                  <div style={{ flex: 1 }}>
-                    <h3 style={{ margin: "0 0 10px 0" }}>{item.name}</h3>
-                    <p style={{ margin: "0 0 10px 0", fontWeight: "bold" }}>
-                      ₹{getFormattedPrice(item.price)}
-                    </p>
-                    
-                    <div style={{ display: "flex", alignItems: "center", marginBottom: "10px" }}>
-                      <button 
-                        onClick={() => decreaseQty(item.id)}
-                        style={{
-                          padding: "5px 10px",
-                          border: "1px solid #ccc",
-                          backgroundColor: "#f5f5f5",
-                          cursor: "pointer"
-                        }}
-                      >
-                        -
-                      </button>
-                      <span style={{ padding: "0 10px" }}>{item.quantity}</span>
-                      <button 
-                        onClick={() => increaseQty(item.id)}
-                        style={{
-                          padding: "5px 10px",
-                          border: "1px solid #ccc",
-                          backgroundColor: "#f5f5f5",
-                          cursor: "pointer"
-                        }}
-                      >
-                        +
-                      </button>
-                      <button 
-                        onClick={() => removeItem(item.id)}
-                        style={{
-                          marginLeft: "15px",
-                          padding: "5px 10px",
-                          backgroundColor: "#ff4d4d",
-                          color: "white",
-                          border: "none",
-                          borderRadius: "4px",
-                          cursor: "pointer"
-                        }}
-                      >
-                        Remove
-                      </button>
-                    </div>
-                    
-                    <p style={{ fontWeight: "bold" }}>
-                      Subtotal: ₹{getItemSubtotal(item)}
-                    </p>
-                  </div>
-                </div>
-              ))}
-              
-              <div style={{ 
-                marginTop: "30px",
-                paddingTop: "20px",
-                borderTop: "1px solid #eee",
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center"
-              }}>
-                <h2>Total: ₹{getTotalPrice()}</h2>
-                <button 
-                  onClick={() => alert("Proceeding to checkout")}
-                  style={{
-                    padding: "10px 20px",
-                    backgroundColor: "#d10063",
-                    color: "white",
-                    border: "none",
-                    borderRadius: "5px",
-                    cursor: "pointer",
-                    fontSize: "16px"
-                  }}
-                >
-                  Proceed to Checkout
-                </button>
-              </div>
-            </>
-          ) : (
-            <div style={{ textAlign: "center", padding: "40px" }}>
-              <p style={{ fontSize: "18px", marginBottom: "20px" }}>Your cart is empty!</p>
-              <button
-                onClick={() => navigate("/")}
-                style={{
-                  padding: "10px 20px",
-                  backgroundColor: "#d10063",
-                  color: "white",
-                  border: "none",
-                  borderRadius: "5px",
-                  cursor: "pointer"
-                }}
-              >
-                Continue Shopping
-              </button>
+
+                  <p style={{ marginTop: "12px", fontWeight: "600" }}>Total: ₹{getItemSubtotal(item)}</p>
+                </Col>
+              </Row>
+            </Card>
+          ))}
+        </Col>
+
+        {/* RIGHT: Order Summary */}
+        <Col md={4}>
+          <Card style={{
+            position: "sticky",
+            top: "20px",
+            borderRadius: "12px",
+            padding: "20px",
+            boxShadow: "0 4px 16px rgba(0,0,0,0.08)",
+          }}>
+            <h5 style={{ fontWeight: "600", marginBottom: "20px" }}>🧾 Order Summary</h5>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+              <span>Total Items:</span>
+              <span>{cartItems.length}</span>
             </div>
-          )}
-        </div>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+              <span>Total Price:</span>
+              <span>₹{getTotalPrice()}</span>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
+              <span>Delivery Charges:</span>
+              <span style={{ color: "#388e3c" }}>FREE</span>
+            </div>
+            <hr />
+            <div style={{ display: "flex", justifyContent: "space-between", fontWeight: "600" }}>
+              <span>Grand Total:</span>
+              <span>₹{getTotalPrice()}</span>
+            </div>
+
+            <Button
+              variant="danger"
+              size="lg"
+              className="mt-4 w-100"
+              onClick={() => alert("Proceeding to Checkout")}
+            >
+              Proceed to Checkout
+            </Button>
+          </Card>
+        </Col>
+      </Row>
+    ) : (
+      <div style={{ textAlign: "center", padding: "80px 20px" }}>
+        <p style={{ fontSize: "20px", marginBottom: "20px" }}>🛍️ Your cart is empty!</p>
+        <Button
+          style={{ backgroundColor: "#d10063", border: "none", padding: "10px 25px" }}
+          onClick={() => navigate("/")}
+        >
+          Continue Shopping
+        </Button>
+      </div>
+    )}
+  </Container>
+  
   );
 };
 
