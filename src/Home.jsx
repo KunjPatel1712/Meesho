@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
 
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams} from 'react-router-dom';
 import './index.css';
 import women from "./assets/athicwhere.webp"
 import westen from "./assets/westrendress.webp"
@@ -28,27 +29,35 @@ import earrings from "./assets/earnings.webp"
 import chicflats from "./assets/chicflats.webp"
 import axios from 'axios';
 import ethic from './categories/Ethnicwear';
-// import Sidebar from './component/Sidebar';
+import Sidebar from './component/Sidebar';
+
 
 
 
 const Home = () => {
 
    const [products, setProducts] = useState([]);
+   const [searchParam] = useSearchParams();
  
+   
    useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch("http://localhost:3000/homemain"); // Replace with your correct URL
-        const data = await res.json();
-        setProducts(data); // Save the fetched data to state
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    };
-
-    fetchData();
-  }, []); //pty dependency array ensures it only runs once after the component mounts
+     const paramObj = {
+       category: searchParam.getAll("category"),
+       _sort: "price",
+       _order: searchParam.get("order") || "asc", // optional: add order from params
+       q: searchParam.get("q") || "",
+     };
+   
+     axios
+       .get("http://localhost:3000/homemain", { params: paramObj })
+       .then((res) => {
+         setProducts(res.data);
+       })
+       .catch((err) => {
+         console.error("Failed to fetch lifestyle items:", err);
+       });
+   }, [searchParam]);
+   
  
 
    const navigate = useNavigate();
@@ -61,43 +70,7 @@ const Home = () => {
 
 
 
-   const [searchParams] = useSearchParams();
-
-   const getFilteredProducts = (data) => {
-     const categories = searchParams.getAll("category");
-     const prices = searchParams.getAll("price");
-     const ratings = searchParams.getAll("rating");
- 
-     return data.filter((item) => {
-       // Filter by category
-       const matchCategory = categories.length ? categories.includes(item.category) : true;
- 
-       // Filter by price
-       const matchPrice = prices.length
-         ? prices.some((range) => {
-             const [min, max] = range.split("-").map(Number);
-             return item.price >= min && item.price <= max;
-           })
-         : true;
- 
-       // Filter by rating
-       const matchRating = ratings.length
-         ? ratings.some((r) => item.rating >= parseFloat(r))
-         : true;
- 
-       return matchCategory && matchPrice && matchRating;
-     });
-   };
- 
-   useEffect(() => {
-     fetch("http://localhost:3000/homemain") // Update to your endpoint
-       .then((res) => res.json())
-       .then((data) => {
-         const filtered = getFilteredProducts(data);
-         setProducts(filtered);
-       });
-   }, [searchParams]);
- 
+  
   return (
     <div className="container-fluid p-0 meesho-banner">
       <div className="row g-0">
@@ -341,81 +314,86 @@ const Home = () => {
 </div>
 
 
-<div className="mt-4" style={{ width: '100%', display: 'flex', flexWrap: 'wrap' }}>
-  {/* Left Part */}
-  <div className="left-panel " style={{ flex: '1 1 250px', maxWidth: '300px', padding: '1rem' }}>
-    {/* <Sidebar /> */}
-  </div>
 
-  {/* Right Part - Product Grid */}
-  <div className="right-panel " style={{ flex: '3 1 700px', padding: '1rem' }}>
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns:  'repeat(3, 1fr)',
-        gap: '1rem',
-        width: 'auto',
-      }}
-    >
-      {products.map((e) => (
-        <Link
-          to={`/product/${e.id}`}
-          key={e.id}
-          style={{ textDecoration: 'none', color: 'inherit' }}
-        >
-          <div
-            style={{
-              height: '100%',
-              boxShadow: '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)',
-              borderRadius: '1rem',
-              overflow: 'hidden',
-              backgroundColor: '#fff',
-            }}
-          >
-            <div style={{ height: '250px', overflow: 'hidden' }}>
-              <img
-                src={e.image}
-                alt={e.name}
-                style={{
-                  height: '100%',
-                  width: '100%',
-                  objectFit: 'cover',
-                }}
-              />
-            </div>
-            <div style={{ padding: '1rem' }}>
-              <h6 style={{ marginBottom: '0.25rem', fontSize: '1rem' }}>{e.name}</h6>
-              <p style={{ fontWeight: 'bold', color: '#198754', marginBottom: '0.25rem' }}>
-                ₹{e.price}
-              </p>
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.5rem',
-                  marginBottom: '0.25rem',
-                }}
-              >
-                <span
-                  style={{
-                    backgroundColor: '#038d63',
-                    color: 'white',
-                    borderRadius: '12px',
-                    padding: '4px 10px',
-                    fontSize: '0.85rem',
-                  }}
+    <Container className="mt-4">
+      <Row>
+        {/* Left Part - Sidebar */}
+        <Col xs={12} md={3} lg={3} className="p-3">
+         <Sidebar />
+        </Col>
+
+        {/* Right Part - Product Grid */}
+        <Col xs={12} md={9} lg={9} className="p-3">
+          <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+            {products.map((e) => (
+              <Col key={e.id}>
+                <Link
+                  to={`/product/${e.id}`}
+                  style={{ textDecoration: 'none', color: 'inherit' }}
                 >
-                  ⭐ {e.rating}
-                </span>
-                <small style={{ color: '#6c757d' }}>({e.reviews})</small>
-              </div>
-            </div>
-          </div>
-        </Link>
-      ))}
-    </div>
-  </div>
-</div>
+                  <div
+                    style={{
+                      height: '100%',
+                      boxShadow: '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)',
+                      borderRadius: '1rem',
+                      overflow: 'hidden',
+                      backgroundColor: '#fff',
+                    }}
+                  >
+                    <div style={{ height: '250px', overflow: 'hidden' }}>
+                      <img
+                        src={e.image}
+                        alt={e.name}
+                        style={{
+                          height: '100%',
+                          width: '100%',
+                          objectFit: 'cover',
+                        }}
+                      />
+                    </div>
+                    <div style={{ padding: '1rem' }}>
+                      <h6 style={{ marginBottom: '0.25rem', fontSize: '1rem' }}>
+                        {e.name}
+                      </h6>
+                      <p
+                        style={{
+                          fontWeight: 'bold',
+                          color: '#198754',
+                          marginBottom: '0.25rem',
+                        }}
+                      >
+                        ₹{e.price}
+                      </p>
+                      <div
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '0.5rem',
+                          marginBottom: '0.25rem',
+                        }}
+                      >
+                        <span
+                          style={{
+                            backgroundColor: '#038d63',
+                            color: 'white',
+                            borderRadius: '12px',
+                            padding: '4px 10px',
+                            fontSize: '0.85rem',
+                          }}
+                        >
+                          ⭐ {e.rating}
+                        </span>
+                        <small style={{ color: '#6c757d' }}>({e.reviews})</small>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </Col>
+            ))}
+          </Row>
+        </Col>
+      </Row>
+    </Container>
 
  
 

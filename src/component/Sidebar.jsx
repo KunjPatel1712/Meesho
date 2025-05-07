@@ -1,68 +1,131 @@
-// import React, { useState } from 'react';
-// import Accordion from 'react-bootstrap/Accordion';
-// import Form from 'react-bootstrap/Form';
+import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import axios from "axios"; // Make sure axios is installed
 
-// const Sidebar = ({ filters, setFilters, categories }) => {
-//   const handleCheckbox = (e, type) => {
-//     const { value, checked } = e.target;
-//     setFilters((prev) => {
-//       const updated = new Set(prev[type]);
-//       checked ? updated.add(value) : updated.delete(value);
-//       return { ...prev, [type]: Array.from(updated) };
-//     });
-//   };
+const Sidebar = () => {
+  // State for the selected categories
+  const [searchparams, setsearchparams] = useSearchParams();
+  const [cateData, setcateData] = useState(searchparams.getAll("category") || []);
 
-//   return (
-//     <Accordion defaultActiveKey="0" className="p-3 border rounded shadow-sm bg-light" style={{ minWidth: '250px' }}>
-//       {/* Category Filter */}
-//       <Accordion.Item eventKey="0">
-//         <Accordion.Header>Category</Accordion.Header>
-//         <Accordion.Body>
-//           {categories.map((cat) => (
-//             <Form.Check
-//               key={cat}
-//               type="checkbox"
-//               label={cat}
-//               value={cat}
-//               onChange={(e) => handleCheckbox(e, 'category')}
-//             />
-//           ))}
-//         </Accordion.Body>
-//       </Accordion.Item>
+  // Handle category checkbox change
+  const handlechange = (e) => {
+    const { value } = e.target;
 
-//       {/* Price Filter */}
-//       <Accordion.Item eventKey="1">
-//         <Accordion.Header>Price</Accordion.Header>
-//         <Accordion.Body>
-//           {['₹0-₹300', '₹301-₹600', '₹601+'].map((range) => (
-//             <Form.Check
-//               key={range}
-//               type="checkbox"
-//               label={range}
-//               value={range}
-//               onChange={(e) => handleCheckbox(e, 'price')}
-//             />
-//           ))}
-//         </Accordion.Body>
-//       </Accordion.Item>
+    let newarray = [...cateData];
 
-//       {/* Rating Filter */}
-//       <Accordion.Item eventKey="2">
-//         <Accordion.Header>Rating</Accordion.Header>
-//         <Accordion.Body>
-//           {[4.5, 4.0, 3.5].map((r) => (
-//             <Form.Check
-//               key={r}
-//               type="checkbox"
-//               label={`${r}+`}
-//               value={r}
-//               onChange={(e) => handleCheckbox(e, 'rating')}
-//             />
-//           ))}
-//         </Accordion.Body>
-//       </Accordion.Item>
-//     </Accordion>
-//   );
-// };
+    if (cateData.includes(value)) {
+      newarray = cateData.filter((el) => el !== value);
+    } else {
+      newarray.push(value);
+    }
+    setcateData(newarray);
+  };
 
-// export default Sidebar;
+  // Set search params when category data changes
+  useEffect(() => {
+    setsearchparams({ category: cateData });
+  }, [cateData, setsearchparams]);
+
+  // Function to fetch all products
+  const fetchAllProducts = () => {
+    axios.get("http://localhost:3000/homemain")
+      .then(response => {
+        console.log("All Products:", response.data);
+      })
+      .catch(error => {
+        console.error("Error fetching all products:", error);
+      });
+  };
+
+  // Effect to fetch all products when no category is selected
+  useEffect(() => {
+    if (cateData.length === 0) {
+      fetchAllProducts();
+    }
+  }, [cateData]);
+
+  return (
+    <div style={{ border: "1px solid black", padding: "20px", borderRadius: "15px" }}>
+      <h3>Filter Products Here..</h3>
+
+      {/* Categories */}
+      <h4>Categories</h4>
+      <div>
+        <input
+          type="checkbox"
+          value="Men's Wear"
+          onChange={handlechange}
+          checked={cateData.includes("Men's Wear")}
+        /> Men's Wear
+        <br />
+        <input
+          type="checkbox"
+          value="Women's Wear"
+          onChange={handlechange}
+          checked={cateData.includes("Women's Wear")}
+        /> Women's Wear
+        <br />
+        <input
+          type="checkbox"
+          value="Kids"
+          onChange={handlechange}
+          checked={cateData.includes("Kids")}
+        /> Kids
+        <br />
+        <input
+          type="checkbox"
+          value="Electronics"
+          onChange={handlechange}
+          checked={cateData.includes("Electronics")}
+        /> Electronics
+        <br />
+        <input
+          type="checkbox"
+          value="Beauty"
+          onChange={handlechange}
+          checked={cateData.includes("Beauty")}
+        /> Beauty
+        <br />
+        <input
+          type="checkbox"
+          value="Mobile Accessories"
+          onChange={handlechange}
+          checked={cateData.includes("Mobile Accessories")}
+        /> Mobile Accessories
+        <br />
+        <input
+          type="checkbox"
+          value="Footwear"
+          onChange={handlechange}
+          checked={cateData.includes("Footwear")}
+        /> Footwear
+      </div>
+
+      {/* Rating */}
+      <h4 style={{ marginTop: "20px" }}>Rating</h4>
+      <div>
+        <input type="radio" name="rating" value="4" onChange={handlechange} /> 4★ & above
+        <br />
+        <input type="radio" name="rating" value="3" onChange={handlechange} /> 3★ & above
+        <br />
+        <input type="radio" name="rating" value="2" onChange={handlechange} /> 2★ & above
+        <br />
+        <input type="radio" name="rating" value="1" onChange={handlechange} /> 1★ & above
+      </div>
+
+      {/* Price */}
+      <h4 style={{ marginTop: "20px" }}>Price</h4>
+      <div>
+        <input type="radio" name="price" value="0-499" onChange={handlechange} /> Under ₹500
+        <br />
+        <input type="radio" name="price" value="500-999" onChange={handlechange} /> ₹500 - ₹999
+        <br />
+        <input type="radio" name="price" value="1000-1999" onChange={handlechange} /> ₹1000 - ₹1999
+        <br />
+        <input type="radio" name="price" value="2000+" onChange={handlechange} /> ₹2000 & above
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;

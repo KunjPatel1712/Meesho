@@ -71,17 +71,18 @@ const ProfileMenu = () => {
             </button>
           </div>
           <div
-            style={{
-              padding: '0.75rem 1rem',
-              borderBottom: '1px solid #eee',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '8px',
-              cursor: 'pointer',
-            }}
-          >
-            <i className="fas fa-lock"></i> My Orders
-          </div>
+  style={{
+    padding: '0.75rem 1rem',
+    borderBottom: '1px solid #eee',
+    display: 'flex',
+    alignItems: 'center',
+    gap: '8px',
+    cursor: 'pointer',
+  }}
+  onClick={() => navigate('/component/Cartpage')} // 👈 navigate to cart
+>
+  <i className="fas fa-lock"></i> My Orders
+</div>
           <div
             style={{
               padding: '0.75rem 1rem',

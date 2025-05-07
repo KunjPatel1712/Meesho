@@ -3,6 +3,8 @@ import { Navbar, Nav, Form, FormControl, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
 import ProfileMenu from './Profilemenu';
+import CartPage from './Cart';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 const MeeshoNavbar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -112,6 +114,9 @@ const MeeshoNavbar = () => {
   const handleSignUpClick = () => {
     history.push('/login');  
   };
+
+
+
   return (
     <div>
       {/* Main Navbar */}
@@ -156,12 +161,12 @@ const MeeshoNavbar = () => {
                
 
               <ProfileMenu/>
+          </Nav.Link>
 
+          <Nav.Link as={Link} to="/component/CartPage" className="nav-link">
 
-              </Nav.Link>
-              <Nav.Link href="/component/cart" className="nav-link">
-        <i className="fas fa-shopping-cart"></i> Cart 
-      </Nav.Link>
+  <i className="fas fa-shopping-cart"></i> Cart
+</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

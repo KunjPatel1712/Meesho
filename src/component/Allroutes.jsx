@@ -26,7 +26,7 @@ import Login from '../Login'
 const Allroutes = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+       <Route path="/" element={<Home />} />
     
       <Route path='/ethic' element={<EthicWear/>} />
       <Route path='/westerndress' element={<Western />} />
@@ -42,7 +42,8 @@ const Allroutes = () => {
       <Route path="/category/:category" element={<CategoryPage />} />
       <Route path="/product/:id" element={<Description/>} />
       <Route path="/login" element={<Login />} />
-      <Route path="/cart" element={<CartPage />} /> 
+      <Route path="/component/CartPage" element={<CartPage />} />
+
     </Routes>
   )
 }

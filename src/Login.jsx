@@ -35,17 +35,25 @@ const Login = () => {
     setMessage("Processing...");
 
     try {
-      // Check if email already exists (case-insensitive)
       const checkResponse = await fetch(`${API_URL}?email=${email.toLowerCase()}`);
       const existingUsers = await checkResponse.json();
 
       if (existingUsers.length > 0) {
-        setMessage("User already exists!");
+        // Existing user -> login instead of register
+        const user = existingUsers[0];
+        if (user.password === password) {
+          localStorage.setItem("currentUser", JSON.stringify(user));
+          localStorage.setItem("isLoggedIn", "true"); // 👈 Login flag
+          setMessage("✅ Login successful!");
+          window.location.href = "/cart"; // 👈 Redirect to cart
+        } else {
+          setMessage("❌ Incorrect password.");
+        }
         return;
       }
 
+      // Register new user
       const newUser = { id: nextId, email: email.toLowerCase(), password };
-
       const response = await fetch(API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -54,16 +62,18 @@ const Login = () => {
 
       if (response.ok) {
         localStorage.setItem("currentUser", JSON.stringify(newUser));
+        localStorage.setItem("isLoggedIn", "true"); // 👈 Login flag
         setNextId(nextId + 1);
         setMessage("🎉 Registration successful!");
         window.alert(`✅ Registration successful! Your ID: ${nextId}`);
+        window.location.href = "/cart"; // 👈 Redirect to cart
         setEmail("");
         setPassword("");
       } else {
         throw new Error("Failed to register.");
       }
     } catch (error) {
-      setMessage("Registration failed: " + error.message);
+      setMessage("Registration/Login failed: " + error.message);
     }
   };
 
@@ -80,44 +90,28 @@ const Login = () => {
           }}
         >
           <Row className="g-0">
-            {/* Left Side - Banner */}
             <Col md={6} className="d-none d-md-flex"
               style={{
                 background: "linear-gradient(135deg, #d946ef, #9333ea)",
                 color: "#fff",
                 padding: "30px",
-                display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
                 textAlign: "center",
-                minHeight: "300px",
               }}
             >
               <h4 style={{ fontWeight: "700", marginBottom: "5px" }}>Great Quality</h4>
               <p style={{ fontSize: "16px", marginBottom: "20px" }}>Lowest prices</p>
               <div style={{ display: "flex", gap: "10px" }}>
-                <div style={{
-                  width: "80px",
-                  height: "100px",
-                  backgroundColor: "#fff",
-                  borderRadius: "8px",
-                  opacity: 0.7,
-                }} />
-                <div style={{
-                  width: "80px",
-                  height: "100px",
-                  backgroundColor: "#fff",
-                  borderRadius: "8px",
-                  opacity: 0.7,
-                }} />
+                <div style={{ width: "80px", height: "100px", backgroundColor: "#fff", borderRadius: "8px", opacity: 0.7 }} />
+                <div style={{ width: "80px", height: "100px", backgroundColor: "#fff", borderRadius: "8px", opacity: 0.7 }} />
               </div>
             </Col>
 
-            {/* Right Side - Form */}
             <Col xs={12} md={6} style={{ padding: "30px" }}>
               <h5 className="mb-4" style={{ fontWeight: 600 }}>
-                Sign Up to view your profile
+                Login or Sign Up to continue
               </h5>
 
               <Form onSubmit={handleSubmit}>
@@ -163,17 +157,6 @@ const Login = () => {
                   {message}
                 </Alert>
               )}
-
-              <p className="text-muted mt-4" style={{ fontSize: "12px", lineHeight: "1.5" }}>
-                By continuing, you agree to our{" "}
-                <a href="#" style={{ color: "#9333ea", textDecoration: "none" }}>
-                  Terms & Conditions
-                </a>{" "}
-                and{" "}
-                <a href="#" style={{ color: "#9333ea", textDecoration: "none" }}>
-                  Privacy Policy
-                </a>
-              </p>
             </Col>
           </Row>
         </Col>
