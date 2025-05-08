@@ -16,18 +16,44 @@ const Description = () => {
         setLoading(true);
         const endpoints = [
           "ethnicwear", "accessories", "beauty", "footwear", "grocery",
-          "homemain", "Menswear", "westrendress", "homedecore"
+          "homemain", "Menswear", "westrendress", "homedecore", "gold", "Slider"
         ];
 
-        // Fetch all data from each endpoint
-        const allData = await Promise.all(
-          endpoints.map((endpoint) =>
-            axios.get(`http://localhost:3000/${endpoint}`)
-          )
+        const responses = await Promise.all(
+          endpoints.map((endpoint) => axios.get(`http://localhost:3000/${endpoint}`))
         );
 
-        // Flatten all the results and search for the product by id
-        const allProducts = allData.flatMap((res) => res.data);
+        let allProducts = [];
+
+        responses.forEach((res, idx) => {
+          const name = endpoints[idx];
+
+          if (name === "gold") {
+            const gold = res.data;
+            allProducts.push(
+              ...(gold.lehengas || []),
+              ...(gold.kurtas || []),
+              ...(gold.Sarees || []),
+              ...(gold.Jewellery || [])
+            );
+          } else if (name === "Slider") {
+            const slider = res.data;
+            allProducts.push(
+              ...(slider.product || []),
+              ...(slider.mobile || []),
+              ...(slider.perfume || []),
+              ...(slider.footwear || []),
+              ...(slider.books || []),
+              ...(slider.bags || []),
+              ...(slider.makeup || []),
+              ...(slider.footwearslider || [])
+              )
+            
+          } else {
+            allProducts.push(...res.data);
+          }
+        });
+
         const foundProduct = allProducts.find((p) => String(p.id) === id);
 
         if (foundProduct) {
@@ -92,17 +118,17 @@ const Description = () => {
     <Container className="my-5">
       <Row className="g-4">
         <Col xs={12} md={5} className="d-flex justify-content-center">
-          <div className="main-image-container">
+          <div className="main-image-container position-relative">
             <Image src={product.image} alt={product.name} fluid className="main-product-image" />
             {product.discount && (
-              <Badge bg="danger" className="discount-badge">
+              <Badge bg="danger" className="position-absolute top-0 start-0 m-2">
                 {product.discount}% OFF
               </Badge>
             )}
           </div>
         </Col>
 
-        <Col xs={12} md={5}>
+        <Col xs={12} md={7}>
           <h1 className="product-title">{product.name}</h1>
 
           {product.rating && (
@@ -116,28 +142,48 @@ const Description = () => {
 
           <div className="price-section mb-3">
             {product.originalPrice && (
-              <span className="original-price me-2">₹{product.originalPrice}</span>
+              <span className="text-muted text-decoration-line-through me-2">₹{product.originalPrice}</span>
             )}
-            <span className="current-price h4 text-danger">₹{product.price}</span>
+            <span className="h4 text-danger">{product.price}</span>
             {product.originalPrice && (
-              <span className="discount-percentage ms-2 text-success">
+              <span className="ms-2 text-success">
                 {Math.round((1 - product.price / product.originalPrice) * 100)}% off
               </span>
             )}
           </div>
 
+          {/* Product Description Section */}
           <div className="product-description mb-4">
-            <h5>Description</h5>
-            <p>{product.description || "No description available"}</p>
+            <h5 className="fw-semibold">Description</h5>
+            <p>
+              This high-quality product is crafted with care and precision. Whether you need comfort,
+              performance, or style, it’s designed to deliver exceptional results in daily use.
+            </p>
+
+            <Row className="mt-3">
+              <Col xs={12} sm={6} md={6}>
+                <ul className="list-unstyled">
+                  <li><strong>Material:</strong> Cotton / Synthetic</li>
+                  <li><strong>Color:</strong> Assorted options</li>
+                  <li><strong>Brand:</strong> UrbanEdge / FastTech</li>
+                  <li><strong>Delivery:</strong> 4–7 working days</li>
+                  <li><strong>Category:</strong> Fashion / Electronics / Lifestyle</li>
+                </ul>
+              </Col>
+              <Col xs={12} sm={6} md={6}>
+                <ul className="list-unstyled">
+                  <li><strong>Size:</strong> S, M, L, XL</li>
+                  <li><strong>Weight:</strong> Lightweight</li>
+                  <li><strong>Dimensions:</strong> 20cm × 15cm × 10cm</li>
+                  <li><strong>Manufacturer:</strong> Global Distributors</li>
+                  <li><strong>Language:</strong> English</li>
+                </ul>
+              </Col>
+            </Row>
           </div>
 
           <div className="d-flex gap-3 mb-4">
-            <div className="quantity-selector">
-              <Button variant="outline-secondary" size="sm">-</Button>
-              <span className="mx-2">1</span>
-              <Button variant="outline-secondary" size="sm">+</Button>
-            </div>
-            <Button variant="outline-danger" onClick={addToCart} className="flex-grow-1">
+            <Button variant="danger" onClick={addToCart} className="flex-grow-1">
               🛒 Add to Cart
             </Button>
           </div>

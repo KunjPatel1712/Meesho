@@ -38,25 +38,23 @@ const Home = () => {
 
    const [products, setProducts] = useState([]);
    const [searchParam] = useSearchParams();
- 
-   
    useEffect(() => {
-     const paramObj = {
-       category: searchParam.getAll("category"),
-       _sort: "price",
-       _order: searchParam.get("order") || "asc", // optional: add order from params
-       q: searchParam.get("q") || "",
-     };
-   
-     axios
-       .get("http://localhost:3000/homemain", { params: paramObj })
-       .then((res) => {
-         setProducts(res.data);
-       })
-       .catch((err) => {
-         console.error("Failed to fetch lifestyle items:", err);
-       });
-   }, [searchParam]);
+    const paramObj = {
+      category: searchParam.getAll("category"),
+      q: searchParam.get("q") || "",
+    };
+
+    axios
+      .get("http://localhost:3000/homemain", { params: paramObj })
+      .then((res) => {
+        setProducts(res.data);
+      })
+      .catch((err) => {
+        console.error("Failed to fetch lifestyle items:", err);
+      });
+  }, [searchParam]);
+
+
    
  
 
@@ -67,7 +65,9 @@ const Home = () => {
      navigate(`/category/${categoryName}`);
    };
 
+   //slider 
 
+  
 
 
   
@@ -170,64 +170,65 @@ const Home = () => {
 
 
     <div className="category-slider-container">
-    <h1 className="slider-title">
+      <h1 className="slider-title">
         Original Brands
         <span className="verified-badge">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1DA1F2">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
           </svg>
         </span>
       </h1>
-      {/* <div className="brand-slider">
-      <Link to="/personalcare" className="category-card" onClick={() => handleClick("personalcare")}>
-        <div className="category-image-wrapper">
-          <img src={personalcare} alt="Personal Care" />
-        </div>
-      </Link>
 
-      <Link to="/original-brand/electronic" className="category-card" onClick={() => handleClick("electronics")}>
-        <div className="category-image-wrapper">
-          <img src={electronic} alt="Electronics" />
-        </div>
-      </Link>
+      <div className="brand-slider">
+        <Link to="/slider/product" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={personalcare} alt="Personal Care" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/makeup" className="category-card" onClick={() => handleClick("makeup")}>
-        <div className="category-image-wrapper">
-          <img src={makeup} alt="Makeup" />
-        </div>
-      </Link>
+        <Link to="/slider/electronics" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={electronic} alt="Electronics" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/smart-phones" className="category-card" onClick={() => handleClick("smartphones")}>
-        <div className="category-image-wrapper">
-          <img src={smartphone} alt="Smart Phones" />
-        </div>
-      </Link>
+        <Link to="/slider/makeup" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={makeup} alt="Makeup" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/men-perfume" className="category-card" onClick={() => handleClick("men-perfume")}>
-        <div className="category-image-wrapper">
-          <img src={mensperfume} alt="Men Perfume" />
-        </div>
-      </Link>
+        <Link to="/slider/mobile" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={smartphone} alt="Smart Phones" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/bags" className="category-card" onClick={() => handleClick("bags")}>
-        <div className="category-image-wrapper">
-          <img src={bags} alt="Bags" />
-        </div>
-      </Link>
+        <Link to="/slider/Perfume" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={mensperfume} alt="Men Perfume" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/footwear" className="category-card" onClick={() => handleClick("footwear")}>
-        <div className="category-image-wrapper">
-          <img src={foot} alt="Footwear" />
-        </div>
-      </Link>
+        <Link to="/slider/bags" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={bags} alt="Bags" />
+          </div>
+        </Link>
 
-      <Link to="/original-brand/books" className="category-card" onClick={() => handleClick("books")}>
-        <div className="category-image-wrapper">
-          <img src={booksbrand} alt="Books" />
-        </div>
-      </Link>
-    </div> */}
-</div>
+        <Link to="/slider/footwearslider" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={footwearbrand} alt="Footwear" />
+          </div>
+        </Link>
+
+        <Link to="/slider/books" className="category-card">
+          <div className="category-image-wrapper">
+            <img src={booksbrand} alt="Books" />
+          </div>
+        </Link>
+      </div>
+    </div>
 
 <div className="slider-container">
   <div className="scroll-container">

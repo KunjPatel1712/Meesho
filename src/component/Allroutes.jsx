@@ -14,7 +14,8 @@ import CategoryPage from '../Goldproductpage'
 import Description from '../Description'
 import CartPage from './Cart'
 import Login from '../Login'
-import ProductDetailPage from './Descript'
+import Slider from './Descript'
+
 
 
 
@@ -41,7 +42,8 @@ const Allroutes = () => {
     
    
       <Route path="/category/:category" element={<CategoryPage />} />
-      < Route path="/prod/:id" element={<ProductDetailPage />} />
+      <Route path="/slider/:category" element={<Slider />} />
+
 
 <Route path="/product/:id" element={<Description />} />
 
