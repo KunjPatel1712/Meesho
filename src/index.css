@@ -30,7 +30,10 @@
   padding: 20px;
   border-radius: 8px;
 }
-
+.promo-text
+{
+  padding-right: 60px;
+}
 .promo-text h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -270,17 +273,6 @@
   padding: 17px 45px;
   font-size: 30px;
   
-}
-.tags-4 {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1px; /* Adjust spacing between items */
-}
-
-.tags-4 img {
-  width: 50%;
-  height: 250px ;
-  border-radius: 8px; /* Optional */
 }
 
 .category-slider-container {
@@ -607,5 +599,129 @@
 
   .trendz-label {
     font-size: 0.95rem;
+  }
+}
+
+
+.gold-horizontal {
+  margin-top: 30px;
+  background-image: url(./assets/gold-front.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; /* Increased to accommodate larger images */
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+/* Desktop Button */
+.desktop-btn {
+  border: 2px solid #DEBC89;
+  color: #DEBC89;
+  padding: 15px 40px;
+  font-size: 24px;
+  border-radius: 20px;
+  background-color: #3F1F11;
+  margin-left: 15%;
+  margin-bottom: 40px;
+}
+
+/* Mobile Button */
+.mobile-btn-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+}
+
+.mobile-btn {
+  border: 2px solid #DEBC89;
+  color: #DEBC89;
+  padding: 12px 30px;
+  font-size: 20px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.gold-btn:hover {
+  background-color: #DEBC89;
+  color: white;
+}
+
+.image-pairs-container {
+
+  max-width: 600px; /* Increased for larger images */
+  margin: 20px auto; /* Added 20px vertical margin */
+}
+
+.category-img {
+  width: 100%;
+  height: 200px; /* Fixed 250px height */
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-bottom: 20px; /* 20px gap below each image */
+}
+
+.category-img:hover {
+  transform: scale(1.03);
+}
+
+.image-label {
+  font-size: 16px;
+  margin-bottom: 20px; /* 20px gap below labels */
+  text-align: center;
+}
+
+/* Row gaps */
+.image-pairs-container .row {
+  margin-bottom: 20px; /* 20px between rows */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gold-horizontal {
+    height: auto;
+    min-height: 800px; /* Enough space for mobile layout */
+    padding-bottom: 100px; /* Space for button */
+  }
+  
+  .image-pairs-container {
+  
+    padding: 20px 15px; /* 20px padding */
+    margin-top: 20px;
+  }
+  
+  .category-img {
+    height: 180px; /* Slightly smaller on mobile */
+    margin-bottom: 20px;
+  }
+  
+  .image-label {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .desktop-btn {
+    font-size: 30px;
+    padding: 17px 45px;
+  }
+  
+  .category-img {
+    height: 250px; /* Maintain 250px height */
+  }
+  
+  .image-label {
+    font-size: 18px;
+  }
+  
+  .image-pairs-container {
+    margin-top: 40px; /* More space at top on desktop */
   }
 }

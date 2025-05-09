@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 
 import { Link, useNavigate, useSearchParams} from 'react-router-dom';
 import './index.css';
@@ -37,23 +37,25 @@ import Sidebar from './component/Sidebar';
 const Home = () => {
 
    const [products, setProducts] = useState([]);
+
    const [searchParam] = useSearchParams();
+
+   const paramObj = {
+     category: searchParam.getAll("category"),
+  
+   };
+   
    useEffect(() => {
-    const paramObj = {
-      category: searchParam.getAll("category"),
-      q: searchParam.get("q") || "",
-    };
-
-    axios
-      .get("http://localhost:3000/homemain", { params: paramObj })
-      .then((res) => {
-        setProducts(res.data);
-      })
-      .catch((err) => {
-        console.error("Failed to fetch lifestyle items:", err);
-      });
-  }, [searchParam]);
-
+     axios
+       .get("http://localhost:3000/homemain", { params: paramObj })
+       .then((res) => {
+         setProducts(res.data);
+       })
+       .catch((err) => {
+         console.error("Failed to fetch lifestyle items:", err);
+       });
+   }, [searchParam]);
+   
 
    
  
@@ -73,17 +75,20 @@ const Home = () => {
   
   return (
     <div className="container-fluid p-0 meesho-banner">
-      <div className="row g-0">
-        <div className="col-md-12 img-banner">
-          <div className="text">
-            <div className="promo-text px-3">
-              <h2 className="fw-bold">Smart Shopping</h2>
-              <h3 className="fw-semibold">Trusted by Millions</h3>
-              <button className="btn mt-3">Shop Now</button>
-            </div>
-          </div>
+     <div className="container-fluid p-0">
+  <div className="row g-0">
+    <div className="col-12">
+      <div className="img-banner d-flex align-items-center justify-content-end text-center text-white px-3 ">
+        <div className="promo-text">
+          <h2 className="fw-bold display-5">Smart Shopping</h2>
+          <h3 className="fw-semibold h4">Trusted by Millions</h3>
+          <button className="btn btn-primary mt-3">Shop Now</button>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="row info-strip text-center py-3 border-top w-100">
         <div className="col-12 col-md">
@@ -151,21 +156,86 @@ const Home = () => {
       </Link>
     </div>
 
-    <div className="gold-gorizontal  w-100 col-12 d-flex">
-        <div className="col-6"> 
-                <button className= "btn">
-                    Shop Now
-                </button>
-        </div>
-      <div className="col-6 tags-4">
-      <img src={lehga} alt="Lehenga" onClick={() => handleClick("lehengas")} />
-      <img src={shervani} alt="Sherwani" onClick={() => handleClick("kurtas")} />
-      <img src={saree} alt="Saree" onClick={() => handleClick("Sarees")} />
-      <img src={jewellery} alt="Jewellery" onClick={() => handleClick("Jewellery")} />
-    </div>
-      
- 
-    </div>
+
+   
+
+    <Container fluid className="gold-horizontal p-0">
+      <Row className="gold-row g-0 h-100">
+        {/* Left Column - Empty on mobile, contains button on desktop */}
+        <Col md={6} className="d-none d-md-flex align-items-end pb-5">
+          <button 
+           
+            className="gold-btn desktop-btn"
+            
+          >
+            Shop Now
+          </button>
+        </Col>
+
+        {/* Right Column - 4 Images in 2 Pairs */}
+        <Col md={6} className="h-100 d-flex align-items-center justify-content-center">
+          <div className="image-pairs-container">
+            {/* First Pair Row */}
+            <Row className="mb-3 mb-md-4">
+              <Col xs={6} className="text-center">
+                <img 
+                  src={lehga} 
+                  alt="Lehenga" 
+                  className="category-img"
+                  onClick={() => handleClick("lehengas")} 
+                />
+                
+              </Col>
+              <Col xs={6} className="text-center">
+                <img 
+                  src={shervani} 
+                  alt="Sherwani" 
+                  className="category-img"
+                  onClick={() => handleClick("kurtas")} 
+                />
+                
+              </Col>
+            </Row>
+            
+          
+            <Row>
+              <Col xs={6} className="text-center">
+                <img 
+                  src={saree} 
+                  alt="Saree" 
+                  className="category-img"
+                  onClick={() => handleClick("Sarees")} 
+                />
+                
+              </Col>
+              <Col xs={6} className="text-center">
+                <img 
+                  src={jewellery} 
+                  alt="Jewellery" 
+                  className="category-img"
+                  onClick={() => handleClick("Jewellery")} 
+                />
+                
+              </Col>
+            </Row>
+          </div>
+        </Col>
+
+        {/* Mobile Button - Only visible on mobile at bottom */}
+        <Col xs={12} className="d-md-none text-center mobile-btn-container">
+          <Button 
+            variant="outline-light" 
+            className="gold-btn mobile-btn"
+            onClick={() => handleClick("shop")}
+          >
+            Shop Now
+          </Button>
+        </Col>
+      </Row>
+    </Container>
+
+
+
 
 
 

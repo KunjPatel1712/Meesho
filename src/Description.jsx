@@ -144,7 +144,7 @@ const Description = () => {
             {product.originalPrice && (
               <span className="text-muted text-decoration-line-through me-2">₹{product.originalPrice}</span>
             )}
-            <span className="h4 text-danger">{product.price}</span>
+            <span className="h4 text-danger">₹{product.price}</span>
             {product.originalPrice && (
               <span className="ms-2 text-success">
                 {Math.round((1 - product.price / product.originalPrice) * 100)}% off
