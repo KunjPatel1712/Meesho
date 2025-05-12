@@ -37,14 +37,18 @@ import Sidebar from './component/Sidebar';
 const Home = () => {
 
    const [products, setProducts] = useState([]);
-
-   const [searchParam] = useSearchParams();
+const [searchParam] = useSearchParams();
+const [order, setOrder] = useState("asc");
 
    const paramObj = {
-     category: searchParam.getAll("category"),
-  
-   };
-   
+    category: searchParam.getAll("category"),
+    _sort: "price",
+    _order: order,
+    q: searchParam.get("q") || "",
+  };
+
+
+
    useEffect(() => {
      axios
        .get("http://localhost:3000/homemain", { params: paramObj })
@@ -54,7 +58,7 @@ const Home = () => {
        .catch((err) => {
          console.error("Failed to fetch lifestyle items:", err);
        });
-   }, [searchParam]);
+   }, [searchParam,order]);
    
 
    

@@ -16,14 +16,22 @@ const Login = () => {
   const [message, setMessage] = useState("");
   const [nextId, setNextId] = useState(1);
 
+  // ✅ Simple ID logic: fill missing lowest ID starting from 1
   useEffect(() => {
     const fetchNextId = async () => {
       try {
-        const response = await fetch(`${API_URL}?_sort=id&_order=desc&_limit=1`);
+        const response = await fetch(API_URL);
         const users = await response.json();
-        setNextId(users.length > 0 ? users[0].id + 1 : 1);
+        const ids = users.map(u => u.id).sort((a, b) => a - b);
+
+        let newId = 1;
+        for (let id of ids) {
+          if (id === newId) newId++;
+          else break;
+        }
+        setNextId(newId);
       } catch (error) {
-        console.error("Error fetching ID:", error);
+        console.error("Error:", error);
         setNextId(1);
       }
     };
@@ -39,20 +47,18 @@ const Login = () => {
       const existingUsers = await checkResponse.json();
 
       if (existingUsers.length > 0) {
-        // Existing user -> login instead of register
         const user = existingUsers[0];
         if (user.password === password) {
           localStorage.setItem("currentUser", JSON.stringify(user));
-          localStorage.setItem("isLoggedIn", "true"); // 👈 Login flag
+          localStorage.setItem("isLoggedIn", "true");
           setMessage("✅ Login successful!");
-          window.location.href = "/cart"; // 👈 Redirect to cart
+          window.location.href = "/cart";
         } else {
           setMessage("❌ Incorrect password.");
         }
         return;
       }
 
-      // Register new user
       const newUser = { id: nextId, email: email.toLowerCase(), password };
       const response = await fetch(API_URL, {
         method: "POST",
@@ -62,11 +68,10 @@ const Login = () => {
 
       if (response.ok) {
         localStorage.setItem("currentUser", JSON.stringify(newUser));
-        localStorage.setItem("isLoggedIn", "true"); // 👈 Login flag
-        setNextId(nextId + 1);
+        localStorage.setItem("isLoggedIn", "true");
+        setNextId(nextId + 1); // Optional: update for next session
         setMessage("🎉 Registration successful!");
-        window.alert(`✅ Registration successful! Your ID: ${nextId}`);
-        window.location.href = "/cart"; // 👈 Redirect to cart
+ 
         setEmail("");
         setPassword("");
       } else {

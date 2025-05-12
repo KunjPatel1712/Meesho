@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
 import ProfileMenu from './Profilemenu';
 import CartPage from './Cart';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate, useSearchParams } from 'react-router-dom';
 
 const MeeshoNavbar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -116,6 +116,21 @@ const MeeshoNavbar = () => {
   };
 
 
+  const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+
+  const handleSearch = (e) => {
+    if (e.key === "Enter") {
+      const params = new URLSearchParams(searchParams);
+      if (searchTerm.trim()) {
+        params.set("q", searchTerm);
+      } else {
+        params.delete("q");
+      }
+      navigate({ search: params.toString() });
+    }
+  };
 
   return (
     <div>
@@ -143,6 +158,10 @@ const MeeshoNavbar = () => {
                 placeholder="Try Saree, Kurti or Search by Product Code"
                 className="search-input"
                 aria-label="Search"
+                value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              onKeyDown={handleSearch}
+
               />
               <span className="search-icon">
                 <i className="fas fa-search"></i>

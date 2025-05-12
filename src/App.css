@@ -327,3 +327,91 @@
 }
 
 /* Style fixes for smaller screens */
+/* Sidebar Container */
+.sidebar-container {
+  background-color: transparent; /* Removed dark background */
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: none; /* Remove dark shadow if desired */
+  max-height: 100vh;
+  overflow-y: auto;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+/* Accordion Header Customization */
+.accordion-button {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 16px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e2e6ea !important;
+  color: #212529 !important;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion Body */
+.accordion-body {
+  background-color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Form Check */
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-check-label {
+  color: #333;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.form-check-input:checked ~ .form-check-label {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Scrollbar Styling */
+.sidebar-container::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.sidebar-container::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 8px;
+}
+
+/* Heading */
+.sidebar-container h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #222;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .sidebar-container {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
+  .form-check-label {
+    font-size: 14px;
+  }
+}

@@ -1,74 +1,114 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Form, Accordion } from "react-bootstrap";
 
 const Sidebar = () => {
-  const [searchparams, setsearchparams] = useSearchParams();
-  const [cateData, setcateData] = useState(searchparams.getAll("category") || []);
+  const [searchParams, setSearchParams] = useSearchParams();
 
-  // Handle category checkbox change
-  const handleCategoryChange = (e) => {
-    const { value } = e.target;
-    let newarray = [...cateData];
+  const [cateData, setCateData] = useState(searchParams.getAll("category") || []);
+  const [priceData, setPriceData] = useState(searchParams.getAll("price") || []);
+  const [ratingData, setRatingData] = useState(searchParams.getAll("rating") || []);
 
-    if (cateData.includes(value)) {
-      newarray = cateData.filter((el) => el !== value);
+  const handleCheckboxChange = (value, data, setData) => {
+    let updated = [...data];
+    if (data.includes(value)) {
+      updated = updated.filter((el) => el !== value);
     } else {
-      newarray.push(value);
+      updated.push(value);
     }
-    setcateData(newarray);
+    setData(updated);
   };
 
-  // Set search params when category data changes
   useEffect(() => {
-    setsearchparams({ category: cateData });
-  }, [cateData, setsearchparams]);
+    const params = {};
+    if (cateData.length) params.category = cateData;
+    if (priceData.length) params.price = priceData;
+    if (ratingData.length) params.rating = ratingData;
+    setSearchParams(params);
+  }, [cateData, priceData, ratingData, setSearchParams]);
 
-  return (
+  return ( 
     <div
-    className="sidebar-container"
-    style={{
-      backgroundColor: "#1a1a1a",
-      color: "#fff",
-      borderRadius: "15px",
-      padding: "20px",
-      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-      transition: "transform 0.3s ease-in-out",
-      maxHeight: "100vh",
-      overflowY: "auto",
-    }}
-  >
-    <h3 className="text-center text-white">Filter Products Here..</h3>
+      className="sidebar-container"
+      style={{
+        backgroundColor: "#1a1a1a",
+        color: "#fff",
+        borderRadius: "15px",
+        padding: "20px",
+        boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
+        maxHeight: "100vh",
+        overflowY: "auto",
+        width: "100%",
+      }}
+    >
+      <h4 className="text-center mb-4 text-white">🛍️ Filter Products</h4>
 
-    {/* Categories */}
-    <h4 className="mt-4">Categories</h4>
-    <Form>
-      <Form.Check
-        type="checkbox"
-        value="Jewellery"
-        onChange={handleCategoryChange}
-        checked={cateData.includes("Jewellery")}
-        label="Jewellery"
-        className="text-white"
-      />
-      <Form.Check
-        type="checkbox"
-        value="Women's Fashion"
-        onChange={handleCategoryChange}
-        checked={cateData.includes("Women's Fashion")}
-        label="Women's Fashion"
-        className="text-white"
-      />
-      <Form.Check
-        type="checkbox"
-        value="Kids Fashion"
-        onChange={handleCategoryChange}
-        checked={cateData.includes("Kids Fashion")}
-        label="Kids Fashion"
-        className="text-white"
-      />
-    </Form>
-  </div>
+      <Accordion defaultActiveKey="0" flush alwaysOpen>
+        {/* Category */}
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Categories</Accordion.Header>
+          <Accordion.Body>
+            <Form>
+              {["Jewellery", "Women's Fashion", "Kids Fashion"].map((cat) => (
+                <Form.Check
+                  key={cat}
+                  type="checkbox"
+                  value={cat}
+                  label={cat}
+                  className="text-white"
+                  onChange={(e) => handleCheckboxChange(e.target.value, cateData, setCateData)}
+                  checked={cateData.includes(cat)}
+                />
+              ))}
+            </Form>
+          </Accordion.Body>
+        </Accordion.Item>
+
+        {/* Price */}
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>Price</Accordion.Header>
+          <Accordion.Body>
+            <Form>
+              {[
+                { label: "₹0 - ₹500", value: "0-500" },
+                { label: "₹501 - ₹1000", value: "501-1000" },
+                { label: "₹1001 - ₹2000", value: "1001-2000" },
+              ].map(({ label, value }) => (
+                <Form.Check
+                  key={value}
+                  type="checkbox"
+                  value={value}
+                  label={label}
+                  className="text-white"
+                  onChange={(e) => handleCheckboxChange(e.target.value, priceData, setPriceData)}
+                  checked={priceData.includes(value)}
+                />
+              ))}
+            </Form>
+          </Accordion.Body>
+        </Accordion.Item>
+
+        {/* Rating */}
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>Ratings</Accordion.Header>
+          <Accordion.Body>
+            <Form>
+              {["4", "3", "2"].map((rating) => (
+                <Form.Check
+                  key={rating}
+                  type="checkbox"
+                  value={rating}
+                  label={`${rating} Stars & up`}
+                  className="text-white"
+                  onChange={(e) => handleCheckboxChange(e.target.value, ratingData, setRatingData)}
+                  checked={ratingData.includes(rating)}
+                />
+              ))}
+            </Form>
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+    </div>
   );
 };
 

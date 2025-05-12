@@ -2359,603 +2359,595 @@
         "category": "Jewellery"
       }
     ]
-   
   },
-  "Slider":{
-    "product":[
-      
-        {
-          "id": 231,
-          "name": "Minara Makeup Brush Applicator Set of 5 with Mirror Nude Colour",
-          "image": "https://images.meesho.com/images/products/402495086/mcxsz_400.webp",
-          "price": 187,
-          "delivery": "Free Delivery",
-          "rating": 4.1,
-          "reviews": 11898,
-          "category": "Makeup Accessories"
-        },
-        {
-          "id": 232,
-          "name": "DENVER Classic Deodorant & Fragrances",
-          "image": "https://images.meesho.com/images/products/350915697/neksv_400.webp",
-          "price": 101,
-          "delivery": "Delivery ₹66",
-          "rating": 3.8,
-          "reviews": 58022,
-          "category": "Deodorants"
-        },
-        {
-          "id": 233,
-          "name": "Ronzille Long Lasting Hydrating Mini Lipstick Pack of 6 Nude Edition",
-          "image": "https://images.meesho.com/images/products/318500964/awamn_400.webp",
-          "price": 131,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 17583,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 234,
-          "name": "Ronzille Matte Liquid Lipstick Non-Transfer Plus Lip Gloss Purple Edition",
-          "image": "https://images.meesho.com/images/products/127766005/z63vg_400.webp",
-          "price": 203,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 12447,
-          "category": "Lipstick"
-        },
-        {
-          "id": 235,
-          "name": "Little Angel Super Soft Baby Wet Wipes 360 Count with Aloe Vera",
-          "image": "https://images.meesho.com/images/products/214324283/czhng_400.webp",
-          "price": 277,
-          "delivery": "Free Delivery",
-          "rating": 4.4,
-          "reviews": 68014,
-          "category": "Baby Wipes"
-        },
-        {
-          "id": 236,
-          "name": "Blue Heaven Professional Collection Kajal",
-          "image": "https://images.meesho.com/images/products/301153481/dz0h5_400.webp",
-          "price": 86,
-          "delivery": "Delivery ₹21",
-          "rating": 4.1,
-          "reviews": 5417,
-          "category": "Kajal"
-        },
-        {
-          "id": 237,
-          "name": "Ronzille Metallic Blusher Square Palette Case Highlighter",
-          "image": "https://images.meesho.com/images/products/151549337/vapsy_400.webp",
-          "price": 152,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 7161,
-          "category": "Highlighter"
-        },
-        {
-          "id": 238,
-          "name": "VI-JOHN Feather Touch Twin Blade Shaving Razors For Women",
-          "image": "https://images.meesho.com/images/products/222953018/qvw61_400.webp",
-          "price": 102,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 8239,
-          "category": "Shaving Razors"
-        },
-        {
-          "id": 239,
-          "name": "Plix The Plant Fix Rosemary Hair Growth Advanced Hair Oil",
-          "image": "https://images.meesho.com/images/products/477210696/ltqcu_400.webp",
-          "price": 439,
-          "delivery": "Delivery ₹66",
-          "rating": 4.3,
-          "reviews": 357,
-          "category": "Hair Oil"
-        },
-        {
-          "id": 240,
-          "name": "Globus Naturals Gold Peel-Off Mask for Golden Glow",
-          "image": "https://images.meesho.com/images/products/338259252/8anmv_400.webp",
-          "price": 120,
-          "delivery": "Free Delivery",
-          "rating": 4.1,
-          "reviews": 1573,
-          "category": "Face Mask"
-        },
-        {
-          "id": 241,
-          "name": "Wildplay Midnight Spray Perfume for Men & Women",
-          "image": "https://images.meesho.com/images/products/381017909/nnrzy_400.webp",
-          "price": 161,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 3912,
-          "category": "Deodorants"
-        },
-        {
-          "id": 242,
-          "name": "DENVER Caliber, Honour & Imperial Nano Deo Long Lasting Set of 3",
-          "image": "https://images.meesho.com/images/products/176003913/k5poy_400.webp",
-          "price": 216,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 205301,
-          "category": "Deodorants"
-        },
-        {
-          "id": 243,
-          "name": "Carmesi Face Razor For Women Pack of 3 Facial Hair Removal",
-          "image": "https://images.meesho.com/images/products/63932315/s1xjz_400.webp",
-          "price": 205,
-          "delivery": "Free Delivery",
-          "rating": 4.4,
-          "reviews": 18016,
-          "category": "Facial Hair Removal"
-        },
-        {
-          "id": 244,
-          "name": "Glamveda Rice Ceramide Korean Glass Skin Combo Face Wash & Mask",
-          "image": "https://images.meesho.com/images/products/251917333/praej_400.webp",
-          "price": 209,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 2481,
-          "category": "Skin Care"
-        },
-        {
-          "id": 245,
-          "name": "Ronzille Radiant Pigmented Shimmer Brick Highlighter",
-          "image": "https://images.meesho.com/images/products/205980066/342by_400.webp",
-          "price": 156,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 8877,
-          "category": "Highlighter"
-        },
-        {
-          "id": 246,
-          "name": "Carmesi Natural Facial Hair Removal Combo",
-          "image": "https://images.meesho.com/images/products/157827321/q2blj_400.webp",
-          "price": 190,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 8692,
-          "category": "Hair Removal Combo"
-        },
-        {
-          "id": 247,
-          "name": "Next English Leather Fresh Deo Long Lasting Perfume Body Spray",
-          "image": "https://images.meesho.com/images/products/291737629/ppkst_400.webp",
-          "price": 159,
-          "delivery": "Free Delivery",
-          "rating": 4.1,
-          "reviews": 7759,
-          "category": "Deodorants"
-        }
-              
+  "Slider": {
+    "product": [
+      {
+        "id": 231,
+        "name": "Minara Makeup Brush Applicator Set of 5 with Mirror Nude Colour",
+        "image": "https://images.meesho.com/images/products/402495086/mcxsz_400.webp",
+        "price": 187,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 11898,
+        "category": "Makeup Accessories"
+      },
+      {
+        "id": 232,
+        "name": "DENVER Classic Deodorant & Fragrances",
+        "image": "https://images.meesho.com/images/products/350915697/neksv_400.webp",
+        "price": 101,
+        "delivery": "Delivery ₹66",
+        "rating": 3.8,
+        "reviews": 58022,
+        "category": "Deodorants"
+      },
+      {
+        "id": 233,
+        "name": "Ronzille Long Lasting Hydrating Mini Lipstick Pack of 6 Nude Edition",
+        "image": "https://images.meesho.com/images/products/318500964/awamn_400.webp",
+        "price": 131,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 17583,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 234,
+        "name": "Ronzille Matte Liquid Lipstick Non-Transfer Plus Lip Gloss Purple Edition",
+        "image": "https://images.meesho.com/images/products/127766005/z63vg_400.webp",
+        "price": 203,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 12447,
+        "category": "Lipstick"
+      },
+      {
+        "id": 235,
+        "name": "Little Angel Super Soft Baby Wet Wipes 360 Count with Aloe Vera",
+        "image": "https://images.meesho.com/images/products/214324283/czhng_400.webp",
+        "price": 277,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 68014,
+        "category": "Baby Wipes"
+      },
+      {
+        "id": 236,
+        "name": "Blue Heaven Professional Collection Kajal",
+        "image": "https://images.meesho.com/images/products/301153481/dz0h5_400.webp",
+        "price": 86,
+        "delivery": "Delivery ₹21",
+        "rating": 4.1,
+        "reviews": 5417,
+        "category": "Kajal"
+      },
+      {
+        "id": 237,
+        "name": "Ronzille Metallic Blusher Square Palette Case Highlighter",
+        "image": "https://images.meesho.com/images/products/151549337/vapsy_400.webp",
+        "price": 152,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 7161,
+        "category": "Highlighter"
+      },
+      {
+        "id": 238,
+        "name": "VI-JOHN Feather Touch Twin Blade Shaving Razors For Women",
+        "image": "https://images.meesho.com/images/products/222953018/qvw61_400.webp",
+        "price": 102,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 8239,
+        "category": "Shaving Razors"
+      },
+      {
+        "id": 239,
+        "name": "Plix The Plant Fix Rosemary Hair Growth Advanced Hair Oil",
+        "image": "https://images.meesho.com/images/products/477210696/ltqcu_400.webp",
+        "price": 439,
+        "delivery": "Delivery ₹66",
+        "rating": 4.3,
+        "reviews": 357,
+        "category": "Hair Oil"
+      },
+      {
+        "id": 240,
+        "name": "Globus Naturals Gold Peel-Off Mask for Golden Glow",
+        "image": "https://images.meesho.com/images/products/338259252/8anmv_400.webp",
+        "price": 120,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 1573,
+        "category": "Face Mask"
+      },
+      {
+        "id": 241,
+        "name": "Wildplay Midnight Spray Perfume for Men & Women",
+        "image": "https://images.meesho.com/images/products/381017909/nnrzy_400.webp",
+        "price": 161,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 3912,
+        "category": "Deodorants"
+      },
+      {
+        "id": 242,
+        "name": "DENVER Caliber, Honour & Imperial Nano Deo Long Lasting Set of 3",
+        "image": "https://images.meesho.com/images/products/176003913/k5poy_400.webp",
+        "price": 216,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 205301,
+        "category": "Deodorants"
+      },
+      {
+        "id": 243,
+        "name": "Carmesi Face Razor For Women Pack of 3 Facial Hair Removal",
+        "image": "https://images.meesho.com/images/products/63932315/s1xjz_400.webp",
+        "price": 205,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 18016,
+        "category": "Facial Hair Removal"
+      },
+      {
+        "id": 244,
+        "name": "Glamveda Rice Ceramide Korean Glass Skin Combo Face Wash & Mask",
+        "image": "https://images.meesho.com/images/products/251917333/praej_400.webp",
+        "price": 209,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 2481,
+        "category": "Skin Care"
+      },
+      {
+        "id": 245,
+        "name": "Ronzille Radiant Pigmented Shimmer Brick Highlighter",
+        "image": "https://images.meesho.com/images/products/205980066/342by_400.webp",
+        "price": 156,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 8877,
+        "category": "Highlighter"
+      },
+      {
+        "id": 246,
+        "name": "Carmesi Natural Facial Hair Removal Combo",
+        "image": "https://images.meesho.com/images/products/157827321/q2blj_400.webp",
+        "price": 190,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 8692,
+        "category": "Hair Removal Combo"
+      },
+      {
+        "id": 247,
+        "name": "Next English Leather Fresh Deo Long Lasting Perfume Body Spray",
+        "image": "https://images.meesho.com/images/products/291737629/ppkst_400.webp",
+        "price": 159,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 7759,
+        "category": "Deodorants"
+      }
     ],
-    "electronics":[
-      
-        {
-          "id": 248,
-          "name": "Portronics Conch Theta C In-Ear Type-C Wired Earphones with In-Line HD Mic",
-          "image": "https://images.meesho.com/images/products/441794079/qz6fy_400.webp",
-          "price": 244,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 1135,
-          "category": "Wired Headphones & Earphones"
-        },
-        {
-          "id": 249,
-          "name": "UBON Earphones UB 701 Universal Blast Earphone with Mic",
-          "image": "https://images.meesho.com/images/products/437953811/vdrom_400.webp",
-          "price": 98,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 319,
-          "category": "Wired Headphones & Earphones"
-        },
-        {
-          "id": 250,
-          "name": "Portronics Vader Pro Wireless Gaming Mouse",
-          "image": "https://images.meesho.com/images/products/404447595/wpmy5_400.webp",
-          "price": 350,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 539,
-          "category": "Wireless Gaming Mouse"
-        },
-        {
-          "id": 251,
-          "name": "Portronics Zapcell 10K Advanced 10000 mAh Smallest Power Bank",
-          "image": "https://images.meesho.com/images/products/393863832/vzmtq_400.webp",
-          "price": 591,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 928,
-          "category": "Power Banks"
-        },
-        {
-          "id": 252,
-          "name": "Ubon Earphones UB 751 Universal In-Ear Earphone with Mic",
-          "image": "https://images.meesho.com/images/products/354371737/dmlqa_400.webp",
-          "price": 120,
-          "delivery": "Free Delivery",
-          "rating": 3.6,
-          "reviews": 2780,
-          "category": "Wired Earphones"
-        },
-        {
-          "id": 253,
-          "name": "Portronics Luxcell B 10K 10000 mAh Power Bank",
-          "image": "https://images.meesho.com/images/products/383214925/6n0cl_400.webp",
-          "price": 773,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 928,
-          "category": "Power Banks"
-        },
-        {
-          "id": 254,
-          "name": "Portronics Modesk Burj Mobile Holding Stand",
-          "image": "https://images.meesho.com/images/products/83087769/nhwno_400.webp",
-          "price": 121,
-          "delivery": "Free Delivery",
-          "rating": 4.4,
-          "reviews": 226,
-          "category": "Mobile Holders"
-        },
-        {
-          "id": 255,
-          "name": "Portronics Mport 6C USB Hub",
-          "image": "https://images.meesho.com/images/products/335926533/xjewl_400.webp",
-          "price": 182,
-          "delivery": "Free Delivery",
-          "rating": 4.4,
-          "reviews": 1515,
-          "category": "USB Hubs"
-        },
-        {
-          "id": 256,
-          "name": "UBON Tune King Champ Earphone UB-85 In-Ear Wired Headset",
-          "image": "https://images.meesho.com/images/products/354371736/0cps0_400.webp",
-          "price": 115,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 789,
-          "category": "Wired Earphones"
-        },
-        {
-          "id": 257,
-          "name": "Portronics Harmonics Twins S13 In-Ear True Wireless Earbuds",
-          "image": "https://images.meesho.com/images/products/390426860/qtqde_400.webp",
-          "price": 632,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 286,
-          "category": "True Wireless Earbuds"
-        },
-        {
-          "id": 258,
-          "name": "Ubon Wired Earphones with Mic UB 770",
-          "image": "https://images.meesho.com/images/products/354371749/h5rbu_400.webp",
-          "price": 125,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 1869,
-          "category": "Wired Earphones"
-        },
-        {
-          "id": 259,
-          "name": "Portronics Mport 31 Pro USB Hub",
-          "image": "https://images.meesho.com/images/products/441848542/qi4wn_400.webp",
-          "price": 360,
-          "delivery": "Free Delivery",
-          "rating": 4.4,
-          "reviews": 10,
-          "category": "USB Hubs"
-        },
-        {
-          "id": 260,
-          "name": "Portronics Harmonics Z7 Bluetooth Wireless In-Ear Earphones",
-          "image": "https://images.meesho.com/images/products/355210865/ki4uo_400.webp",
-          "price": 492,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 286,
-          "category": "Bluetooth Earphones"
-        },
-        {
-          "id": 261,
-          "name": "Portronics Mobot Clip 360 Mobile Phone Holder",
-          "image": "https://images.meesho.com/images/products/395391319/d3zi3_400.webp",
-          "price": 356,
-          "delivery": "Free Delivery",
-          "rating": 4.3,
-          "reviews": 38,
-          "category": "Mobile Holders"
-        },
-        {
-          "id": 262,
-          "name": "Portronics 51W Car Charger",
-          "image": "https://images.meesho.com/images/products/334281933/pznes_400.webp",
-          "price": 366,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 41,
-          "category": "Car Chargers"
-        },
-        {
-          "id": 263,
-          "name": "Portronics Pure Sound 107 Soundbar with Subwoofer",
-          "image": "https://images.meesho.com/images/products/441857907/vwl6x_400.webp",
-          "price": 8734,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 5,
-          "category": "Soundbars"
-        },
-        {
-          "id": 264,
-          "name": "Portronics Mport 7 USB Hub",
-          "image": "https://images.meesho.com/images/products/252683133/bvahe_400.webp",
-          "price": 524,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 6,
-          "category": "USB Hubs"
-        },
-        {
-          "id": 265,
-          "name": "Portronics Adapto 42 C Car Charger",
-          "image": "https://images.meesho.com/images/products/317948089/iwivw_400.webp",
-          "price": 225,
-          "delivery": "Free Delivery",
-          "rating": 3.6,
-          "reviews": 38,
-          "category": "Car Chargers"
-        },
-        {
-          "id": 266,
-          "name": "Portronics Mobot III Multifunctional Mobile Holder",
-          "image": "https://images.meesho.com/images/products/375076863/kowac_400.webp",
-          "price": 209,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 57,
-          "category": "Mobile Holders"
-        },
-        {
-          "id": 267,
-          "name": "Portronics Harmonics Z7 Bluetooth Wireless In-Ear Earphones",
-          "image": "https://images.meesho.com/images/products/355210865/ki4uo_400.webp",
-          "price": 492,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 286,
-          "category": "Bluetooth Earphones"
-        },
-        {
-          "id": 268,
-          "name": "Portronics 51W Car Charger with Dual USB Port",
-          "image": "https://images.meesho.com/images/products/334281933/pznes_400.webp",
-          "price": 366,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 41,
-          "category": "Car Chargers"
-        }
-              
+    "electronics": [
+      {
+        "id": 248,
+        "name": "Portronics Conch Theta C In-Ear Type-C Wired Earphones with In-Line HD Mic",
+        "image": "https://images.meesho.com/images/products/441794079/qz6fy_400.webp",
+        "price": 244,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 1135,
+        "category": "Wired Headphones & Earphones"
+      },
+      {
+        "id": 249,
+        "name": "UBON Earphones UB 701 Universal Blast Earphone with Mic",
+        "image": "https://images.meesho.com/images/products/437953811/vdrom_400.webp",
+        "price": 98,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 319,
+        "category": "Wired Headphones & Earphones"
+      },
+      {
+        "id": 250,
+        "name": "Portronics Vader Pro Wireless Gaming Mouse",
+        "image": "https://images.meesho.com/images/products/404447595/wpmy5_400.webp",
+        "price": 350,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 539,
+        "category": "Wireless Gaming Mouse"
+      },
+      {
+        "id": 251,
+        "name": "Portronics Zapcell 10K Advanced 10000 mAh Smallest Power Bank",
+        "image": "https://images.meesho.com/images/products/393863832/vzmtq_400.webp",
+        "price": 591,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 928,
+        "category": "Power Banks"
+      },
+      {
+        "id": 252,
+        "name": "Ubon Earphones UB 751 Universal In-Ear Earphone with Mic",
+        "image": "https://images.meesho.com/images/products/354371737/dmlqa_400.webp",
+        "price": 120,
+        "delivery": "Free Delivery",
+        "rating": 3.6,
+        "reviews": 2780,
+        "category": "Wired Earphones"
+      },
+      {
+        "id": 253,
+        "name": "Portronics Luxcell B 10K 10000 mAh Power Bank",
+        "image": "https://images.meesho.com/images/products/383214925/6n0cl_400.webp",
+        "price": 773,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 928,
+        "category": "Power Banks"
+      },
+      {
+        "id": 254,
+        "name": "Portronics Modesk Burj Mobile Holding Stand",
+        "image": "https://images.meesho.com/images/products/83087769/nhwno_400.webp",
+        "price": 121,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 226,
+        "category": "Mobile Holders"
+      },
+      {
+        "id": 255,
+        "name": "Portronics Mport 6C USB Hub",
+        "image": "https://images.meesho.com/images/products/335926533/xjewl_400.webp",
+        "price": 182,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 1515,
+        "category": "USB Hubs"
+      },
+      {
+        "id": 256,
+        "name": "UBON Tune King Champ Earphone UB-85 In-Ear Wired Headset",
+        "image": "https://images.meesho.com/images/products/354371736/0cps0_400.webp",
+        "price": 115,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 789,
+        "category": "Wired Earphones"
+      },
+      {
+        "id": 257,
+        "name": "Portronics Harmonics Twins S13 In-Ear True Wireless Earbuds",
+        "image": "https://images.meesho.com/images/products/390426860/qtqde_400.webp",
+        "price": 632,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 286,
+        "category": "True Wireless Earbuds"
+      },
+      {
+        "id": 258,
+        "name": "Ubon Wired Earphones with Mic UB 770",
+        "image": "https://images.meesho.com/images/products/354371749/h5rbu_400.webp",
+        "price": 125,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 1869,
+        "category": "Wired Earphones"
+      },
+      {
+        "id": 259,
+        "name": "Portronics Mport 31 Pro USB Hub",
+        "image": "https://images.meesho.com/images/products/441848542/qi4wn_400.webp",
+        "price": 360,
+        "delivery": "Free Delivery",
+        "rating": 4.4,
+        "reviews": 10,
+        "category": "USB Hubs"
+      },
+      {
+        "id": 260,
+        "name": "Portronics Harmonics Z7 Bluetooth Wireless In-Ear Earphones",
+        "image": "https://images.meesho.com/images/products/355210865/ki4uo_400.webp",
+        "price": 492,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 286,
+        "category": "Bluetooth Earphones"
+      },
+      {
+        "id": 261,
+        "name": "Portronics Mobot Clip 360 Mobile Phone Holder",
+        "image": "https://images.meesho.com/images/products/395391319/d3zi3_400.webp",
+        "price": 356,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 38,
+        "category": "Mobile Holders"
+      },
+      {
+        "id": 262,
+        "name": "Portronics 51W Car Charger",
+        "image": "https://images.meesho.com/images/products/334281933/pznes_400.webp",
+        "price": 366,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 41,
+        "category": "Car Chargers"
+      },
+      {
+        "id": 263,
+        "name": "Portronics Pure Sound 107 Soundbar with Subwoofer",
+        "image": "https://images.meesho.com/images/products/441857907/vwl6x_400.webp",
+        "price": 8734,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 5,
+        "category": "Soundbars"
+      },
+      {
+        "id": 264,
+        "name": "Portronics Mport 7 USB Hub",
+        "image": "https://images.meesho.com/images/products/252683133/bvahe_400.webp",
+        "price": 524,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 6,
+        "category": "USB Hubs"
+      },
+      {
+        "id": 265,
+        "name": "Portronics Adapto 42 C Car Charger",
+        "image": "https://images.meesho.com/images/products/317948089/iwivw_400.webp",
+        "price": 225,
+        "delivery": "Free Delivery",
+        "rating": 3.6,
+        "reviews": 38,
+        "category": "Car Chargers"
+      },
+      {
+        "id": 266,
+        "name": "Portronics Mobot III Multifunctional Mobile Holder",
+        "image": "https://images.meesho.com/images/products/375076863/kowac_400.webp",
+        "price": 209,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 57,
+        "category": "Mobile Holders"
+      },
+      {
+        "id": 267,
+        "name": "Portronics Harmonics Z7 Bluetooth Wireless In-Ear Earphones",
+        "image": "https://images.meesho.com/images/products/355210865/ki4uo_400.webp",
+        "price": 492,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 286,
+        "category": "Bluetooth Earphones"
+      },
+      {
+        "id": 268,
+        "name": "Portronics 51W Car Charger with Dual USB Port",
+        "image": "https://images.meesho.com/images/products/334281933/pznes_400.webp",
+        "price": 366,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 41,
+        "category": "Car Chargers"
+      }
     ],
-    "makeup":[
-      
-        {
-          "id": 269,
-          "name": "RONZILLE Matte Liquid Lipstick + Lip Gloss (Pack of 4)",
-          "image": "https://images.meesho.com/images/products/127766005/z63vg_400.webp",
-          "price": 203,
-          "delivery": "Free Delivery",
-          "rating": 3.9,
-          "reviews": 12447,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 270,
-          "name": "RENEE Nail Polish Remover 30 ml",
-          "image": "https://images.meesho.com/images/products/405410915/t3pkr_400.webp",
-          "price": 76,
-          "delivery": "Delivery ₹44",
-          "rating": 3.9,
-          "reviews": 23,
-          "category": "Nail Care"
-        },
-        {
-          "id": 271,
-          "name": "Professional Intense Lipsticks (Pack of 6)",
-          "image": "https://images.meesho.com/images/products/318500964/awamn_400.webp",
-          "price": 131,
-          "delivery": "Free Delivery",
-          "rating": 3.7,
-          "reviews": 17583,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 272,
-          "name": "MILA BEAUTE Matte Lipstick",
-          "image": "https://images.meesho.com/images/products/342390597/tze7e_400.webp",
-          "price": 97,
-          "delivery": "Delivery ₹37",
-          "rating": 4.0,
-          "reviews": 2191,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 273,
-          "name": "Sensational Mattifying Primer",
-          "image": "https://images.meesho.com/images/products/304494255/wz06t_400.webp",
-          "price": 184,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 6138,
-          "category": "Primers"
-        },
-        {
-          "id": 274,
-          "name": "Colors Queen Matte Lipstick - Wine",
-          "image": "https://images.meesho.com/images/products/31634786/gsxiv_400.webp",
-          "price": 213,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 4994,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 275,
-          "name": "RONZILLE Nude Edition Lipstick + Gloss (Pack of 4)",
-          "image": "https://images.meesho.com/images/products/282973864/jxuwe_400.webp",
-          "price": 203,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 6764,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 276,
-          "name": "RONZILLE Lip & Cheek Tint - Pomegranate (8g)",
-          "image": "https://images.meesho.com/images/products/339965444/k2pzb_400.webp",
-          "price": 114,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 19195,
-          "category": "Blush"
-        },
-        {
-          "id": 277,
-          "name": "FACES CANADA All Day Hydra Matte Foundation (15ml)",
-          "image": "https://images.meesho.com/images/products/374676670/00v2o_400.webp",
-          "price": 308,
-          "delivery": "Free Delivery",
-          "rating": 3.6,
-          "reviews": 7319,
-          "category": "Foundation"
-        },
-        {
-          "id": 278,
-          "name": "Beauty Berry Premium Enriched Lipsticks",
-          "image": "https://images.meesho.com/images/products/191451411/zzmo4_400.webp",
-          "price": 119,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 565,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 279,
-          "name": "MILA BEAUTE Longwear Matte Lipstick - Maroon",
-          "image": "https://images.meesho.com/images/products/402469220/qrlse_400.webp",
-          "price": 142,
-          "delivery": "Free Delivery",
-          "rating": 4.0,
-          "reviews": 171,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 280,
-          "name": "Mars Pore Cure Long Lasting Primer (30ml)",
-          "image": "https://images.meesho.com/images/products/96240362/cowqe_400.webp",
-          "price": 281,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 8190,
-          "category": "Primers"
-        },
-        {
-          "id": 281,
-          "name": "Mars City Strokes Eyeliner (1ml)",
-          "image": "https://images.meesho.com/images/products/398163636/kriok_400.webp",
-          "price": 161,
-          "delivery": "Delivery ₹16",
-          "rating": 4.4,
-          "reviews": 2259,
-          "category": "Eyeliner"
-        },
-        {
-          "id": 282,
-          "name": "Shryoan Eyeshadow Palette (18g)",
-          "image": "https://images.meesho.com/images/products/314644802/ncblj_400.webp",
-          "price": 156,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 638,
-          "category": "Eyeshadow"
-        },
-        {
-          "id": 283,
-          "name": "RONZILLE 24K Gold Face Primer (30ml)",
-          "image": "https://images.meesho.com/images/products/170832779/xorxx_400.webp",
-          "price": 137,
-          "delivery": "Free Delivery",
-          "rating": 3.8,
-          "reviews": 825,
-          "category": "Primers"
-        },
-        {
-          "id": 284,
-          "name": "Colors Queen Long Lasting Matte Lipstick - Maroon",
-          "image": "https://images.meesho.com/images/products/31508718/i748p_400.webp",
-          "price": 212,
-          "delivery": "Free Delivery",
-          "rating": 4.1,
-          "reviews": 10795,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 285,
-          "name": "Mars SPF50 High Coverage Foundation (40ml)",
-          "image": "https://images.meesho.com/images/products/293109936/nayq5_400.webp",
-          "price": 333,
-          "delivery": "Free Delivery",
-          "rating": 4.3,
-          "reviews": 21609,
-          "category": "Foundation"
-        },
-        {
-          "id": 286,
-          "name": "MILA BEAUTE Matte Lipstick - Touch of Spice",
-          "image": "https://images.meesho.com/images/products/402469215/3qo9s_400.webp",
-          "price": 140,
-          "delivery": "Free Delivery",
-          "rating": 4.1,
-          "reviews": 316,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 287,
-          "name": "Dazller All Day Liquid Lipstick - Dark Rosewood",
-          "image": "https://images.meesho.com/images/products/326777893/qddtg_400.webp",
-          "price": 183,
-          "delivery": "Delivery ₹23",
-          "rating": 4.2,
-          "reviews": 420,
-          "category": "Lipsticks"
-        },
-        {
-          "id": 288,
-          "name": "RENEE Nail Polish Remover 100 ml",
-          "image": "https://images.meesho.com/images/products/405410419/clyrq_400.webp",
-          "price": 194,
-          "delivery": "Free Delivery",
-          "rating": 4.2,
-          "reviews": 86,
-          "category": "Nail Care"
-        }
-      
-      
+    "makeup": [
+      {
+        "id": 269,
+        "name": "RONZILLE Matte Liquid Lipstick + Lip Gloss (Pack of 4)",
+        "image": "https://images.meesho.com/images/products/127766005/z63vg_400.webp",
+        "price": 203,
+        "delivery": "Free Delivery",
+        "rating": 3.9,
+        "reviews": 12447,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 270,
+        "name": "RENEE Nail Polish Remover 30 ml",
+        "image": "https://images.meesho.com/images/products/405410915/t3pkr_400.webp",
+        "price": 76,
+        "delivery": "Delivery ₹44",
+        "rating": 3.9,
+        "reviews": 23,
+        "category": "Nail Care"
+      },
+      {
+        "id": 271,
+        "name": "Professional Intense Lipsticks (Pack of 6)",
+        "image": "https://images.meesho.com/images/products/318500964/awamn_400.webp",
+        "price": 131,
+        "delivery": "Free Delivery",
+        "rating": 3.7,
+        "reviews": 17583,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 272,
+        "name": "MILA BEAUTE Matte Lipstick",
+        "image": "https://images.meesho.com/images/products/342390597/tze7e_400.webp",
+        "price": 97,
+        "delivery": "Delivery ₹37",
+        "rating": 4,
+        "reviews": 2191,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 273,
+        "name": "Sensational Mattifying Primer",
+        "image": "https://images.meesho.com/images/products/304494255/wz06t_400.webp",
+        "price": 184,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 6138,
+        "category": "Primers"
+      },
+      {
+        "id": 274,
+        "name": "Colors Queen Matte Lipstick - Wine",
+        "image": "https://images.meesho.com/images/products/31634786/gsxiv_400.webp",
+        "price": 213,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 4994,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 275,
+        "name": "RONZILLE Nude Edition Lipstick + Gloss (Pack of 4)",
+        "image": "https://images.meesho.com/images/products/282973864/jxuwe_400.webp",
+        "price": 203,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 6764,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 276,
+        "name": "RONZILLE Lip & Cheek Tint - Pomegranate (8g)",
+        "image": "https://images.meesho.com/images/products/339965444/k2pzb_400.webp",
+        "price": 114,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 19195,
+        "category": "Blush"
+      },
+      {
+        "id": 277,
+        "name": "FACES CANADA All Day Hydra Matte Foundation (15ml)",
+        "image": "https://images.meesho.com/images/products/374676670/00v2o_400.webp",
+        "price": 308,
+        "delivery": "Free Delivery",
+        "rating": 3.6,
+        "reviews": 7319,
+        "category": "Foundation"
+      },
+      {
+        "id": 278,
+        "name": "Beauty Berry Premium Enriched Lipsticks",
+        "image": "https://images.meesho.com/images/products/191451411/zzmo4_400.webp",
+        "price": 119,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 565,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 279,
+        "name": "MILA BEAUTE Longwear Matte Lipstick - Maroon",
+        "image": "https://images.meesho.com/images/products/402469220/qrlse_400.webp",
+        "price": 142,
+        "delivery": "Free Delivery",
+        "rating": 4,
+        "reviews": 171,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 280,
+        "name": "Mars Pore Cure Long Lasting Primer (30ml)",
+        "image": "https://images.meesho.com/images/products/96240362/cowqe_400.webp",
+        "price": 281,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 8190,
+        "category": "Primers"
+      },
+      {
+        "id": 281,
+        "name": "Mars City Strokes Eyeliner (1ml)",
+        "image": "https://images.meesho.com/images/products/398163636/kriok_400.webp",
+        "price": 161,
+        "delivery": "Delivery ₹16",
+        "rating": 4.4,
+        "reviews": 2259,
+        "category": "Eyeliner"
+      },
+      {
+        "id": 282,
+        "name": "Shryoan Eyeshadow Palette (18g)",
+        "image": "https://images.meesho.com/images/products/314644802/ncblj_400.webp",
+        "price": 156,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 638,
+        "category": "Eyeshadow"
+      },
+      {
+        "id": 283,
+        "name": "RONZILLE 24K Gold Face Primer (30ml)",
+        "image": "https://images.meesho.com/images/products/170832779/xorxx_400.webp",
+        "price": 137,
+        "delivery": "Free Delivery",
+        "rating": 3.8,
+        "reviews": 825,
+        "category": "Primers"
+      },
+      {
+        "id": 284,
+        "name": "Colors Queen Long Lasting Matte Lipstick - Maroon",
+        "image": "https://images.meesho.com/images/products/31508718/i748p_400.webp",
+        "price": 212,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 10795,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 285,
+        "name": "Mars SPF50 High Coverage Foundation (40ml)",
+        "image": "https://images.meesho.com/images/products/293109936/nayq5_400.webp",
+        "price": 333,
+        "delivery": "Free Delivery",
+        "rating": 4.3,
+        "reviews": 21609,
+        "category": "Foundation"
+      },
+      {
+        "id": 286,
+        "name": "MILA BEAUTE Matte Lipstick - Touch of Spice",
+        "image": "https://images.meesho.com/images/products/402469215/3qo9s_400.webp",
+        "price": 140,
+        "delivery": "Free Delivery",
+        "rating": 4.1,
+        "reviews": 316,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 287,
+        "name": "Dazller All Day Liquid Lipstick - Dark Rosewood",
+        "image": "https://images.meesho.com/images/products/326777893/qddtg_400.webp",
+        "price": 183,
+        "delivery": "Delivery ₹23",
+        "rating": 4.2,
+        "reviews": 420,
+        "category": "Lipsticks"
+      },
+      {
+        "id": 288,
+        "name": "RENEE Nail Polish Remover 100 ml",
+        "image": "https://images.meesho.com/images/products/405410419/clyrq_400.webp",
+        "price": 194,
+        "delivery": "Free Delivery",
+        "rating": 4.2,
+        "reviews": 86,
+        "category": "Nail Care"
+      }
     ],
-    "mobile":[
+    "mobile": [
       {
         "id": 300,
         "name": "Redmi A3 6GB 128GB Olive Green",
@@ -3017,14 +3009,14 @@
         "category": "Smartphones"
       }
     ],
-     "Perfume":[
+    "Perfume": [
       {
         "id": 307,
         "name": "DENVER Black Code,Caliber,Honour & Imperial Nano Deo Long Lasting Set of 4 Deodorant Spray - For Men",
         "image": "https://images.meesho.com/images/products/176003880/yfaoo_400.webp",
         "price": 267,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 167157,
         "category": "Deodorant & Fragrances"
       },
@@ -3054,7 +3046,7 @@
         "image": "https://images.meesho.com/images/products/281721822/gyxwa_400.webp",
         "price": 183,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 1222,
         "category": "Deodorant & Fragrances"
       },
@@ -3094,7 +3086,7 @@
         "image": "https://images.meesho.com/images/products/381025911/l3twi_400.webp",
         "price": 151,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 721,
         "category": "Deodorant & Fragrances"
       },
@@ -3114,7 +3106,7 @@
         "image": "https://images.meesho.com/images/products/490767752/0fopu_400.webp",
         "price": 264,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 564,
         "category": "Deodorant & Fragrances"
       },
@@ -3164,7 +3156,7 @@
         "image": "https://images.meesho.com/images/products/372596526/jdnbh_400.webp",
         "price": 379,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 955,
         "category": "Perfumes for Men"
       },
@@ -3219,7 +3211,7 @@
         "category": "Perfumes for Men"
       }
     ],
-    "bags":[
+    "bags": [
       {
         "id": 237,
         "name": "Fancy Women Pouches",
@@ -3396,7 +3388,7 @@
         "image": "https://images.meesho.com/images/products/5501050/jmbkc_400.webp",
         "price": 202,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 126,
         "category": "Women Bags"
       },
@@ -3421,7 +3413,7 @@
         "category": "Women Bags"
       }
     ],
-    "footwearslider":[
+    "footwearslider": [
       {
         "id": 257,
         "name": "Birde Sports Shoes For Men",
@@ -3438,7 +3430,7 @@
         "image": "https://images.meesho.com/images/products/376990298/qhcj7_400.webp",
         "price": 294,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 61,
         "category": "Men's Footwear"
       },
@@ -3478,7 +3470,7 @@
         "image": "https://images.meesho.com/images/products/261422934/datyx_400.webp",
         "price": 286,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 3221,
         "category": "Men's Footwear"
       },
@@ -3528,7 +3520,7 @@
         "image": "https://images.meesho.com/images/products/152581788/e18i4_400.webp",
         "price": 403,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 520,
         "category": "Men's Footwear"
       },
@@ -3538,7 +3530,7 @@
         "image": "https://images.meesho.com/images/products/299043428/h5uvo_400.webp",
         "price": 161,
         "delivery": "Delivery ₹77",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 589,
         "category": "Men's Footwear"
       },
@@ -3618,12 +3610,12 @@
         "image": "https://images.meesho.com/images/products/367565807/fjgx5_400.webp",
         "price": 383,
         "delivery": "Free Delivery",
-        "rating": 4.0,
+        "rating": 4,
         "reviews": 116,
         "category": "Men's Footwear"
       }
     ],
-    "books":[
+    "books": [
       {
         "id": 277,
         "name": "Mahabharta in Hindi",
@@ -3825,30 +3817,22 @@
         "category": "Hindi Books"
       }
     ]
-    
-  
-   
   },
   "user": [
     {
-      "id": "1746527239925",
-      "email": "kunj@gmail.com",
-      "password": "291882"
+      "id": 1,
+      "email": "98892kunj@gmail.com",
+      "password": "92929910"
     },
     {
-      "id": "1746527239926",
-      "email": "kun1j@gmail.com",
-      "password": "98292"
+      "id": 2,
+      "email": "356kunj@gmail.com",
+      "password": "923337873"
     },
     {
-      "id": "1746527239926",
-      "email": "12kunj@gmail.com",
-      "password": "991289"
-    },
-    {
-      "id": "17465272399251",
-      "email": "kunj1234@gmail.com",
-      "password": "9209209"
+      "id": 3,
+      "email": "jgjgj@gmail.com",
+      "password": "65766"
     }
   ]
 }
