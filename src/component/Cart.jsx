@@ -12,11 +12,11 @@ const CartPage = () => {
     setCartItems(savedCartItems);
   }, []);
 
-  // Function to properly parse price values
+  
   const parsePrice = (price) => {
     if (typeof price === "number") return price;
     if (typeof price === "string") {
-      // Remove all non-numeric characters except decimal point
+     
       const numericString = price.replace(/[^0-9.]/g, '');
       return parseFloat(numericString) || 0;
     }
@@ -41,7 +41,7 @@ const CartPage = () => {
     const updatedCartItems = cartItems
       .map((item) =>
         item.id === id
-          ? { ...item, quantity: Math.max(1, item.quantity - 1) } // Ensure quantity doesn't go below 1
+          ? { ...item, quantity: Math.max(1, item.quantity - 1) } 
           : item
       );
     localStorage.setItem("cart", JSON.stringify(updatedCartItems));
@@ -76,7 +76,7 @@ const CartPage = () => {
 
   const navigate = useNavigate();
 
-  // Load Razorpay script
+
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
       const script = document.createElement("script");
@@ -87,7 +87,6 @@ const CartPage = () => {
     });
   };
 
-  // Handle payment logic
   const handlePayment = async () => {
     const res = await loadRazorpayScript();
 
@@ -139,7 +138,7 @@ const CartPage = () => {
 
       {cartItems.length > 0 ? (
         <Row>
-          {/* LEFT: Cart Items */}
+  
           <Col md={8}>
             {cartItems.map((item) => (
               <Card
@@ -150,7 +149,7 @@ const CartPage = () => {
                   border: "none",
                   borderRadius: "12px",
                   padding: "20px",
-                  marginBottom: "20px",  // Add margin to space out cards
+                  marginBottom: "20px", 
                 }}
               >
                 <Row>
@@ -163,7 +162,7 @@ const CartPage = () => {
                         height: "300px",
                         width: "auto",
                         borderRadius: "8px",
-                        marginBottom: "15px",  // Adds space below image
+                        marginBottom: "15px", 
                       }}
                     />
                     <div style={{ display: "flex", gap: "5px", marginTop: "10px", flexWrap: "wrap" }}>
@@ -209,7 +208,6 @@ const CartPage = () => {
                       🚚 Delivery by <strong>May 12</strong>
                     </p>
 
-                    {/* Quantity + Actions */}
                     <div style={{
                       display: "flex",
                       alignItems: "center",
@@ -231,7 +229,7 @@ const CartPage = () => {
             ))}
           </Col>
 
-          {/* RIGHT: Order Summary */}
+          
           <Col md={4}>
             <Card style={{
               position: "sticky",
@@ -263,7 +261,7 @@ const CartPage = () => {
                 variant="danger"
                 size="lg"
                 className="mt-4 w-100"
-                onClick={handlePayment}  // Trigger Razorpay payment here
+                onClick={handlePayment} 
               >
                 Proceed to Checkout
               </Button>

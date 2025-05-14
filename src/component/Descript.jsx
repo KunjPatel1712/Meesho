@@ -6,8 +6,8 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 const Slider = () => {
   const { category } = useParams();
   const [datas, setItems] = useState([]);
-  const [loading, setLoading] = useState(true);  // Added loading state
-  const [error, setError] = useState(null);  // Added error state
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);  
 
   useEffect(() => {
     const fetchCategoryData = async () => {
@@ -15,7 +15,6 @@ const Slider = () => {
         const res = await axios.get("http://localhost:3000/Slider");
         const data = res.data;
 
-        // Reset loading state after data fetch
         setLoading(false);
 
         if (category === "product") {
@@ -47,7 +46,7 @@ const Slider = () => {
   }, [category]);
 
   if (loading) {
-    return <p>Loading...</p>;  // Simple loading message, can be improved with a spinner
+    return <p>Loading...</p>;  
   }
 
   if (error) {

@@ -5,10 +5,10 @@ import { useNavigate } from 'react-router-dom';
 const ProfileMenu = () => {
   const [hovered, setHovered] = useState(false);
     
-  const navigate = useNavigate(); // Access navigate for v6 routing
+  const navigate = useNavigate(); 
 
   const handleSignUpClick = () => {
-    navigate('/login');  // Navigate to the login page
+    navigate('/login');  
   };
 
   return (

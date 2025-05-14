@@ -28,24 +28,24 @@ import Slider from './Descript'
 const Allroutes = () => {
   return (
     <Routes>
-       <Route path="/" element={<Home />} />
-    
-      <Route path='/ethic' element={<EthicWear/>} />
-      <Route path='/westerndress' element={<Western />} />
-      <Route path='/mens' element={<Mens/> } />
-      <Route path='/footwear' element ={<Footwear />} />
-      <Route path='/decore' element ={<Decore/> }/>
-      <Route path='/beauty' element={<Beauty/>} />
-      <Route path='/accessories' element={<Accessories/>} />
-      <Route path='/grocery' element ={<Grocery />}/>
+      <Route path="/" element={<Home />} />
 
-    
-   
+      <Route path='/ethic' element={<EthicWear />} />
+      <Route path='/westerndress' element={<Western />} />
+      <Route path='/mens' element={<Mens />} />
+      <Route path='/footwear' element={<Footwear />} />
+      <Route path='/decore' element={<Decore />} />
+      <Route path='/beauty' element={<Beauty />} />
+      <Route path='/accessories' element={<Accessories />} />
+      <Route path='/grocery' element={<Grocery />} />
+
+
+
       <Route path="/category/:category" element={<CategoryPage />} />
       <Route path="/slider/:category" element={<Slider />} />
 
 
-<Route path="/product/:id" element={<Description />} />
+      <Route path="/product/:id" element={<Description />} />
 
       <Route path="/login" element={<Login />} />
       <Route path="/component/CartPage" element={<CartPage />} />

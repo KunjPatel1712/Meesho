@@ -16,7 +16,7 @@ const Login = () => {
   const [message, setMessage] = useState("");
   const [nextId, setNextId] = useState(1);
 
-  // ✅ Simple ID logic: fill missing lowest ID starting from 1
+
   useEffect(() => {
     const fetchNextId = async () => {
       try {
@@ -69,7 +69,7 @@ const Login = () => {
       if (response.ok) {
         localStorage.setItem("currentUser", JSON.stringify(newUser));
         localStorage.setItem("isLoggedIn", "true");
-        setNextId(nextId + 1); // Optional: update for next session
+        setNextId(nextId + 1); 
         setMessage("🎉 Registration successful!");
  
         setEmail("");

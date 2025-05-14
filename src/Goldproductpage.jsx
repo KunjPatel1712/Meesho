@@ -56,7 +56,7 @@
                     e.currentTarget.style.boxShadow = '0 0 0 transparent';
                   }}
                 >
-                  {/* Image Container */}
+                 
                   <div
                     style={{
                       height: '200px',

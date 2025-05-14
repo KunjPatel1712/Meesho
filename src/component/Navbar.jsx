@@ -126,9 +126,9 @@ const [searchParams] = useSearchParams();
     }
   };
   
-  const handleSignUpClick = () => {
-    history.push('/login');  
-  };
+  // const handleSignUpClick = () => {
+  //   history.push('/login');  
+  // };
 
 
 
@@ -137,7 +137,7 @@ const [searchParams] = useSearchParams();
     top: 0,
     zIndex: 1000,
     background: 'white'}} >
-      {/* Main Navbar */}
+      
       <Navbar
         expand="lg"
         className="meesho-navbar"
@@ -145,16 +145,16 @@ const [searchParams] = useSearchParams();
         onToggle={() => setExpanded(!expanded)}
       >
         <Container fluid>
-          {/* Logo */}
+         
           <Navbar.Brand href="#home" className="meesho-logo">
             <span className="logo-text"><a href=' /' style={{textDecoration:"none", color:"#570D48"}}>meesho</a></span>
           </Navbar.Brand>
 
-          {/* Hamburger Toggle */}
+         
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
           <Navbar.Collapse id="responsive-navbar-nav">
-            {/* Search Bar */}
+       
           
              <Form className="meesho-search mx-auto">
       <FormControl
@@ -171,7 +171,7 @@ const [searchParams] = useSearchParams();
       </span>
     </Form>
 
-            {/* Navigation Links */}
+          
             <Nav className="ms-auto meesho-nav">
               <Nav.Link href="#become-supplier" className="nav-link">
                 Become a Supplier

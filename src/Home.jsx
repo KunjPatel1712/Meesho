@@ -57,7 +57,7 @@ const Home = () => {
       .then((res) => {
         let data = res.data;
 
-        // ✅ Manual price filtering
+       
         if (priceRanges.length) {
           data = data.filter((item) =>
             priceRanges.some((range) => {
@@ -67,7 +67,7 @@ const Home = () => {
           );
         }
 
-        // ✅ Manual rating filtering
+      
         if (ratings.length) {
           data = data.filter((item) =>
             ratings.some((min) => item.rating >= Number(min))
@@ -81,12 +81,11 @@ const Home = () => {
 
    const navigate = useNavigate();
 
-   // Function to handle category selection and navigate
    const handleClick = (categoryName) => {
      navigate(`/category/${categoryName}`);
    };
 
-   //slider 
+ 
 
   
 
@@ -121,7 +120,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Horizontal Scroll Categories */}
+     
 
     
       <div className="horizontal mt-3">
@@ -180,7 +179,7 @@ const Home = () => {
 
     <Container fluid className="gold-horizontal p-0">
       <Row className="gold-row g-0 h-100">
-        {/* Left Column - Empty on mobile, contains button on desktop */}
+      
         <Col md={6} className="d-none d-md-flex align-items-end pb-5">
           <button 
            
@@ -191,10 +190,10 @@ const Home = () => {
           </button>
         </Col>
 
-        {/* Right Column - 4 Images in 2 Pairs */}
+       
         <Col md={6} className="h-100 d-flex align-items-center justify-content-center">
           <div className="image-pairs-container">
-            {/* First Pair Row */}
+        
             <Row className="mb-3 mb-md-4">
               <Col xs={6} className="text-center">
                 <img 
@@ -240,7 +239,7 @@ const Home = () => {
           </div>
         </Col>
 
-        {/* Mobile Button - Only visible on mobile at bottom */}
+        
         <Col xs={12} className="d-md-none text-center mobile-btn-container">
           <Button 
             variant="outline-light" 
@@ -322,7 +321,7 @@ const Home = () => {
 <div className="slider-container">
   <div className="scroll-container">
     <div className="scroll-content">
-      {/* Original Images */}
+    
       <div><img src="https://images.meesho.com/images/marketing/1743159302944.webp" alt="Image 1" /></div>
       <div><img src="https://images.meesho.com/images/marketing/1743159322237.webp" alt="Image 2" /></div>
       <div><img src="https://images.meesho.com/images/marketing/1743159363205.webp" alt="Image 3" /></div>
@@ -332,7 +331,7 @@ const Home = () => {
       <div><img src="https://images.meesho.com/images/marketing/1744636558884.webp" alt="Image 7" /></div>
       <div><img src="https://images.meesho.com/images/marketing/1744636599446.webp" alt="Image 8" /></div>
       
-      {/* Duplicated Images for infinite effect */}
+      
       <div><img src="https://images.meesho.com/images/marketing/1743159302944.webp" alt="Image 1" /></div>
       <div><img src="https://images.meesho.com/images/marketing/1743159322237.webp" alt="Image 2" /></div>
       <div><img src="https://images.meesho.com/images/marketing/1743159363205.webp" alt="Image 3" /></div>
@@ -352,7 +351,7 @@ const Home = () => {
      
     <Container fluid className="trendz-container mt-5 p-4">
       <Row className="align-items-center">
-        {/* Left Side - Shop Now Button */}
+        
         <Col xs={12} md={3} className="trendz-left mb-4 mb-md-0 text-center text-md-start d-flex flex-column justify-content-start">
           <Button 
             variant="light" 
@@ -363,10 +362,10 @@ const Home = () => {
           </Button>
         </Col>
 
-        {/* Right Side - Trend Cards */}
+        
         <Col xs={12} md={9} className="trendz-items">
           <Row className="g-3 justify-content-center">
-            {/* Card 1 */}
+          
             <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
               <div className="trendz-card h-100">
                 <div className="trendz-image-wrapper position-relative">
@@ -381,7 +380,7 @@ const Home = () => {
               </div>
             </Col>
 
-            {/* Card 2 */}
+           
             <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
               <div className="trendz-card h-100">
                 <div className="trendz-image-wrapper position-relative">
@@ -396,7 +395,7 @@ const Home = () => {
               </div>
             </Col>
 
-            {/* Card 3 */}
+           
             <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
               <div className="trendz-card h-100">
                 <div className="trendz-image-wrapper position-relative">
@@ -411,7 +410,7 @@ const Home = () => {
               </div>
             </Col>
 
-            {/* Card 4 */}
+            
             <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
               <div className="trendz-card h-100">
                 <div className="trendz-image-wrapper position-relative">
@@ -435,12 +434,12 @@ const Home = () => {
 
   <Container className="mt-4">
       <Row>
-        {/* Sidebar */}
+       
         <Col xs={12} md={3} lg={3} className="p-3">
           <Sidebar />
         </Col>
 
-        {/* Product Grid */}
+        
         <Col xs={12} md={9} lg={9} className="p-3">
           <div className="d-flex justify-content-between align-items-center mb-3">
             <h4 className="mb-0">Products</h4>
