@@ -469,68 +469,35 @@
 
 /* Container */
 .trendz-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px;
-
   background-image: url("assets/trends1.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  flex-wrap: wrap;
 }
 
-/* Left Side (Text and Button) */
-.trendz-left {
-  max-width: 300px;
-  flex: 1;
-  padding-left: 30px;
-  margin-top: 13%;
-
-}
-
-
-
+/* Shop Now Button */
 .trendz-btn {
-  background-color: #fff;
-  color: #e68cdb;
-  padding: 19px 39px;
-  font-size: 30px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+  background-color: #fff !important;
+  color: #e68cdb !important;
   font-weight: 600;
+  border-radius: 10px !important;
+  border: none !important;
   transition: all 0.3s ease;
 }
 
 .trendz-btn:hover {
   transform: scale(1.05);
- 
 }
 
-/* Right Side - Cards */
-/* Container for all items */
-.trendz-items {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  flex: 2;
-  padding-left:60px;
-  justify-items: center;
-}
-
-/* Each card */
+/* Trend Cards */
 .trendz-card {
-
   border-radius: 18px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 180px;
+  background: white;
+  overflow: hidden;
 }
 
 .trendz-card:hover {
@@ -538,70 +505,50 @@
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Image container */
 .trendz-image-wrapper {
+  aspect-ratio: 3/4;
   position: relative;
-  height: 220px;
-  border-radius: 18px 18px 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.trendz-image-wrapper img {
-  width: 100%;
-  height: 100%;
- 
-  border-radius: 18px 18px 0 0;
-}
-
-/* Sparkle icon */
 .sparkle {
-  position: absolute;
   top: 8px;
   right: 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
+  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+  z-index: 1;
 }
 
-/* Card label */
 .trendz-label {
   font-weight: 600;
   color: #79026b;
-  border: 2px solid white;
   background-color: white;
   border-radius: 15px;
-  margin-top: 20px;
-  padding: 12px 8px;
+  margin: 0.5rem;
   font-size: 1rem;
 }
 
-/* Responsive Layout */
-@media (max-width: 992px) {
-  .trendz-items {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .trendz-btn {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+  }
+  
+  .trendz-label {
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 576px) {
-  .trendz-items {
-    grid-template-columns: repeat(1, 1fr);
+  .trendz-card-col {
+    padding: 0.5rem !important;
   }
-
-  .trendz-card {
-    max-width: 100%;
-  }
-
+  
   .trendz-image-wrapper {
-    height: 180px;
-  }
-
-  .trendz-label {
-    font-size: 0.95rem;
+    aspect-ratio: 1/1;
   }
 }
-
 
 .gold-horizontal {
   margin-top: 30px;

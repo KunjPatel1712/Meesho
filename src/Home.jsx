@@ -36,33 +36,48 @@ import Sidebar from './component/Sidebar';
 
 const Home = () => {
 
-   const [products, setProducts] = useState([]);
-const [searchParam] = useSearchParams();
-const [order, setOrder] = useState("asc");
+ const [products, setProducts] = useState([]);
+  const [searchParams] = useSearchParams();
+  const [order, setOrder] = useState("asc");
 
-   const paramObj = {
-    category: searchParam.getAll("category"),
-    _sort: "price",
-    _order: order,
-    q: searchParam.get("q") || "",
-  };
+  useEffect(() => {
+    const category = searchParams.getAll("category");
+    const priceRanges = searchParams.getAll("price");
+    const ratings = searchParams.getAll("rating");
 
+    const paramObj = {
+      ...(category.length ? { category } : {}),
+      _sort: "price",
+      _order: order,
+      q: searchParams.get("q") || "",
+    };
 
+    axios
+      .get("http://localhost:3000/homemain", { params: paramObj })
+      .then((res) => {
+        let data = res.data;
 
-   useEffect(() => {
-     axios
-       .get("http://localhost:3000/homemain", { params: paramObj })
-       .then((res) => {
-         setProducts(res.data);
-       })
-       .catch((err) => {
-         console.error("Failed to fetch lifestyle items:", err);
-       });
-   }, [searchParam,order]);
-   
+        // ✅ Manual price filtering
+        if (priceRanges.length) {
+          data = data.filter((item) =>
+            priceRanges.some((range) => {
+              const [min, max] = range.split("-").map(Number);
+              return item.price >= min && item.price <= max;
+            })
+          );
+        }
 
-   
- 
+        // ✅ Manual rating filtering
+        if (ratings.length) {
+          data = data.filter((item) =>
+            ratings.some((min) => item.rating >= Number(min))
+          );
+        }
+
+        setProducts(data);
+      })
+      .catch((err) => console.error("Failed to fetch products:", err));
+  }, [searchParams, order]);
 
    const navigate = useNavigate();
 
@@ -332,133 +347,175 @@ const [order, setOrder] = useState("asc");
 </div>
 
 
-    <div className="trendz-container mt-5">
-      <div className="trendz-left col-3">
-       
-        <button className="trendz-btn ">Shop Now</button>
-      </div>
-
-      <div className="trendz-items col-9">
-        <div className="trendz-card">
-          <div className="trendz-image-wrapper">
-            <img
-              src={summerdress}
-              alt="Summer Dresses"
-            />
-            <div className="sparkle">✨</div>
-          </div>
-          <div className="trendz-label">Summer Dresses</div>
-        </div>
-
-        <div className="trendz-card">
-          <div className="trendz-image-wrapper">
-            <img
-              src={baggyjeans}
-              alt="Baggy Jeans"
-            />
-            <div className="sparkle">✨</div>
-          </div>
-          <div className="trendz-label">Baggy Jeans</div>
-        </div>
-
-        <div className="trendz-card">
-          <div className="trendz-image-wrapper">
-            <img
-              src={earrings}
-              alt="Earrings"
-            />
-            <div className="sparkle">✨</div>
-          </div>
-          <div className="trendz-label">Earrings</div>
-        </div>
-
-        <div className="trendz-card">
-          <div className="trendz-image-wrapper">
-            <img
-              src={chicflats}
-              alt="Chic Flats"
-            />
-            <div className="sparkle">✨</div>
-          </div>
-          <div className="trendz-label">Chic Flats</div>
-        </div>
-      </div>
-    
 
     
-</div>
-
-
-
-    <Container className="mt-4">
-      <Row>
-        {/* Left Part - Sidebar */}
-        <Col xs={12} md={3} lg={3} className="p-3">
-         <Sidebar />
+     
+    <Container fluid className="trendz-container mt-5 p-4">
+      <Row className="align-items-center">
+        {/* Left Side - Shop Now Button */}
+        <Col xs={12} md={3} className="trendz-left mb-4 mb-md-0 text-center text-md-start d-flex flex-column justify-content-start">
+          <Button 
+            variant="light" 
+            className="trendz-btn px-4 py-3"
+            size="lg"
+          >
+            Shop Now
+          </Button>
         </Col>
 
-        {/* Right Part - Product Grid */}
+        {/* Right Side - Trend Cards */}
+        <Col xs={12} md={9} className="trendz-items">
+          <Row className="g-3 justify-content-center">
+            {/* Card 1 */}
+            <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
+              <div className="trendz-card h-100">
+                <div className="trendz-image-wrapper position-relative">
+                  <img
+                    src={summerdress} 
+                    alt="Summer Dresses" 
+                    className="w-100 h-100 object-fit-cover"
+                  />
+                  <div className="sparkle position-absolute">✨</div>
+                </div>
+                <div className="trendz-label p-2">Summer Dresses</div>
+              </div>
+            </Col>
+
+            {/* Card 2 */}
+            <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
+              <div className="trendz-card h-100">
+                <div className="trendz-image-wrapper position-relative">
+                  <img 
+                    src={baggyjeans} 
+                    alt="Baggy Jeans" 
+                    className="w-100 h-100 object-fit-cover"
+                  />
+                  <div className="sparkle position-absolute">✨</div>
+                </div>
+                <div className="trendz-label p-2">Baggy Jeans</div>
+              </div>
+            </Col>
+
+            {/* Card 3 */}
+            <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
+              <div className="trendz-card h-100">
+                <div className="trendz-image-wrapper position-relative">
+                  <img 
+                    src={earrings} 
+                    alt="Earrings" 
+                    className="w-100 h-100 object-fit-cover"
+                  />
+                  <div className="sparkle position-absolute">✨</div>
+                </div>
+                <div className="trendz-label p-2">Earrings</div>
+              </div>
+            </Col>
+
+            {/* Card 4 */}
+            <Col xs={6} sm={4} md={3} lg={3} className="trendz-card-col">
+              <div className="trendz-card h-100">
+                <div className="trendz-image-wrapper position-relative">
+                  <img 
+                    src={chicflats} 
+                    alt="Chic Flats" 
+                    className="w-100 h-100 object-fit-cover"
+                  />
+                  <div className="sparkle position-absolute">✨</div>
+                </div>
+                <div className="trendz-label p-2">Chic Flats</div>
+              </div>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+   </Container>
+
+
+
+
+  <Container className="mt-4">
+      <Row>
+        {/* Sidebar */}
+        <Col xs={12} md={3} lg={3} className="p-3">
+          <Sidebar />
+        </Col>
+
+        {/* Product Grid */}
         <Col xs={12} md={9} lg={9} className="p-3">
+          <div className="d-flex justify-content-between align-items-center mb-3">
+            <h4 className="mb-0">Products</h4>
+            <select
+              className="form-select w-auto"
+              value={order}
+              onChange={(e) => setOrder(e.target.value)}
+            >
+              <option value="asc">Price: Low to High</option>
+              <option value="desc">Price: High to Low</option>
+            </select>
+          </div>
+
           <Row xs={1} sm={2} md={3} lg={4} className="g-4">
             {products.map((e) => (
               <Col key={e.id}>
                 <Link
                   to={`/product/${e.id}`}
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <div
                     style={{
-                      height: '100%',
-                      boxShadow: '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)',
-                      borderRadius: '1rem',
-                      overflow: 'hidden',
-                      backgroundColor: '#fff',
+                      height: "100%",
+                      boxShadow: "0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)",
+                      borderRadius: "1rem",
+                      overflow: "hidden",
+                      backgroundColor: "#fff",
                     }}
                   >
-                    <div style={{ height: '250px', overflow: 'hidden' }}>
+                    <div style={{ height: "250px", overflow: "hidden" }}>
                       <img
                         src={e.image}
                         alt={e.name}
                         style={{
-                          height: '100%',
-                          width: '100%',
-                          objectFit: 'cover',
+                          height: "100%",
+                          width: "100%",
+                          objectFit: "cover",
                         }}
                       />
                     </div>
-                    <div style={{ padding: '1rem' }}>
-                      <h6 style={{ marginBottom: '0.25rem', fontSize: '1rem' }}>
+                    <div style={{ padding: "1rem" }}>
+                      <h6 style={{ marginBottom: "0.25rem", fontSize: "1rem" }}>
                         {e.name}
                       </h6>
                       <p
                         style={{
-                          fontWeight: 'bold',
-                          color: '#198754',
-                          marginBottom: '0.25rem',
+                          fontWeight: "bold",
+                          color: "#198754",
+                          marginBottom: "0.25rem",
                         }}
                       >
-                        ₹{e.price}
+                        {e.price}
                       </p>
                       <div
                         style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '0.5rem',
-                          marginBottom: '0.25rem',
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "0.5rem",
+                          marginBottom: "0.25rem",
                         }}
                       >
                         <span
                           style={{
-                            backgroundColor: '#038d63',
-                            color: 'white',
-                            borderRadius: '12px',
-                            padding: '4px 10px',
-                            fontSize: '0.85rem',
+                            backgroundColor: "#038d63",
+                            color: "white",
+                            borderRadius: "12px",
+                            padding: "4px 10px",
+                            fontSize: "0.85rem",
                           }}
                         >
                           ⭐ {e.rating}
                         </span>
-                        <small style={{ color: '#6c757d' }}>({e.reviews})</small>
+                        <small style={{ color: "#6c757d" }}>
+                          ({e.reviews})
+                        </small>
                       </div>
                     </div>
                   </div>
@@ -469,6 +526,7 @@ const [order, setOrder] = useState("asc");
         </Col>
       </Row>
     </Container>
+
 
  
 
@@ -484,4 +542,4 @@ const [order, setOrder] = useState("asc");
   
 
 
-export default Home;
+export default Home

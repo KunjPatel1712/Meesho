@@ -27,7 +27,7 @@ const Sidebar = () => {
     setSearchParams(params);
   }, [cateData, priceData, ratingData, setSearchParams]);
 
-  return ( 
+  return (
     <div
       className="sidebar-container"
       style={{

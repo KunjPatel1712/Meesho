@@ -109,31 +109,34 @@ const MeeshoNavbar = () => {
     }
   ];
 
+const [searchParams] = useSearchParams();
+  const [searchTerm, setSearchTerm] = useState(searchParams.get("q") || "");
+  const navigate = useNavigate();
 
+  const handleSearch = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      const params = new URLSearchParams(searchParams);
+      if (searchTerm.trim()) {
+        params.set("q", searchTerm.trim());
+      } else {
+        params.delete("q");
+      }
+      navigate({ pathname: "/", search: params.toString() });
+    }
+  };
   
   const handleSignUpClick = () => {
     history.push('/login');  
   };
 
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
-
-  const handleSearch = (e) => {
-    if (e.key === "Enter") {
-      const params = new URLSearchParams(searchParams);
-      if (searchTerm.trim()) {
-        params.set("q", searchTerm);
-      } else {
-        params.delete("q");
-      }
-      navigate({ search: params.toString() });
-    }
-  };
 
   return (
-    <div>
+    <div   style={{ position: 'sticky',
+    top: 0,
+    zIndex: 1000,
+    background: 'white'}} >
       {/* Main Navbar */}
       <Navbar
         expand="lg"
@@ -152,21 +155,21 @@ const MeeshoNavbar = () => {
 
           <Navbar.Collapse id="responsive-navbar-nav">
             {/* Search Bar */}
-            <Form className="meesho-search mx-auto">
-              <FormControl
-                type="search"
-                placeholder="Try Saree, Kurti or Search by Product Code"
-                className="search-input"
-                aria-label="Search"
-                value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              onKeyDown={handleSearch}
-
-              />
-              <span className="search-icon">
-                <i className="fas fa-search"></i>
-              </span>
-            </Form>
+          
+             <Form className="meesho-search mx-auto">
+      <FormControl
+        type="search"
+        placeholder="Try Saree, Kurti or Search by Product Code"
+        className="search-input"
+        aria-label="Search"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        onKeyDown={handleSearch}
+      />
+      <span className="search-icon">
+        <i className="fas fa-search"></i>
+      </span>
+    </Form>
 
             {/* Navigation Links */}
             <Nav className="ms-auto meesho-nav">

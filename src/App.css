@@ -1,14 +1,14 @@
   /* Meesho Navbar Styling */
   .meesho-navbar {
-    width: 100%;
-    height: auto  ;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    position: relative;
-    z-index: 1000; /* Increased z-index */
-  }
-
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  position: sticky; /* Changed from relative to sticky */
+  top: 0;           /* Stick to the top */
+  z-index: 1000;    /* Keep it above other elements */
+}
   /* Logo Styling */
   .meesho-logo .logo-text {
     font-size: 24px;

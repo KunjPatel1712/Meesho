@@ -107,7 +107,7 @@ const Slider = () => {
                       {item.name}
                     </Card.Title>
                     <Card.Text style={{ marginBottom: '4px', color: '#333' }}>
-                      ₹{item.price}
+                      {item.price}
                     </Card.Text>
                     <Card.Text style={{ marginBottom: '4px', color: '#333' }}>
                       {item.delivery}
