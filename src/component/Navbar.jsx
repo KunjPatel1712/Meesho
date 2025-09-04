@@ -173,18 +173,20 @@ const [searchParams] = useSearchParams();
     </Form>
 
           
-            <Nav className="ms-auto meesho-nav">
-              <Nav.Link href="#become-supplier" className="nav-link">
-                Become a Supplier
-              </Nav.Link>
-              <Nav.Link href="#investor-relations" className="nav-link">
-                Investor Relations
-              </Nav.Link>
-              <Nav.Link href="#profile" className="nav-link">
-                <Login />
-              </Nav.Link>
-              <ProfileMenu/>
-          </Nav.Link>
+           <Nav className="ms-auto meesho-nav">
+  <Nav.Link href="#become-supplier" className="nav-link">
+    Become a Supplier
+  </Nav.Link>
+  <Nav.Link href="#investor-relations" className="nav-link">
+    Investor Relations
+  </Nav.Link>
+  <Nav.Link href="#profile" className="nav-link">
+    <Login />
+  </Nav.Link>
+  <ProfileMenu />
+  <Nav.Link as={Link} to="/component/CartPage" className="nav-link">
+    <i className="fas fa-shopping-cart"></i> Cart
+  </Nav.Link>
 
           <Nav.Link as={Link} to="/component/CartPage" className="nav-link">
 
