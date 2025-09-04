@@ -36,7 +36,7 @@ const ProfileMenu = () => {
           style={{
             position: 'absolute',
             top: '100%',
-             left: 0 ,
+             left: "-80px" ,
             width: '260px',
             backgroundColor: '#fff',
             boxShadow: '0px 4px 8px rgba(0,0,0,0.1)',
@@ -99,18 +99,27 @@ const ProfileMenu = () => {
       {/* ✅ Responsive CSS */}
       <style>
         {`
-          /* Laptop/Desktop default */
+          
           .login {
             left: 0;
           }
 
-          /* Mobile view (center align) */
+         
           @media (max-width: 768px) {
             .login {
-              left: 100% !important;
-              transform: translateX(-20%) !important;
+              left: 140% !important;
+              transform: translateX(-10%) !important;
                !important;
             }
+          }
+          @media (max-width:993px)
+          {
+          .login
+          {
+           left: 200% !important;
+              transform: translateX(-60%) !important;
+               !important;
+          }
           }
         `}
       </style>
