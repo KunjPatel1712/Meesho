@@ -5,6 +5,7 @@ import "../App.css"
 import ProfileMenu from './Profilemenu';
 import CartPage from './Cart';
 import { Link, Navigate, useNavigate, useSearchParams } from 'react-router-dom';
+import Login from '../Login';
 
 const MeeshoNavbar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -180,8 +181,8 @@ const [searchParams] = useSearchParams();
                 Investor Relations
               </Nav.Link>
               <Nav.Link href="#profile" className="nav-link">
-               
-
+                <Login />
+              </Nav.Link>
               <ProfileMenu/>
           </Nav.Link>
 
