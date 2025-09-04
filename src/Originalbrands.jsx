@@ -8,7 +8,7 @@ const CategoryPage = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/gold")
+    axios.get("https://meesho-server-hrpv.onrender.com/gold")
       .then((res) => {
         const data = res.data;
         if (category === "lehengas") {
