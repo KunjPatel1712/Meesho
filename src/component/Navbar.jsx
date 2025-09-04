@@ -189,10 +189,7 @@ const [searchParams] = useSearchParams();
     <i className="fas fa-shopping-cart"></i> Cart
   </Nav.Link>
 
-          <Nav.Link as={Link} to="/component/CartPage" className="nav-link">
-
-  <i className="fas fa-shopping-cart"></i> Cart
-</Nav.Link>
+         
             </Nav>
           </Navbar.Collapse>
         </Container>
