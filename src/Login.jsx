@@ -7,6 +7,7 @@ import {
   Button,
   Alert,
 } from "react-bootstrap";
+import { Navigate } from "react-router-dom";
 
 const API_URL = "https://meesho-server-hrpv.onrender.com/user";
 
@@ -81,7 +82,9 @@ const Login = () => {
       setMessage("Registration/Login failed: " + error.message);
     }
   };
-
+ const handlesubmitclick=()=>{
+ Navigate('/login');  
+ }
   return (
     <Container fluid style={{ backgroundColor: "#fff0f5", minHeight: "100vh", padding: "20px" }}>
       <Row className="justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
@@ -142,7 +145,7 @@ const Login = () => {
                   />
                 </Form.Group>
 
-                <Button
+                <Button onClick={handlesubmitclick}
                   type="submit"
                   style={{
                     width: "100%",
