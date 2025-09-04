@@ -20,7 +20,7 @@ const Description = () => {
         ];
 
         const responses = await Promise.all(
-          endpoints.map((endpoint) => axios.get(`http://localhost:3000/${endpoint}`))
+          endpoints.map((endpoint) => axios.get(`https://meesho-server-hrpv.onrender.com//${endpoint}`))
         );
 
         let allProducts = [];
