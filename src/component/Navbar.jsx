@@ -182,7 +182,7 @@ const [searchParams] = useSearchParams();
     Investor Relations
   </Nav.Link>
   <Nav.Link href="#profile" className="nav-link">
-   <ProfileMenu/>
+   
   </Nav.Link>
   <ProfileMenu />
   <Nav.Link as={Link} to="/component/CartPage" className="nav-link">

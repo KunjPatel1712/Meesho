@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 
 const ProfileMenu = () => {
   const [hovered, setHovered] = useState(false);
-    
   const navigate = useNavigate(); 
 
   const handleSignUpClick = () => {
@@ -13,7 +12,7 @@ const ProfileMenu = () => {
 
   return (
     <div
-      style={{ position: 'relative', display: 'inline-block' }}
+      style={{ position: 'relative', display: 'inline-block'}}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -32,11 +31,12 @@ const ProfileMenu = () => {
       </Nav.Link>
 
       {hovered && (
-        <div
+        <div className='login'
           style={{
             position: 'absolute',
             top: '100%',
-            right: 0,
+            left: '160%',
+            transform: 'translateX(-50%)',
             width: '260px',
             backgroundColor: '#fff',
             boxShadow: '0px 4px 8px rgba(0,0,0,0.1)',
@@ -54,9 +54,8 @@ const ProfileMenu = () => {
             <div style={{ fontSize: '0.85rem', color: '#6c757d' }}>
               To access your Meesho account
             </div>
-            <button        onClick={handleSignUpClick}
+            <button onClick={handleSignUpClick}
               style={{
-                marginTop: '0.75rem',
                 width: '100%',
                 backgroundColor: '#9c27b0',
                 color: 'white',
@@ -65,24 +64,23 @@ const ProfileMenu = () => {
                 padding: '0.5rem',
                 fontWeight: 600,
               }}
-       
             >
               Sign Up
             </button>
           </div>
           <div
-  style={{
-    padding: '0.75rem 1rem',
-    borderBottom: '1px solid #eee',
-    display: 'flex',
-    alignItems: 'center',
-    gap: '8px',
-    cursor: 'pointer',
-  }}
-  onClick={() => navigate('/component/Cartpage')} // 👈 navigate to cart
->
-  <i className="fas fa-lock"></i> My Orders
-</div>
+            style={{
+              padding: '0.75rem 1rem',
+              borderBottom: '1px solid #eee',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              cursor: 'pointer',
+            }}
+            onClick={() => navigate('/component/Cartpage')}
+          >
+            <i className="fas fa-lock"></i> My Orders
+          </div>
           <div
             style={{
               padding: '0.75rem 1rem',
