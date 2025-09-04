@@ -10,7 +10,7 @@ const Accessories = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/accessories')
+      .get('https://meesho-server-hrpv.onrender.com/accessories')
       .then((res) => {
         setData(res.data);
         setLoading(false);

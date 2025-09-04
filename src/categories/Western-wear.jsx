@@ -9,7 +9,7 @@ const Western = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/westrendress')
+      .get('https://meesho-server-hrpv.onrender.com/westrendress')
       .then((res) => {
         setData(res.data);
         setLoading(false);

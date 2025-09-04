@@ -9,7 +9,7 @@ const Footwear = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/footwear')
+      .get('https://meesho-server-hrpv.onrender.com/footwear')
       .then((res) => {
         setData(res.data);
         setLoading(false);

@@ -9,7 +9,7 @@ const Beauty = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/beauty')
+      .get('https://meesho-server-hrpv.onrender.com/beauty')
       .then((res) => {
         setData(res.data);
         setLoading(false);

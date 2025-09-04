@@ -53,7 +53,7 @@ const Home = () => {
     };
 
     axios
-      .get("http://localhost:3000/homemain", { params: paramObj })
+      .get("https://meesho-server-hrpv.onrender.com/homemain", { params: paramObj })
       .then((res) => {
         let data = res.data;
 

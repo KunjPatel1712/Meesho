@@ -12,7 +12,7 @@ const Slider = () => {
   useEffect(() => {
     const fetchCategoryData = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/Slider");
+        const res = await axios.get("https://meesho-server-hrpv.onrender.com/Slider");
         const data = res.data;
 
         setLoading(false);

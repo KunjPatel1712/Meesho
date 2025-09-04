@@ -9,7 +9,7 @@ const Mens = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/Menswear')
+      .get('https://meesho-server-hrpv.onrender.com/Menswear')
       .then((res) => {
         setData(res.data);
         setLoading(false);

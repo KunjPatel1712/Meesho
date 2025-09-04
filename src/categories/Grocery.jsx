@@ -9,7 +9,7 @@ const Grocery = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/grocery')
+      .get('https://meesho-server-hrpv.onrender.com/grocery')
       .then((res) => {
         setData(res.data);
         setLoading(false);

@@ -9,7 +9,7 @@ const EthicWear = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/ethnicwear/")
+      .get("https://meesho-server-hrpv.onrender.com/ethnicwear")
       .then((res) => {
         setData(res.data);
         setLoading(false);

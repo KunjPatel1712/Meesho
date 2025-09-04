@@ -9,7 +9,7 @@ const Decore = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/homedecore")
+      .get("https://meesho-server-hrpv.onrender.com/homedecore")
       .then((res) => {
         setData(res.data);
         setLoading(false);

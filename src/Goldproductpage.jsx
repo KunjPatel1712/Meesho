@@ -10,7 +10,7 @@
 
     useEffect(() => {
       axios
-        .get("http://localhost:3000/gold")
+        .get("https://meesho-server-hrpv.onrender.com/gold")
         .then((res) => {
           const data = res.data;
           if (category === "lehengas") {
