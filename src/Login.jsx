@@ -8,7 +8,7 @@ import {
   Alert,
 } from "react-bootstrap";
 
-const API_URL = "http://localhost:3000/user";
+const API_URL = "https://meesho-server-hrpv.onrender.com/user";
 
 const Login = () => {
   const [email, setEmail] = useState("");
