@@ -36,7 +36,7 @@ const ProfileMenu = () => {
           style={{
             position: 'absolute',
             top: '100%',
-            /* ❌ left: 0 remove kar diya */
+             left: 0 ,
             width: '260px',
             backgroundColor: '#fff',
             boxShadow: '0px 4px 8px rgba(0,0,0,0.1)',
