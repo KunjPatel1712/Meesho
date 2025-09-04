@@ -12,28 +12,18 @@ const ProfileMenu = () => {
 
   return (
     <div
-      style={{ position: "relative", display: "inline-block" }}
+      className="profile-menu"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
       {/* Profile Button */}
-      <Nav.Link
-        href="#profile"
-        className="nav-link"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "6px",
-          fontWeight: 500,
-          color: "#000",
-        }}
-      >
+      <Nav.Link href="#profile" className="nav-link profile-btn">
         <i className="fas fa-user"></i> Profile
       </Nav.Link>
 
       {/* Dropdown */}
       {hovered && (
-        <div className="login">
+        <div className="login" style={{marginRight:"-90px"}}>
           <div className="login-header">
             <strong>Hello User</strong>
             <div className="login-sub">To access your Meesho account</div>
@@ -56,9 +46,23 @@ const ProfileMenu = () => {
       {/* ✅ CSS */}
       <style>
         {`
+          .profile-menu {
+            position: relative;
+            display: inline-block;
+          }
+
+          .profile-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+            color: #000;
+          }
+
           .login {
             position: absolute;
             top: 100%;
+            margin-right:40px,
             width: 260px;
             background: #fff;
             box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
@@ -68,7 +72,7 @@ const ProfileMenu = () => {
           }
 
           /* 💻 Tablet & Laptop - Center below Profile */
-          @media (min-width: 768px) {
+          @media (max-width: 991px) {
             .login {
               left: 60%;
               transform: translateX(-10%);
@@ -76,10 +80,10 @@ const ProfileMenu = () => {
           }
 
           /* 📱 Mobile - Stick to right side */
-          @media (max-width: 767px) {
+          @media (max-width: 576px) {
             .login {
               right: 0;
-              left: 20px;
+              left:20px;
               transform: none;
               width: 220px;
             }
