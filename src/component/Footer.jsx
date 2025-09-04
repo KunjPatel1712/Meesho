@@ -46,7 +46,7 @@ const Footer = () => {
               3rd Floor, Wing-E, Helios Business Park, Kadubeesanahalli Village, Varthur Hobli,<br />
               Outer Ring Road Bellandur, Bangalore,<br />
               Bangalore South, Karnataka, India, 560103<br />
-              E-mail address: <a href="mailto:query@meesho.com">query@meesho.com</a><br />
+            <br />
               © 2015-2025 Meesho.com
             </p>
           </Col>
