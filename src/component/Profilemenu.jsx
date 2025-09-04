@@ -103,22 +103,27 @@ const ProfileMenu = () => {
           .login {
             left: 0;
           }
+          @media (max-width:576px)
+          {
+          .login {
+          margin-left:50px
+            }
 
+          }
          
           @media (max-width: 768px) {
             .login {
-              left: 140% !important;
-              transform: translateX(-10%) !important;
-               !important;
+              // left: 180% !important;
+              // transform: translateX(-10%) !important;
+              //  !important;
+              margin-left:70px
             }
           }
           @media (max-width:993px)
           {
           .login
           {
-           left: 200% !important;
-              transform: translateX(-60%) !important;
-               !important;
+            margin-left:10px
           }
           }
         `}
