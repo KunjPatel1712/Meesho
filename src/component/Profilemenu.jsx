@@ -1,130 +1,120 @@
-import React, { useState } from 'react';
-import { Nav } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { Nav } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 const ProfileMenu = () => {
   const [hovered, setHovered] = useState(false);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleSignUpClick = () => {
-    navigate('/login');  
+    navigate("/login");
   };
 
   return (
     <div
-      style={{ position: 'relative', display: 'inline-block'}}
+      style={{ position: "relative", display: "inline-block" }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
+      {/* Profile Button */}
       <Nav.Link
         href="#profile"
         className="nav-link"
         style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '6px',
+          display: "flex",
+          alignItems: "center",
+          gap: "6px",
           fontWeight: 500,
-          color: '#000',
+          color: "#000",
         }}
       >
         <i className="fas fa-user"></i> Profile
       </Nav.Link>
 
+      {/* Dropdown */}
       {hovered && (
-        <div
-          className="login"
-          style={{
-            position: 'absolute',
-            top: '100%',
-             left: "-80px" ,
-            width: '260px',
-            backgroundColor: '#fff',
-            boxShadow: '0px 4px 8px rgba(0,0,0,0.1)',
-            borderRadius: '0.5rem',
-            zIndex: 1000,
-          }}
-        >
-          <div
-            style={{
-              padding: '1rem',
-              borderBottom: '1px solid #eee',
-            }}
-          >
+        <div className="login">
+          <div className="login-header">
             <strong>Hello User</strong>
-            <div style={{ fontSize: '0.85rem', color: '#6c757d' }}>
-              To access your Meesho account
-            </div>
-            <button
-              onClick={handleSignUpClick}
-              style={{
-                width: '100%',
-                backgroundColor: '#9c27b0',
-                color: 'white',
-                border: 'none',
-                borderRadius: '0.25rem',
-                padding: '0.5rem',
-                fontWeight: 600,
-              }}
-            >
+            <div className="login-sub">To access your Meesho account</div>
+            <button onClick={handleSignUpClick} className="login-btn">
               Sign Up
             </button>
           </div>
 
           <div
-            style={{
-              padding: '0.75rem 1rem',
-              borderBottom: '1px solid #eee',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '8px',
-              cursor: 'pointer',
-            }}
-            onClick={() => navigate('/component/Cartpage')}
+            className="login-item"
+            onClick={() => navigate("/component/Cartpage")}
           >
             <i className="fas fa-lock"></i> My Orders
           </div>
 
-          <div
-            style={{
-              padding: '0.75rem 1rem',
-              color: '#dc3545',
-              cursor: 'pointer',
-            }}
-          >
-            Delete Account
-          </div>
+          <div className="login-delete">Delete Account</div>
         </div>
       )}
 
-      {/* ✅ Responsive CSS */}
+      {/* ✅ CSS */}
       <style>
         {`
-          
           .login {
-            left: 0;
+            position: absolute;
+            top: 100%;
+            width: 260px;
+            background: #fff;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            border-radius: 0.5rem;
+            z-index: 1000;
+            max-width: calc(100vw - 20px);
           }
-          @media (max-width:576px)
-          {
-          .login {
-          margin-left:50px
-            }
 
-          }
-         
-          @media (max-width: 768px) {
+          /* 💻 Tablet & Laptop - Center below Profile */
+          @media (min-width: 768px) {
             .login {
-              // left: 180% !important;
-              // transform: translateX(-10%) !important;
-              //  !important;
-              margin-left:70px
+              left: 60%;
+              transform: translateX(-10%);
             }
           }
-          @media (max-width:993px)
-          {
-          .login
-          {
-            margin-left:10px
+
+          /* 📱 Mobile - Stick to right side */
+          @media (max-width: 767px) {
+            .login {
+              right: 0;
+              left: 20px;
+              transform: none;
+              width: 220px;
+            }
           }
+
+          .login-header {
+            padding: 1rem;
+            border-bottom: 1px solid #eee;
+          }
+          .login-sub {
+            font-size: 0.85rem;
+            color: #6c757d;
+          }
+          .login-btn {
+            width: 100%;
+            background: #9c27b0;
+            color: #fff;
+            border: none;
+            border-radius: 0.25rem;
+            padding: 0.5rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+          }
+          .login-item {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+          }
+          .login-delete {
+            padding: 0.75rem 1rem;
+            color: #dc3545;
+            cursor: pointer;
           }
         `}
       </style>
