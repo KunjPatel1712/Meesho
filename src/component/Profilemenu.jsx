@@ -7,7 +7,7 @@ const ProfileMenu = () => {
   const navigate = useNavigate();
 
   const handleSignUpClick = () => {
-    navigate("/");
+    navigate("/login");
   };
 
   return (
