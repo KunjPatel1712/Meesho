@@ -7,7 +7,7 @@ import {
   Button,
   Alert,
 } from "react-bootstrap";
-import { Navigate } from "react-router-dom";
+
 
 const API_URL = "https://meesho-server-hrpv.onrender.com/user";
 
@@ -53,7 +53,7 @@ const Login = () => {
           localStorage.setItem("currentUser", JSON.stringify(user));
           localStorage.setItem("isLoggedIn", "true");
           setMessage("✅ Login successful!");
-          window.location.href = "/cart";
+          window.location.href = "/";
         } else {
           setMessage("❌ Incorrect password.");
         }
@@ -75,7 +75,7 @@ const Login = () => {
  
         setEmail("");
         setPassword("");
-        Navigate("/")
+        
       } else {
         throw new Error("Failed to register.");
       }
