@@ -181,10 +181,13 @@ const [searchParams] = useSearchParams();
   <Nav.Link href="#investor-relations" className="nav-link">
     Investor Relations
   </Nav.Link>
-  <Nav.Link href="#profile" className="nav-link">
-   
+  <Nav.Link href="#profile" className="nav-link" >
+      
+         <ProfileMenu />
+          
   </Nav.Link>
-  <ProfileMenu />
+   
+
   <Nav.Link as={Link} to="/component/CartPage" className="nav-link">
     <i className="fas fa-shopping-cart"></i> Cart
   </Nav.Link>

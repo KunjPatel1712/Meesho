@@ -31,12 +31,12 @@ const ProfileMenu = () => {
       </Nav.Link>
 
       {hovered && (
-        <div className='login'
+        <div
+          className="login"
           style={{
             position: 'absolute',
             top: '100%',
-            left: '160%',
-            transform: 'translateX(-50%)',
+            /* ❌ left: 0 remove kar diya */
             width: '260px',
             backgroundColor: '#fff',
             boxShadow: '0px 4px 8px rgba(0,0,0,0.1)',
@@ -54,7 +54,8 @@ const ProfileMenu = () => {
             <div style={{ fontSize: '0.85rem', color: '#6c757d' }}>
               To access your Meesho account
             </div>
-            <button onClick={handleSignUpClick}
+            <button
+              onClick={handleSignUpClick}
               style={{
                 width: '100%',
                 backgroundColor: '#9c27b0',
@@ -68,6 +69,7 @@ const ProfileMenu = () => {
               Sign Up
             </button>
           </div>
+
           <div
             style={{
               padding: '0.75rem 1rem',
@@ -81,6 +83,7 @@ const ProfileMenu = () => {
           >
             <i className="fas fa-lock"></i> My Orders
           </div>
+
           <div
             style={{
               padding: '0.75rem 1rem',
@@ -92,6 +95,25 @@ const ProfileMenu = () => {
           </div>
         </div>
       )}
+
+      {/* ✅ Responsive CSS */}
+      <style>
+        {`
+          /* Laptop/Desktop default */
+          .login {
+            left: 0;
+          }
+
+          /* Mobile view (center align) */
+          @media (max-width: 768px) {
+            .login {
+              left: 100% !important;
+              transform: translateX(-20%) !important;
+               !important;
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
