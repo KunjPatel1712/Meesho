@@ -82,9 +82,9 @@ const Login = () => {
       setMessage("Registration/Login failed: " + error.message);
     }
   };
- const handlesubmitclick=()=>{
- Navigate('/login');  
- }
+//  const handlesubmitclick=()=>{
+//  Navigate('/login');  
+//  }
   return (
     <Container fluid style={{ backgroundColor: "#fff0f5", minHeight: "100vh", padding: "20px" }}>
       <Row className="justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
