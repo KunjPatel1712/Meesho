@@ -53,7 +53,7 @@ const Login = () => {
           localStorage.setItem("currentUser", JSON.stringify(user));
           localStorage.setItem("isLoggedIn", "true");
           setMessage("✅ Login successful!");
-          window.location.href = "/Cart";
+          window.location.href = "/";
         } else {
           setMessage("❌ Incorrect password.");
         }
